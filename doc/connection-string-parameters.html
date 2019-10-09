@@ -202,12 +202,12 @@
 </tr>
 <tr>
 <td>Connection Idle Lifetime</td>
-<td>The time (in seconds) to wait before closing idle connections in the pool if the count of all connections exceeds MinPoolSize. Since 3.1 only.</td>
+<td>The time (in seconds) to wait before closing idle connections in the pool if the count of all connections exceeds <code>Minimum Pool Size</code>. Since 3.1 only.</td>
 <td>300</td>
 </tr>
 <tr>
 <td>Connection Pruning Interval</td>
-<td>How many seconds the pool waits before attempting to prune idle connections that are beyond idle lifetime (see <code>ConnectionIdleLifetime</code>). Since 3.1 only.</td>
+<td>How many seconds the pool waits before attempting to prune idle connections that are beyond idle lifetime (see <code>Connection Idle Lifetime</code>). Since 3.1 only.</td>
 <td>10</td>
 </tr>
 </tbody>
@@ -254,8 +254,8 @@
 </tr>
 <tr>
 <td>Tcp Keepalive Interval</td>
-<td>The interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgement is received. TcpKeepAliveTime must be non-zero as well. Supported only on Windows.</td>
-<td>value of TcpKeepAliveTime</td>
+<td>The interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgement is received. <code>Tcp KeepAlive Time</code> must be non-zero as well. Supported only on Windows.</td>
+<td>value of <code>Tcp Keepalive Time</code></td>
 </tr>
 </tbody>
 </table>
