@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct NpgsqlTimeSpan
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -97,9 +97,6 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.ValueType.Equals(System.Object)</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
@@ -132,7 +129,7 @@ probably arent! Just use <span class="xref">System.TimeSpan</span> and do not us
 with them a call to <span class="xref">System.Data.IDataRecord.GetValue(System.Int32)</span> on a field containing an
 <a class="xref" href="NpgsqlTypes.NpgsqlTimeSpan.html">NpgsqlTimeSpan</a> value will return a <span class="xref">System.TimeSpan</span> rather than an
 <a class="xref" href="NpgsqlTypes.NpgsqlTimeSpan.html">NpgsqlTimeSpan</a>. If you need the extra functionality of <a class="xref" href="NpgsqlTypes.NpgsqlTimeSpan.html">NpgsqlTimeSpan</a>
-then use <see cref="!:NpgsqlDataReader.GetInterval(int)"></see>.</p></p>
+then use <a class="xref" href="Npgsql.NpgsqlDataReader.html#Npgsql_NpgsqlDataReader_GetInterval_System_Int32_">GetInterval(Int32)</a>.</p></p>
 </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -1667,19 +1664,19 @@ is greater than the instance.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlTimeSpan_CompareTo_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlTimeSpan.CompareTo(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlTimeSpan_CompareTo_System_Object_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlTimeSpan.CompareTo(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlTimeSpan.cs/#L645">View Source</a>
   </span>
   <a id="NpgsqlTypes_NpgsqlTimeSpan_CompareTo_" data-uid="NpgsqlTypes.NpgsqlTimeSpan.CompareTo*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlTimeSpan_CompareTo_System_Nullable_System_Object__" data-uid="NpgsqlTypes.NpgsqlTimeSpan.CompareTo(System.Nullable{System.Object})">CompareTo(Nullable&lt;Object&gt;)</h4>
+  <h4 id="NpgsqlTypes_NpgsqlTimeSpan_CompareTo_System_Object_" data-uid="NpgsqlTypes.NpgsqlTimeSpan.CompareTo(System.Object)">CompareTo(Object)</h4>
   <div class="markdown level1 summary"><p>Compares this instance with another/</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CompareTo(object? other)</code></pre>
+    <pre><code class="lang-csharp hljs">public int CompareTo(object other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1692,7 +1689,7 @@ is greater than the instance.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">other</span></td>
         <td><p>An object to compare this with.</p>
 </td>
@@ -1821,20 +1818,20 @@ false otherwise.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlTimeSpan_Equals_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlTimeSpan.Equals(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlTimeSpan_Equals_System_Object_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlTimeSpan.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlTimeSpan.cs/#L592">View Source</a>
   </span>
   <a id="NpgsqlTypes_NpgsqlTimeSpan_Equals_" data-uid="NpgsqlTypes.NpgsqlTimeSpan.Equals*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlTimeSpan_Equals_System_Nullable_System_Object__" data-uid="NpgsqlTypes.NpgsqlTimeSpan.Equals(System.Nullable{System.Object})">Equals(Nullable&lt;Object&gt;)</h4>
+  <h4 id="NpgsqlTypes_NpgsqlTimeSpan_Equals_System_Object_" data-uid="NpgsqlTypes.NpgsqlTimeSpan.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Returns true if another object is an <a class="xref" href="NpgsqlTypes.NpgsqlTimeSpan.html">NpgsqlTimeSpan</a>, that is exactly the same as
 this instance</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1847,7 +1844,7 @@ this instance</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">obj</span></td>
         <td><p>An <span class="xref">System.Object</span> for comparison.</p>
 </td>
@@ -1871,6 +1868,8 @@ as this one, false otherwise.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlTimeSpan_FromDays_System_Double_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlTimeSpan.FromDays(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -3585,6 +3584,58 @@ and also makes this ToString() more applicable to any other use-case.
       </tr>
       <tr>
         <td><a class="xref" href="NpgsqlTypes.NpgsqlTimeSpan.html">NpgsqlTimeSpan</a></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlTimeSpan_System_Collections_IComparer_Compare_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlTimeSpan.System%23Collections%23IComparer%23Compare(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlTimeSpan.cs/#L605">View Source</a>
+  </span>
+  <a id="NpgsqlTypes_NpgsqlTimeSpan_System_Collections_IComparer_Compare_" data-uid="NpgsqlTypes.NpgsqlTimeSpan.System#Collections#IComparer#Compare*"></a>
+  <h4 id="NpgsqlTypes_NpgsqlTimeSpan_System_Collections_IComparer_Compare_System_Object_System_Object_" data-uid="NpgsqlTypes.NpgsqlTimeSpan.System#Collections#IComparer#Compare(System.Object,System.Object)">IComparer.Compare(Object, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IComparer.Compare(object x, object y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">y</span></td>
         <td></td>
       </tr>

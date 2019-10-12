@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlConnectionStringBuilder
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -98,9 +98,9 @@ the <a class="xref" href="Npgsql.NpgsqlConnection.html">NpgsqlConnection</a> cla
     <div><span class="xref">System.Collections.IDictionary</span></div>
     <div><span class="xref">System.Collections.ICollection</span></div>
     <div><span class="xref">System.ComponentModel.ICustomTypeDescriptor</span></div>
-    <div><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</div>
-    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;&gt;</div>
-    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -187,9 +187,6 @@ the <a class="xref" href="Npgsql.NpgsqlConnection.html">NpgsqlConnection</a> cla
       <span class="xref">System.Data.Common.DbConnectionStringBuilder.ToString()</span>
     </div>
     <div>
-      <span class="xref">System.Data.Common.DbConnectionStringBuilder.TryGetValue(System.String, System.Object)</span>
-    </div>
-    <div>
       <span class="xref">System.Data.Common.DbConnectionStringBuilder.ConnectionString</span>
     </div>
     <div>
@@ -211,9 +208,6 @@ the <a class="xref" href="Npgsql.NpgsqlConnection.html">NpgsqlConnection</a> cla
       <span class="xref">System.Data.Common.DbConnectionStringBuilder.System.Collections.IDictionary.Item[System.Object]</span>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
@@ -230,7 +224,7 @@ the <a class="xref" href="Npgsql.NpgsqlConnection.html">NpgsqlConnection</a> cla
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_NpgsqlConnectionStringBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NpgsqlConnectionStringBuilder : DbConnectionStringBuilder, IDictionary, ICollection, ICustomTypeDescriptor, IDictionary&lt;string, object? &gt;, ICollection&lt;KeyValuePair&lt;string, object? &gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, object? &gt;&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NpgsqlConnectionStringBuilder : DbConnectionStringBuilder, IDictionary, ICollection, ICustomTypeDescriptor, IDictionary&lt;string, object&gt;, ICollection&lt;KeyValuePair&lt;string, object&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, object&gt;&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -334,7 +328,7 @@ the <a class="xref" href="Npgsql.NpgsqlConnection.html">NpgsqlConnection</a> cla
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? ApplicationName { get; set; }</code></pre>
+public string ApplicationName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -346,7 +340,7 @@ public string? ApplicationName { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -465,7 +459,7 @@ public bool CheckCertificateRevocation { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? ClientCertificate { get; set; }</code></pre>
+public string ClientCertificate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -477,7 +471,7 @@ public string? ClientCertificate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -497,7 +491,7 @@ public string? ClientCertificate { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? ClientEncoding { get; set; }</code></pre>
+public string ClientEncoding { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -509,7 +503,7 @@ public string? ClientEncoding { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -728,7 +722,7 @@ public bool ConvertInfinityDateTime { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty(new string[]{&quot;DB&quot;})]
-public string? Database { get; set; }</code></pre>
+public string Database { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -740,7 +734,7 @@ public string? Database { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -826,7 +820,7 @@ If not specified, defaults to &quot;template1&quot;. Check NpgsqlServices.UsingP
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? EntityAdminDatabase { get; set; }</code></pre>
+public string EntityAdminDatabase { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -838,7 +832,7 @@ public string? EntityAdminDatabase { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -859,7 +853,7 @@ PostgreSQL defaults to &quot;template1&quot;.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? EntityTemplateDatabase { get; set; }</code></pre>
+public string EntityTemplateDatabase { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -871,7 +865,7 @@ public string? EntityTemplateDatabase { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -894,7 +888,7 @@ public string? EntityTemplateDatabase { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty(new string[]{&quot;Server&quot;})]
-public string? Host { get; set; }</code></pre>
+public string Host { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -906,7 +900,7 @@ public string? Host { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1333,7 +1327,7 @@ public bool NoResetOnClose { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? Passfile { get; set; }</code></pre>
+public string Passfile { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1345,7 +1339,7 @@ public string? Passfile { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1365,7 +1359,7 @@ public string? Passfile { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty(new string[]{&quot;PSW&quot;, &quot;PWD&quot;})]
-public string? Password { get; set; }</code></pre>
+public string Password { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1377,7 +1371,7 @@ public string? Password { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1558,7 +1552,7 @@ public int ReadBufferSize { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? SearchPath { get; set; }</code></pre>
+public string SearchPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1570,7 +1564,7 @@ public string? SearchPath { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1851,7 +1845,7 @@ public int Timeout { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty]
-public string? Timezone { get; set; }</code></pre>
+public string Timezone { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1863,7 +1857,7 @@ public string? Timezone { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1980,7 +1974,7 @@ public bool UsePerfCounters { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NpgsqlConnectionStringProperty(new string[]{&quot;User Name&quot;, &quot;UserId&quot;, &quot;User Id&quot;, &quot;UID&quot;})]
-public string? Username { get; set; }</code></pre>
+public string Username { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1992,7 +1986,7 @@ public string? Username { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2044,7 +2038,7 @@ public bool UseSslStream { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICollection&lt;object? &gt; Values { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ICollection&lt;object&gt; Values { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2056,7 +2050,7 @@ public bool UseSslStream { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2097,19 +2091,19 @@ public int WriteBufferSize { get; set; }</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Add_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Add(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Nullable%7BSystem.Object%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Add(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnectionStringBuilder.cs/#L172">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnectionStringBuilder_Add_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Add*"></a>
-  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Add_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object___" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Add(System.Collections.Generic.KeyValuePair{System.String,System.Nullable{System.Object}})">Add(KeyValuePair&lt;String, Nullable&lt;Object&gt;&gt;)</h4>
+  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Add(KeyValuePair&lt;String, Object&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds an item to the <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html">NpgsqlConnectionStringBuilder</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Add(KeyValuePair&lt;string, object? &gt; item)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Add(KeyValuePair&lt;string, object&gt; item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2122,7 +2116,7 @@ public int WriteBufferSize { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">item</span></td>
         <td><p>The key-value pair to be added.</p>
 </td>
@@ -2149,19 +2143,19 @@ public int WriteBufferSize { get; set; }</code></pre>
   <div><span class="xref">System.Data.Common.DbConnectionStringBuilder.Clear()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Contains(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Nullable%7BSystem.Object%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Contains(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnectionStringBuilder.cs/#L225">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnectionStringBuilder_Contains_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Contains*"></a>
-  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object___" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Contains(System.Collections.Generic.KeyValuePair{System.String,System.Nullable{System.Object}})">Contains(KeyValuePair&lt;String, Nullable&lt;Object&gt;&gt;)</h4>
+  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Contains(KeyValuePair&lt;String, Object&gt;)</h4>
   <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html">NpgsqlConnectionStringBuilder</a> contains a specific key-value pair.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(KeyValuePair&lt;string, object? &gt; item)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Contains(KeyValuePair&lt;string, object&gt; item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2174,7 +2168,7 @@ public int WriteBufferSize { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">item</span></td>
         <td><p>The item to locate in the <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html">NpgsqlConnectionStringBuilder</a>.</p>
 </td>
@@ -2251,19 +2245,19 @@ public int WriteBufferSize { get; set; }</code></pre>
   <div><span class="xref">System.Data.Common.DbConnectionStringBuilder.ContainsKey(System.String)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object_____System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.CopyTo(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Nullable%7BSystem.Object%7D%7D%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Object____System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.CopyTo(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnectionStringBuilder.cs/#L1321">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnectionStringBuilder_CopyTo_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.CopyTo*"></a>
-  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object_____System_Int32_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Nullable{System.Object}}[],System.Int32)">CopyTo(KeyValuePair&lt;String, Nullable&lt;Object&gt;&gt;[], Int32)</h4>
+  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Object____System_Int32_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)">CopyTo(KeyValuePair&lt;String, Object&gt;[], Int32)</h4>
   <div class="markdown level1 summary"><p>Copies the elements of the <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html">NpgsqlConnectionStringBuilder</a> to an Array, starting at a particular Array index.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CopyTo(KeyValuePair&lt;string, object? &gt;[] array, int arrayIndex)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CopyTo(KeyValuePair&lt;string, object&gt;[] array, int arrayIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2276,7 +2270,7 @@ public int WriteBufferSize { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The one-dimensional Array that is the destination of the elements copied from <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html">NpgsqlConnectionStringBuilder</a>.
 The Array must have zero-based indexing.</p>
@@ -2292,19 +2286,19 @@ The Array must have zero-based indexing.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Equals_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Equals(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnectionStringBuilder.cs/#L1288">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnectionStringBuilder_Equals_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Equals*"></a>
-  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Equals_System_Nullable_System_Object__" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Equals(System.Nullable{System.Object})">Equals(Nullable&lt;Object&gt;)</h4>
+  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Equals_System_Object_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2317,7 +2311,7 @@ The Array must have zero-based indexing.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
@@ -2338,6 +2332,8 @@ The Array must have zero-based indexing.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_GetEnumerator.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2352,7 +2348,7 @@ The Array must have zero-based indexing.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;string, object? &gt;&gt; GetEnumerator()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;string, object&gt;&gt; GetEnumerator()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2364,7 +2360,7 @@ The Array must have zero-based indexing.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2438,19 +2434,19 @@ The Array must have zero-based indexing.</p>
   <div><span class="xref">System.Data.Common.DbConnectionStringBuilder.GetProperties(System.Collections.Hashtable)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Remove(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Nullable%7BSystem.Object%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.Remove(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnectionStringBuilder.cs/#L196">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnectionStringBuilder_Remove_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Remove*"></a>
-  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Nullable_System_Object___" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Remove(System.Collections.Generic.KeyValuePair{System.String,System.Nullable{System.Object}})">Remove(KeyValuePair&lt;String, Nullable&lt;Object&gt;&gt;)</h4>
+  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Npgsql.NpgsqlConnectionStringBuilder.Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Remove(KeyValuePair&lt;String, Object&gt;)</h4>
   <div class="markdown level1 summary"><p>Removes the entry from the DbConnectionStringBuilder instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Remove(KeyValuePair&lt;string, object? &gt; item)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Remove(KeyValuePair&lt;string, object&gt; item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2463,7 +2459,7 @@ The Array must have zero-based indexing.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">item</span></td>
         <td><p>The key/value pair to be removed from the connection string in this DbConnectionStringBuilder.</p>
 </td>
@@ -2540,19 +2536,19 @@ The Array must have zero-based indexing.</p>
   <div><span class="xref">System.Data.Common.DbConnectionStringBuilder.Remove(System.String)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_TryGetValue_System_String_System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.TryGetValue(System.String%2CSystem.Nullable%7BSystem.Object%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_TryGetValue_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.TryGetValue(System.String%2CSystem.Object%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnectionStringBuilder.cs/#L240">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnectionStringBuilder_TryGetValue_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.TryGetValue*"></a>
-  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_TryGetValue_System_String_System_Nullable_System_Object___" data-uid="Npgsql.NpgsqlConnectionStringBuilder.TryGetValue(System.String,System.Nullable{System.Object}@)">TryGetValue(String, out Nullable&lt;Object&gt;)</h4>
+  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_TryGetValue_System_String_System_Object__" data-uid="Npgsql.NpgsqlConnectionStringBuilder.TryGetValue(System.String,System.Object@)">TryGetValue(String, out Object)</h4>
   <div class="markdown level1 summary"><p>Retrieves a value corresponding to the supplied key from this <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html">NpgsqlConnectionStringBuilder</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool TryGetValue(string keyword, out object? value)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool TryGetValue(string keyword, out object value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2571,7 +2567,7 @@ The Array must have zero-based indexing.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value corresponding to the key.</p>
 </td>
@@ -2594,22 +2590,24 @@ The Array must have zero-based indexing.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Data.Common.DbConnectionStringBuilder.TryGetValue(System.String, System.Object)</span></div>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_System_Collections_Generic_IDictionary_System_String_System_Object___Item_System_String_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.System%23Collections%23Generic%23IDictionary%7BSystem%23String%2CSystem%23Object%3F%7D%23Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnectionStringBuilder_System_Collections_Generic_IDictionary_System_String_System_Object__Item_System_String_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnectionStringBuilder.System%23Collections%23Generic%23IDictionary%7BSystem%23String%2CSystem%23Object%7D%23Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnectionStringBuilder.cs/#L162">View Source</a>
   </span>
-  <a id="Npgsql_NpgsqlConnectionStringBuilder_System_Collections_Generic_IDictionary_System_String_System_Object___Item_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.System#Collections#Generic#IDictionary{System#String,System#Object?}#Item*"></a>
-  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_System_Collections_Generic_IDictionary_System_String_System_Object___Item_System_String_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.System#Collections#Generic#IDictionary{System#String,System#Object?}#Item(System.String)">IDictionary&lt;String, Nullable&lt;Object&gt;&gt;.Item[String]</h4>
+  <a id="Npgsql_NpgsqlConnectionStringBuilder_System_Collections_Generic_IDictionary_System_String_System_Object__Item_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.System#Collections#Generic#IDictionary{System#String,System#Object}#Item*"></a>
+  <h4 id="Npgsql_NpgsqlConnectionStringBuilder_System_Collections_Generic_IDictionary_System_String_System_Object__Item_System_String_" data-uid="Npgsql.NpgsqlConnectionStringBuilder.System#Collections#Generic#IDictionary{System#String,System#Object}#Item(System.String)">IDictionary&lt;String, Object&gt;.Item[String]</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object? IDictionary&lt;string, object? &gt;.this[string keyword] { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">object IDictionary&lt;string, object&gt;.this[string keyword] { get; set; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2638,7 +2636,7 @@ The Array must have zero-based indexing.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">System.Object</span></td>
         <td></td>
       </tr>
     </tbody>
