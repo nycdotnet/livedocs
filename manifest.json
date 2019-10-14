@@ -413,7 +413,19 @@
       "output": {
         ".html": {
           "relative_path": "doc/index.html",
-          "hash": "Je14PcvB67uJXvBGi0ublw=="
+          "hash": "HZcs1+qtsVCW7rukVNEWCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/Npgsql/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/installation.html",
+          "hash": "S9FP+exR6Np/rMJK6bSMcw=="
         }
       },
       "is_incremental": false,
@@ -557,7 +569,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/toc.html",
-          "hash": "CecA+jAvIm2pJ0FwFtX9Wg=="
+          "hash": "RzJxmDihunxYeO/O/NqG4A=="
         }
       },
       "is_incremental": false,
@@ -5915,16 +5927,10 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 419,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 57,
+          "total_file_count": 58,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
@@ -5932,6 +5938,12 @@
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 419,
           "skipped_file_count": 0
         }
       }
