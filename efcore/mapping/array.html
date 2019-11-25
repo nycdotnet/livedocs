@@ -120,11 +120,11 @@
 <td><a href="https://www.postgresql.org/docs/current/static/functions-array.html#ARRAY-FUNCTIONS-TABLE"><code>WHERE cardinality(c.&quot;SomeArray&quot;) = 3</code></a></td>
 </tr>
 <tr>
-<td>`.Where(c =&gt; c.SomeArray.Any(i =&gt; someOtherArray.Contains(i)))</td>
+<td><code>.Where(c =&gt; c.SomeArray.Any(i =&gt; someOtherArray.Contains(i)))</code></td>
 <td><a href="https://www.postgresql.org/docs/current/functions-array.html#ARRAY-OPERATORS-TABLE"><code>WHERE c.&quot;SomeArray&quot; &amp;&amp; @someOtherArray</code></a></td>
 </tr>
 <tr>
-<td>`.Where(c =&gt; c.SomeArray.All(i =&gt; someOtherArray.Contains(i)))</td>
+<td><code>.Where(c =&gt; c.SomeArray.All(i =&gt; someOtherArray.Contains(i)))</code></td>
 <td><a href="https://www.postgresql.org/docs/current/functions-array.html#ARRAY-OPERATORS-TABLE"><code>WHERE c.&quot;SomeArray&quot; &lt;@ @someOtherArray</code></a></td>
 </tr>
 </tbody>
