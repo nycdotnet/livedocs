@@ -105,19 +105,27 @@
 <tbody>
 <tr>
 <td><code>.Where(c =&gt; c.SomeArray[1] == &quot;foo&quot;)</code></td>
-<td><a href="https://www.postgresql.org/docs/current/static/arrays.html#ARRAYS-ACCESSING"><code>WHERE &quot;c&quot;.&quot;SomeArray&quot;[1] = &#39;foo&#39;</code></a></td>
+<td><a href="https://www.postgresql.org/docs/current/static/arrays.html#ARRAYS-ACCESSING"><code>WHERE c.&quot;SomeArray&quot;[1] = &#39;foo&#39;</code></a></td>
 </tr>
 <tr>
 <td><code>.Where(c =&gt; c.SomeArray.SequenceEqual(new[] { 1, 2, 3 })</code></td>
-<td><a href="https://www.postgresql.org/docs/current/static/arrays.html"><code>WHERE &quot;c&quot;.&quot;SomeArray&quot; = ARRAY[1, 2, 3])</code></a></td>
+<td><a href="https://www.postgresql.org/docs/current/static/arrays.html"><code>WHERE c.&quot;SomeArray&quot; = ARRAY[1, 2, 3])</code></a></td>
 </tr>
 <tr>
 <td><code>.Where(c =&gt; c.SomeArray.Contains(3))</code></td>
-<td><a href="https://www.postgresql.org/docs/current/static/functions-comparisons.html#AEN21104"><code>WHERE 3 = ANY(&quot;c&quot;.&quot;SomeArray&quot;)</code></a></td>
+<td><a href="https://www.postgresql.org/docs/current/static/functions-comparisons.html#AEN21104"><code>WHERE 3 = ANY(c.&quot;SomeArray&quot;)</code></a></td>
 </tr>
 <tr>
 <td><code>.Where(c =&gt; c.SomeArray.Length == 3)</code></td>
-<td><a href="https://www.postgresql.org/docs/current/static/functions-array.html#ARRAY-FUNCTIONS-TABLE"><code>WHERE cardinality(&quot;c&quot;.&quot;SomeArray&quot;) = 3</code></a></td>
+<td><a href="https://www.postgresql.org/docs/current/static/functions-array.html#ARRAY-FUNCTIONS-TABLE"><code>WHERE cardinality(c.&quot;SomeArray&quot;) = 3</code></a></td>
+</tr>
+<tr>
+<td>`.Where(c =&gt; c.SomeArray.Any(i =&gt; someOtherArray.Contains(i)))</td>
+<td><a href="https://www.postgresql.org/docs/current/functions-array.html#ARRAY-OPERATORS-TABLE"><code>WHERE c.&quot;SomeArray&quot; &amp;&amp; @someOtherArray</code></a></td>
+</tr>
+<tr>
+<td>`.Where(c =&gt; c.SomeArray.All(i =&gt; someOtherArray.Contains(i)))</td>
+<td><a href="https://www.postgresql.org/docs/current/functions-array.html#ARRAY-OPERATORS-TABLE"><code>WHERE c.&quot;SomeArray&quot; &lt;@ @someOtherArray</code></a></td>
 </tr>
 </tbody>
 </table>
