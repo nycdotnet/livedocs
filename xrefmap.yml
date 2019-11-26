@@ -4538,25 +4538,6 @@ references:
   commentId: N:Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
-- uid: Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions
-  name: NpgsqlEntityFrameworkServicesBuilderExtensions
-  href: efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.html
-  commentId: T:Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions
-  fullName: Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions
-  nameWithType: NpgsqlEntityFrameworkServicesBuilderExtensions
-- uid: Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
-  name: AddEntityFrameworkNpgsql(IServiceCollection)
-  href: efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.html#Microsoft_Extensions_DependencyInjection_NpgsqlEntityFrameworkServicesBuilderExtensions_AddEntityFrameworkNpgsql_IServiceCollection_
-  commentId: M:Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
-  fullName: Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
-  nameWithType: NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
-- uid: Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql*
-  name: AddEntityFrameworkNpgsql
-  href: efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.html#Microsoft_Extensions_DependencyInjection_NpgsqlEntityFrameworkServicesBuilderExtensions_AddEntityFrameworkNpgsql_
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql
-  isSpec: "True"
-  fullName: Microsoft.Extensions.DependencyInjection.NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql
-  nameWithType: NpgsqlEntityFrameworkServicesBuilderExtensions.AddEntityFrameworkNpgsql
 - uid: Microsoft.Extensions.DependencyInjection.NpgsqlNetTopologySuiteServiceCollectionExtensions
   name: NpgsqlNetTopologySuiteServiceCollectionExtensions
   href: efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlNetTopologySuiteServiceCollectionExtensions.html
@@ -4595,6 +4576,25 @@ references:
   isSpec: "True"
   fullName: Microsoft.Extensions.DependencyInjection.NpgsqlNodaTimeServiceCollectionExtensions.AddEntityFrameworkNpgsqlNodaTime
   nameWithType: NpgsqlNodaTimeServiceCollectionExtensions.AddEntityFrameworkNpgsqlNodaTime
+- uid: Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions
+  name: NpgsqlServiceCollectionExtensions
+  href: efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions
+  nameWithType: NpgsqlServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
+  name: AddEntityFrameworkNpgsql(IServiceCollection)
+  href: efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_NpgsqlServiceCollectionExtensions_AddEntityFrameworkNpgsql_IServiceCollection_
+  commentId: M:Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
+  nameWithType: NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql(IServiceCollection)
+- uid: Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql*
+  name: AddEntityFrameworkNpgsql
+  href: efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_NpgsqlServiceCollectionExtensions_AddEntityFrameworkNpgsql_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql
+  nameWithType: NpgsqlServiceCollectionExtensions.AddEntityFrameworkNpgsql
 - uid: Npgsql
   name: Npgsql
   href: doc/api/Npgsql.html
