@@ -850,7 +850,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.Diagnostics.NpgsqlEventId.html",
-          "hash": "GtBDwRzHxn0qPSOjYm38aw=="
+          "hash": "Mch9sPkxjB3b/J1zlyzBPw=="
         }
       },
       "is_incremental": false,
@@ -874,7 +874,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.Metadata.Conventions.NpgsqlStoreGenerationConvention.html",
-          "hash": "rTL82HY16rj2Eycor1NXzA=="
+          "hash": "S+AOsSRrFiconJFFspR71w=="
         }
       },
       "is_incremental": false,
@@ -886,7 +886,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.Metadata.Conventions.NpgsqlValueGenerationConvention.html",
-          "hash": "PyDB8ZeGdPq+lJNS+wwDig=="
+          "hash": "mFP5BOC0i+3tOkLDPvxsEQ=="
         }
       },
       "is_incremental": false,
@@ -910,7 +910,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlAlterDatabaseOperationExtensions.html",
-          "hash": "vK8xIotTIhNAEVuKDB/T2Q=="
+          "hash": "983bVdkg0eQPCI2JH1N36w=="
         }
       },
       "is_incremental": false,
@@ -922,7 +922,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlDatabaseFacadeExtensions.html",
-          "hash": "oN3RRPd0UUlkCpUZQqidcA=="
+          "hash": "2WIk0mrk5oHdBy3DqK+1dQ=="
         }
       },
       "is_incremental": false,
@@ -934,7 +934,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlDatabaseModelExtensions.html",
-          "hash": "Lf07a29aDpWoeP0iV1THJQ=="
+          "hash": "UBTqAAmYVvny7dvUezo+NA=="
         }
       },
       "is_incremental": false,
@@ -946,7 +946,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlDbContextOptionsExtensions.html",
-          "hash": "EF/4AQrexlLC2kogh3MThg=="
+          "hash": "pHvVHjFU5HZPTZJe8e0ptw=="
         }
       },
       "is_incremental": false,
@@ -958,7 +958,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlDbFunctionsExtensions.html",
-          "hash": "9eO7dpfapK/cxdianSzUlg=="
+          "hash": "aS8RpnE/Z2tN5tt6Gen9UA=="
         }
       },
       "is_incremental": false,
@@ -970,7 +970,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlEntityTypeBuilderExtensions.html",
-          "hash": "GtbkIsz/9nb1ovt8GZBFCA=="
+          "hash": "NRrQWjAXNcdUq+QwVhT0Og=="
         }
       },
       "is_incremental": false,
@@ -982,7 +982,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlEntityTypeExtensions.html",
-          "hash": "jk+Rs+pd2zXYigPNw2kdFg=="
+          "hash": "psxuTG5TA+GJzrr9cfT29w=="
         }
       },
       "is_incremental": false,
@@ -994,7 +994,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlFullTextSearchDbFunctionsExtensions.html",
-          "hash": "jrybDWhTSqxsDDqWdm0Wlg=="
+          "hash": "kABcETkZHoXhI85g22fu3A=="
         }
       },
       "is_incremental": false,
@@ -1006,7 +1006,31 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlFullTextSearchLinqExtensions.html",
-          "hash": "q1dnAwV7e76ovwMxXDqLfw=="
+          "hash": "RaJAPNLs3io95Qs6QpNXbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Microsoft.EntityFrameworkCore.NpgsqlFuzzyStringMatchDbContextOptionsBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlFuzzyStringMatchDbContextOptionsBuilderExtensions.html",
+          "hash": "8YjSM8EtQKg1pKFq7et+zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Microsoft.EntityFrameworkCore.NpgsqlFuzzyStringMatchDbFunctionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlFuzzyStringMatchDbFunctionsExtensions.html",
+          "hash": "0RPHEpQK8Rqz9TjzDoCueA=="
         }
       },
       "is_incremental": false,
@@ -1018,7 +1042,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlIndexBuilderExtensions.html",
-          "hash": "hBZZDm3ZxseZgLaOOpncbQ=="
+          "hash": "nK2F+pkUEe3lmz/Ce/Hslg=="
         }
       },
       "is_incremental": false,
@@ -1030,7 +1054,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlIndexExtensions.html",
-          "hash": "MzhigZDYk4/yCH7qPls60A=="
+          "hash": "xPZgRaos32Q4eYUICMKbPg=="
         }
       },
       "is_incremental": false,
@@ -1042,7 +1066,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlMigrationBuilderExtensions.html",
-          "hash": "x+eYJdqUOTu9e3ORZL4yNQ=="
+          "hash": "lsyUtekMn21bcryrhgRGIw=="
         }
       },
       "is_incremental": false,
@@ -1054,7 +1078,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlModelBuilderExtensions.html",
-          "hash": "+0JcfynzvbA2Wvg7ANzl4w=="
+          "hash": "N/2sZjYPyufhusdLJaHSHQ=="
         }
       },
       "is_incremental": false,
@@ -1066,7 +1090,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlModelExtensions.html",
-          "hash": "mkKL5bn+XcHL3AJ6If2hng=="
+          "hash": "cS/uMQHdl+ddC5sHhfjwdA=="
         }
       },
       "is_incremental": false,
@@ -1078,7 +1102,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlNetTopologySuiteDbContextOptionsBuilderExtensions.html",
-          "hash": "Yr12v42UDlQSYsX0WFQrEg=="
+          "hash": "jIcqJ4k6nIjAg3X1Ok1w0A=="
         }
       },
       "is_incremental": false,
@@ -1090,7 +1114,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlNetworkExtensions.html",
-          "hash": "LtrKqMhTcf0TypB8+f1PTQ=="
+          "hash": "loZhHNbgFpYJX0dbm+djow=="
         }
       },
       "is_incremental": false,
@@ -1102,7 +1126,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlNodaTimeDbContextOptionsBuilderExtensions.html",
-          "hash": "YvvyPuNqol3Qvzq5pMBqig=="
+          "hash": "HNqMeirwqOTFTmRkPJ3vZw=="
         }
       },
       "is_incremental": false,
@@ -1114,7 +1138,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlPropertyBuilderExtensions.html",
-          "hash": "Spp78fIPbiKWi4LmEadFMA=="
+          "hash": "PLJzBWI0ENFWEbwcCkEp5g=="
         }
       },
       "is_incremental": false,
@@ -1126,7 +1150,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlPropertyExtensions.html",
-          "hash": "0K3Cx1hZyRHqkLWQBd/W7g=="
+          "hash": "Ik7BUuZjRiO/rf6hJ9yxUA=="
         }
       },
       "is_incremental": false,
@@ -1138,7 +1162,31 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlRangeExtensions.html",
-          "hash": "2w7g/Yh1plIsxzIY1yoYuQ=="
+          "hash": "3KpPPs/12sHn2Gyaxv5DWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Microsoft.EntityFrameworkCore.NpgsqlTrigramsDbContextOptionsBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlTrigramsDbContextOptionsBuilderExtensions.html",
+          "hash": "9P9Fbh9dSxf0qohXE22TFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Microsoft.EntityFrameworkCore.NpgsqlTrigramsDbFunctionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlTrigramsDbFunctionsExtensions.html",
+          "hash": "gMv+ENrIMV0OHy/ERsOviA=="
         }
       },
       "is_incremental": false,
@@ -1150,7 +1198,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.NpgsqlTsRankingNormalization.html",
-          "hash": "vyTgq4FkaZouWatQqrD9nA=="
+          "hash": "BBTDq9MFNt6PLHI2DpR9iw=="
         }
       },
       "is_incremental": false,
@@ -1162,7 +1210,19 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.EntityFrameworkCore.html",
-          "hash": "DwPpJHwB4jvAEpRnxhlR4g=="
+          "hash": "Yc2oM0UYckxHtD2u2O5NnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Microsoft.Extensions.DependencyInjection.NpgsqlFuzzyStringMatchServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlFuzzyStringMatchServiceCollectionExtensions.html",
+          "hash": "ehxi3sq8Uek+SfoUkjWHsQ=="
         }
       },
       "is_incremental": false,
@@ -1174,7 +1234,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlNetTopologySuiteServiceCollectionExtensions.html",
-          "hash": "WoZ6dmYSWf0F10Vm1A1yJA=="
+          "hash": "Zl7JxDJ3OgwV/spEONrckw=="
         }
       },
       "is_incremental": false,
@@ -1186,7 +1246,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlNodaTimeServiceCollectionExtensions.html",
-          "hash": "v7D0V3uiWu9BXtxUNDoauw=="
+          "hash": "TxFDT0FlaBVcptLlVm6qJw=="
         }
       },
       "is_incremental": false,
@@ -1198,7 +1258,19 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlServiceCollectionExtensions.html",
-          "hash": "9ZMuiVTW/HxF4CBClGL2kQ=="
+          "hash": "PRl/jJTooRD/B9750mR6+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Microsoft.Extensions.DependencyInjection.NpgsqlTrigramsServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Microsoft.Extensions.DependencyInjection.NpgsqlTrigramsServiceCollectionExtensions.html",
+          "hash": "MLA1h57Yvbs3FOL8wQaddg=="
         }
       },
       "is_incremental": false,
@@ -1210,7 +1282,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "1q+EXKmeDcj9uI88QpmwTQ=="
+          "hash": "9/j4TLUDxM0dy7XzylZmfA=="
         }
       },
       "is_incremental": false,
@@ -1222,7 +1294,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Design.Internal.NpgsqlAnnotationCodeGenerator.html",
-          "hash": "NPMZ3D5ffhM/xSWEZftkaA=="
+          "hash": "lWDmIl6t80n2lGa4dPv7gA=="
         }
       },
       "is_incremental": false,
@@ -1234,7 +1306,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Design.Internal.NpgsqlDesignTimeServices.html",
-          "hash": "dKgrjYvCZSW34EYMrgaFkA=="
+          "hash": "DPw+CUoObMcY8IC4uoDZUg=="
         }
       },
       "is_incremental": false,
@@ -1246,7 +1318,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Design.Internal.NpgsqlNetTopologySuiteDesignTimeServices.html",
-          "hash": "aJAMXSHL6L/ljgQGJreC9g=="
+          "hash": "AXjI2YoAqZxdCAG+9jtyow=="
         }
       },
       "is_incremental": false,
@@ -1258,7 +1330,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Design.Internal.NpgsqlNodaTimeDesignTimeServices.html",
-          "hash": "3sBB8qylptCjzE5ev8ljyA=="
+          "hash": "AJwdOPz5YwXqv0lEw+mssg=="
         }
       },
       "is_incremental": false,
@@ -1282,7 +1354,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Diagnostics.Internal.NpgsqlLoggingDefinitions.html",
-          "hash": "xv57okOb9eQE0Np9QzOiTA=="
+          "hash": "JaRULVZISYa5R3TwoLtKlw=="
         }
       },
       "is_incremental": false,
@@ -1306,7 +1378,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Extensions.NpgsqlJsonDbFunctionsExtensions.html",
-          "hash": "M1j7WNQI16PKecjV95OZDA=="
+          "hash": "JEll1g+E5AfrFh7eydboEA=="
         }
       },
       "is_incremental": false,
@@ -1330,7 +1402,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.INpgsqlNetTopologySuiteOptions.html",
-          "hash": "6I0hMoAj2bWXIvdbYWnEHw=="
+          "hash": "3ya4ChGI8N63ZO/p2wkzvw=="
         }
       },
       "is_incremental": false,
@@ -1342,7 +1414,19 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.INpgsqlOptions.html",
-          "hash": "yj/MAix1gz6FN1OHKsIkXw=="
+          "hash": "S4Z4pbj+K6n+9aT7SRYZnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlFuzzyStringMatchOptionsExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlFuzzyStringMatchOptionsExtension.html",
+          "hash": "/Jx/hFnK9J2LGbJeReTdYg=="
         }
       },
       "is_incremental": false,
@@ -1354,7 +1438,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlNetTopologySuiteOptionsExtension.html",
-          "hash": "PhEtR0VAdq361LMfaKZMQQ=="
+          "hash": "OVU3ry5nHGo8jql5CpOO8w=="
         }
       },
       "is_incremental": false,
@@ -1366,7 +1450,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlNodaTimeOptionsExtension.html",
-          "hash": "ihdN9V5VLoiSxaV8loCiqw=="
+          "hash": "R65DbhuQTfnsM4DLCggspA=="
         }
       },
       "is_incremental": false,
@@ -1378,7 +1462,19 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.html",
-          "hash": "ysFWWr0GSbX2C70RVoYNOw=="
+          "hash": "n8WWlWYcMl8uD4TlzEDaCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlTrigramsOptionsExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlTrigramsOptionsExtension.html",
+          "hash": "2KXPJR7pmu+1C8evjdp2lg=="
         }
       },
       "is_incremental": false,
@@ -1390,7 +1486,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.UserRangeDefinition.html",
-          "hash": "FNfLTUgBpE46p4Ifk2d8iQ=="
+          "hash": "lApNK1zuA42M5tjDsupomQ=="
         }
       },
       "is_incremental": false,
@@ -1402,7 +1498,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.html",
-          "hash": "pdaNL1NnqN4xjXg4VLuiNw=="
+          "hash": "TjEnsZxs5U271zXo5q244A=="
         }
       },
       "is_incremental": false,
@@ -1414,7 +1510,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.NpgsqlDbContextOptionsBuilder.html",
-          "hash": "frUruC6dnHUSEpz0dB+g3Q=="
+          "hash": "qT3UJQOPWs/pgFv2T7T2Eg=="
         }
       },
       "is_incremental": false,
@@ -1426,7 +1522,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.NpgsqlModelValidator.html",
-          "hash": "3D/z1MyFLl8f7a8Q7dCPjg=="
+          "hash": "TwF6t59Y7GU5cUBBcqvvWA=="
         }
       },
       "is_incremental": false,
@@ -1450,7 +1546,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Internal.NpgsqlLoggerExtensions.html",
-          "hash": "A73/5groQuJlJPLoOveDbg=="
+          "hash": "WsbIPVViXX5gjqq3j0+5oQ=="
         }
       },
       "is_incremental": false,
@@ -1462,7 +1558,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Internal.NpgsqlNetTopologySuiteOptions.html",
-          "hash": "lbSSjTZfeHOyF808wG6odA=="
+          "hash": "OJWIdLdUdnLMK+u8MTpb6w=="
         }
       },
       "is_incremental": false,
@@ -1474,7 +1570,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Internal.NpgsqlOptions.html",
-          "hash": "Ds2ORR/pWPvS9p8VBbsgRw=="
+          "hash": "62cLKI5uBZ2zUdXrYfRhrw=="
         }
       },
       "is_incremental": false,
@@ -1486,7 +1582,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Internal.NpgsqlResources.html",
-          "hash": "1ZiSJ8+9NDqenUCSbQqzwg=="
+          "hash": "FtDFAvNn06HrRd/QABta0g=="
         }
       },
       "is_incremental": false,
@@ -1498,7 +1594,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Internal.NpgsqlStrings.html",
-          "hash": "amcJ3iNzCaLLgqF/lw+jLw=="
+          "hash": "bd2PY+d+J6ROPljIlR2m5g=="
         }
       },
       "is_incremental": false,
@@ -1510,7 +1606,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Internal.html",
-          "hash": "zfOnwcd4CDN++h25U22x3w=="
+          "hash": "j1t9QFQutmXNstEObqTIcw=="
         }
       },
       "is_incremental": false,
@@ -1522,7 +1618,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.CockroachDbInterleaveInParent.html",
-          "hash": "A0Of/NeUtF4jweSJL3sMCg=="
+          "hash": "70KOi/foL2+BxjlhVnNAFg=="
         }
       },
       "is_incremental": false,
@@ -1534,7 +1630,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.Conventions.NpgsqlConventionSetBuilder.html",
-          "hash": "WVCtdHxYZUgsq4CoIZs2sQ=="
+          "hash": "Wm/d0Q261+6gt/xE/9Iu6g=="
         }
       },
       "is_incremental": false,
@@ -1546,7 +1642,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.Conventions.NpgsqlValueGenerationStrategyConvention.html",
-          "hash": "Vu9AxqQ5R8ulQTy0bJoh6Q=="
+          "hash": "2+B+hi1kNkUoP5eArnTfsg=="
         }
       },
       "is_incremental": false,
@@ -1570,7 +1666,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.Internal.CockroachDbAnnotationNames.html",
-          "hash": "IFVd8ltXGnm+xGoE+omkEQ=="
+          "hash": "qvsy4wibzcfK5LLwSG/H0A=="
         }
       },
       "is_incremental": false,
@@ -1582,7 +1678,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.Internal.IdentitySequenceOptionsData.html",
-          "hash": "T6re8Aj0tHDZM0EitZXC/Q=="
+          "hash": "OJ5U+PErb4b2HVHKTm3SWw=="
         }
       },
       "is_incremental": false,
@@ -1594,7 +1690,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.Internal.NpgsqlAnnotationNames.html",
-          "hash": "u3ensMeNSWA43xo0ASwfVw=="
+          "hash": "TcZrJr2kaoaQPpjWCwureQ=="
         }
       },
       "is_incremental": false,
@@ -1618,7 +1714,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.NpgsqlValueGenerationStrategy.html",
-          "hash": "UCA1DlYHLuP2QVOAawfICA=="
+          "hash": "b0pw6Uv1RagDrg70xvgm5Q=="
         }
       },
       "is_incremental": false,
@@ -1630,7 +1726,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.NpgsqlValueGenerationStrategyExtensions.html",
-          "hash": "S1O5Mb/DSpczFPXN5yK1EQ=="
+          "hash": "vNujuNLYMFO692S8HPEYHw=="
         }
       },
       "is_incremental": false,
@@ -1642,7 +1738,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.NullSortOrder.html",
-          "hash": "Du4Y6xeEekllLBBW50gehw=="
+          "hash": "rG62+Y4wY/HQsUyou3bdnQ=="
         }
       },
       "is_incremental": false,
@@ -1654,7 +1750,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.PostgresEnum.html",
-          "hash": "N9uWBLQYOc6B3O3Nsm2wHQ=="
+          "hash": "8l9fwFdgwhYq0JWPZai4aA=="
         }
       },
       "is_incremental": false,
@@ -1666,7 +1762,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.PostgresExtension.html",
-          "hash": "XsLjv7E7YK2FCAbSdVmikg=="
+          "hash": "6/3VmcZw2LO4vZGdJrK+1g=="
         }
       },
       "is_incremental": false,
@@ -1678,7 +1774,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.PostgresRange.html",
-          "hash": "hnAtPVn5PVRT4N86QaKV3A=="
+          "hash": "+ChakkMbx562rbAZ2zTk2Q=="
         }
       },
       "is_incremental": false,
@@ -1690,7 +1786,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Metadata.SortOrder.html",
-          "hash": "D6aC5w3AvMrIg9d4VYBwTQ=="
+          "hash": "kJb/l7UDiG/cEbAHcaF7/w=="
         }
       },
       "is_incremental": false,
@@ -1714,7 +1810,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlHistoryRepository.html",
-          "hash": "qSK19Y1zFc754MCRqbVKtA=="
+          "hash": "Xool3xWMVU5lnl9Ovg06Gg=="
         }
       },
       "is_incremental": false,
@@ -1726,7 +1822,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrationsAnnotationProvider.html",
-          "hash": "bfoJ8VvixKn1yaOdVBQDBg=="
+          "hash": "99SoKDjSrliLIzzrumixsw=="
         }
       },
       "is_incremental": false,
@@ -1750,7 +1846,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.NpgsqlMigrationsSqlGenerator.html",
-          "hash": "TTJINvyTwQOM238p/YV7Yg=="
+          "hash": "zGCZGln4kgkQv2j2ONXNsg=="
         }
       },
       "is_incremental": false,
@@ -1762,7 +1858,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Operations.NpgsqlCreateDatabaseOperation.html",
-          "hash": "edOZeQiV8Rq3GX8ociQ1kA=="
+          "hash": "vPSLd8H79ts7SnecAQVYfg=="
         }
       },
       "is_incremental": false,
@@ -1774,7 +1870,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Operations.NpgsqlDropDatabaseOperation.html",
-          "hash": "cichNF9gF63bMJ2c3miY9Q=="
+          "hash": "LN8mDKggyxCkv2JjSks5vw=="
         }
       },
       "is_incremental": false,
@@ -1810,7 +1906,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.Scaffolding.Internal.NpgsqlNetTopologySuiteCodeGeneratorPlugin.html",
-          "hash": "/ioxmN2W4vp+6/ZgyCp/6A=="
+          "hash": "Uyl6dcJhb5Yn7dWLInBn4w=="
         }
       },
       "is_incremental": false,
@@ -1834,7 +1930,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.NpgsqlNodaTimeMemberTranslator.html",
-          "hash": "Jkff+QBD4nOuMeWrvEyEYQ=="
+          "hash": "VoZgCABLLkc9PJrpCjRgWg=="
         }
       },
       "is_incremental": false,
@@ -1846,7 +1942,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.NpgsqlNodaTimeMemberTranslatorPlugin.html",
-          "hash": "g3Z5UyzANmI9XNBWgBUQ+A=="
+          "hash": "f/VnsRX0HVBMs2FVHp+Ohg=="
         }
       },
       "is_incremental": false,
@@ -1858,7 +1954,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.NpgsqlNodaTimeMethodCallTranslator.html",
-          "hash": "yf7jUR+w3BlJ6kBKgkGEOQ=="
+          "hash": "x+MtN5d971XUBxutevs9og=="
         }
       },
       "is_incremental": false,
@@ -1870,7 +1966,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.NpgsqlNodaTimeMethodCallTranslatorPlugin.html",
-          "hash": "9cD6cYB8iSlNb0mh7HX0wA=="
+          "hash": "wxU7dXZCnpG7aa5QyuDQew=="
         }
       },
       "is_incremental": false,
@@ -1882,7 +1978,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.Scaffolding.Internal.NpgsqlNodaTimeCodeGeneratorPlugin.html",
-          "hash": "187LIM/VqsOE3t5CjlZpOA=="
+          "hash": "U18ep8o4mm+3d+M4L544Dg=="
         }
       },
       "is_incremental": false,
@@ -1918,7 +2014,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.NpgsqlRetryingExecutionStrategy.html",
-          "hash": "DxN/iREXDCkpi6zGZHkd7g=="
+          "hash": "34rm7ZI9mxHzSlvh/tBPjg=="
         }
       },
       "is_incremental": false,
@@ -1930,7 +2026,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlArrayMethodTranslator.html",
-          "hash": "oU0ZcejgjKG5y6k9t6zbqw=="
+          "hash": "cJoyJVNz+l+a3gNj6h6/7Q=="
         }
       },
       "is_incremental": false,
@@ -1942,7 +2038,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlConvertTranslator.html",
-          "hash": "72azf2yVuY8S2kL8CRRYWA=="
+          "hash": "xAmMwPtFegoPyx3kjXDweQ=="
         }
       },
       "is_incremental": false,
@@ -1954,7 +2050,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlDateTimeMemberTranslator.html",
-          "hash": "3p03o5o3RHVe/bAZTeBk4A=="
+          "hash": "JowHKF6gqe58djZDfGNKbw=="
         }
       },
       "is_incremental": false,
@@ -1966,7 +2062,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlDateTimeMethodTranslator.html",
-          "hash": "BQoY0zY0ooXel4pEjaSujg=="
+          "hash": "AYatgpz8zgsbAN1Fk2ezbw=="
         }
       },
       "is_incremental": false,
@@ -1978,7 +2074,31 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlFullTextSearchMethodTranslator.html",
-          "hash": "GDP1n4gxmK0tkDbekrTARA=="
+          "hash": "8ll/s75p2acvb6MWi3Oatw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlFuzzyStringMatchMethodCallTranslatorPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlFuzzyStringMatchMethodCallTranslatorPlugin.html",
+          "hash": "m/VH2/N0D5loIseZYFrI9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlFuzzyStringMatchMethodTranslator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlFuzzyStringMatchMethodTranslator.html",
+          "hash": "Dea5EMf86XLtX7ekux7bzw=="
         }
       },
       "is_incremental": false,
@@ -1990,7 +2110,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlGeometryMemberTranslator.html",
-          "hash": "L0398crBVvSko5xpmFS5hQ=="
+          "hash": "l+1gnQ/RO9fj43hdM6LnHA=="
         }
       },
       "is_incremental": false,
@@ -2002,7 +2122,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlGeometryMethodTranslator.html",
-          "hash": "fUq9xxEwkKuPLVaKCiyM8A=="
+          "hash": "5xx+p0zeMWVTY6Lnt83t4Q=="
         }
       },
       "is_incremental": false,
@@ -2014,7 +2134,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlJsonDbFunctionsTranslator.html",
-          "hash": "xOm3EfmUyYfxDorywTbH5Q=="
+          "hash": "PvcZnqb03xcG8dcy6WvIiQ=="
         }
       },
       "is_incremental": false,
@@ -2026,7 +2146,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlJsonDomTranslator.html",
-          "hash": "p1ljjAq60AXn/OUG1PxUNw=="
+          "hash": "fCqMJIj4ODiodxsCp9YGwQ=="
         }
       },
       "is_incremental": false,
@@ -2038,7 +2158,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlJsonPocoTranslator.html",
-          "hash": "dg+3MOS/eGfAAqVdMML1yQ=="
+          "hash": "JURoI3tUoaghPlKNDe33Zw=="
         }
       },
       "is_incremental": false,
@@ -2050,7 +2170,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlLikeTranslator.html",
-          "hash": "A+AJKTxJYKS5oe9uAjT2Rg=="
+          "hash": "m7TfXkT0Bxav91Mp+FbE5w=="
         }
       },
       "is_incremental": false,
@@ -2062,7 +2182,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlMathTranslator.html",
-          "hash": "GeHX4G6vXiPLYAnEJ/nQzA=="
+          "hash": "hyk0TbKsvFCRn79nZI//tA=="
         }
       },
       "is_incremental": false,
@@ -2074,7 +2194,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlMemberTranslatorProvider.html",
-          "hash": "UY8x0zLnuW9RuwI7dgYBOA=="
+          "hash": "ihNooQA0jok1pxKTOGCvaQ=="
         }
       },
       "is_incremental": false,
@@ -2086,7 +2206,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlMethodCallTranslatorProvider.html",
-          "hash": "E7N39HxnSckxkNZxZrGmEQ=="
+          "hash": "VTqCsXyJ3OcMBJqenjx/+Q=="
         }
       },
       "is_incremental": false,
@@ -2098,7 +2218,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlNetTopologySuiteMemberTranslatorPlugin.html",
-          "hash": "TsfEkzQZojIhL80oS4XKjg=="
+          "hash": "pICpaF3MU4SQ8uGFxVJLZQ=="
         }
       },
       "is_incremental": false,
@@ -2110,7 +2230,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlNetTopologySuiteMethodCallTranslatorPlugin.html",
-          "hash": "Xe+t4EgbQavKD4BjFv+l/A=="
+          "hash": "QO8IDaBp+auGOD9f5hA+bA=="
         }
       },
       "is_incremental": false,
@@ -2122,7 +2242,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlNetworkTranslator.html",
-          "hash": "iBWotI6Eyca2ziM1yhAQ/w=="
+          "hash": "6GkTiFwDMU+Lwpq49CIZBA=="
         }
       },
       "is_incremental": false,
@@ -2134,7 +2254,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlNewGuidTranslator.html",
-          "hash": "Bs2waSIO8zrvGkzYjqsKRg=="
+          "hash": "eChSgJBSsVOLZKJe3zkGMA=="
         }
       },
       "is_incremental": false,
@@ -2146,7 +2266,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlObjectToStringTranslator.html",
-          "hash": "QrQ1CRkP+i/0rW29V1dsRw=="
+          "hash": "QwOSXDHy7UDOg74MsVrB+Q=="
         }
       },
       "is_incremental": false,
@@ -2158,7 +2278,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlRangeTranslator.html",
-          "hash": "yoXTZ6zx8akPN4f/1wMCsA=="
+          "hash": "3ziyntGI+fyE+bYeBADJwQ=="
         }
       },
       "is_incremental": false,
@@ -2170,7 +2290,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlRegexIsMatchTranslator.html",
-          "hash": "bSW8rgzBRHc8KFOCloOmmg=="
+          "hash": "fNzHK3nr7qg9fLR0Ec3Kxw=="
         }
       },
       "is_incremental": false,
@@ -2182,7 +2302,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlStringMemberTranslator.html",
-          "hash": "hbhrXHQ4KN5jy6+lS11rLw=="
+          "hash": "ogmC4jXgnuQr5HRgBzaiiA=="
         }
       },
       "is_incremental": false,
@@ -2194,7 +2314,31 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlStringMethodTranslator.html",
-          "hash": "FIcMqwtpy4SrEA8gLh1/2w=="
+          "hash": "jS2lklkoiuOqoqLDPGrJCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlTrigramsMethodCallTranslatorPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlTrigramsMethodCallTranslatorPlugin.html",
+          "hash": "ykqrSLSa0ojoHt/dd8CPnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EFCore.PG/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlTrigramsMethodTranslator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.NpgsqlTrigramsMethodTranslator.html",
+          "hash": "tedADHRU5aAKlTTPz4d5SQ=="
         }
       },
       "is_incremental": false,
@@ -2206,7 +2350,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal.html",
-          "hash": "qlG09Jx2WD2P22GlbeFrWA=="
+          "hash": "u5kBu/gku0eU8D7olV/Gjg=="
         }
       },
       "is_incremental": false,
@@ -2218,7 +2362,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.ArrayAnyAllExpression.html",
-          "hash": "aqOkwV8quVG0hdfV4iPy2w=="
+          "hash": "31YhnSwutWxyfGz78+wbvQ=="
         }
       },
       "is_incremental": false,
@@ -2230,7 +2374,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.ArrayComparisonType.html",
-          "hash": "7Iijj1dFKYpwC5UJelYFBA=="
+          "hash": "0yqFj8iX9mXZd3jMSqUgDg=="
         }
       },
       "is_incremental": false,
@@ -2242,7 +2386,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.ArrayIndexExpression.html",
-          "hash": "Ii9TxEhbziJr4NlU3HmaPw=="
+          "hash": "BMBrak+/WePIg5vUwxzfEQ=="
         }
       },
       "is_incremental": false,
@@ -2254,7 +2398,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.AtTimeZoneExpression.html",
-          "hash": "hLiXWACM5D+PIetbCToCpQ=="
+          "hash": "Ln9xvGlABuWREujfowmXMg=="
         }
       },
       "is_incremental": false,
@@ -2266,7 +2410,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.CustomUnaryExpression.html",
-          "hash": "RH2I8FaEUs8d/yO+OHGxFQ=="
+          "hash": "4YVRoxjkpWGEfWo8331ytQ=="
         }
       },
       "is_incremental": false,
@@ -2278,7 +2422,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.ILikeExpression.html",
-          "hash": "TRGvTzikweOdk5/wp9B4/g=="
+          "hash": "C2p6lxHDIGWUQ9vH5tkftg=="
         }
       },
       "is_incremental": false,
@@ -2290,7 +2434,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.JsonTraversalExpression.html",
-          "hash": "+eKrbsclMyuH9erEcLTFsg=="
+          "hash": "/e4iVUB2VOD5O8lTurbmXA=="
         }
       },
       "is_incremental": false,
@@ -2302,7 +2446,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.PgFunctionExpression.html",
-          "hash": "MuDARR+HSdAH6maCgN2Gng=="
+          "hash": "/Ue8/vLmf13T/0HMT1VgKA=="
         }
       },
       "is_incremental": false,
@@ -2314,7 +2458,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.RegexMatchExpression.html",
-          "hash": "ofw+KfzfeclZO8WktRxgcA=="
+          "hash": "4iejVi3Jo3kjcE3JWwPDMw=="
         }
       },
       "is_incremental": false,
@@ -2326,7 +2470,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal.SqlCustomBinaryExpression.html",
-          "hash": "pzlR1WKGCaWuHjSNw+KhLg=="
+          "hash": "Lx00fGTUdsOS+QdDAxigOA=="
         }
       },
       "is_incremental": false,
@@ -2350,7 +2494,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlCompiledQueryCacheKeyGenerator.html",
-          "hash": "j+g0dh91k3yZzpLMN/PxyA=="
+          "hash": "HIuKhys8Np2CTMUcLabNcg=="
         }
       },
       "is_incremental": false,
@@ -2362,7 +2506,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlEvaluatableExpressionFilter.html",
-          "hash": "NnPnQPfwhIn+mQZDBv9b8w=="
+          "hash": "MGmz96R/DsF28vKhAMXKEQ=="
         }
       },
       "is_incremental": false,
@@ -2374,7 +2518,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQuerySqlGenerator.html",
-          "hash": "vD0LWI11Jt6hhMS4b6yGhg=="
+          "hash": "uDWCrCW0oyyzR4T86o4DfA=="
         }
       },
       "is_incremental": false,
@@ -2386,7 +2530,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQuerySqlGeneratorFactory.html",
-          "hash": "TgP6IfkmF+zgyaedcjwstg=="
+          "hash": "VbU+g4R+sIl4eoppM181Zw=="
         }
       },
       "is_incremental": false,
@@ -2398,7 +2542,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlExpressionFactory.html",
-          "hash": "uVw10q8jfrrcD8fzZCJ6vQ=="
+          "hash": "X6d/4xHTIjUWZ+CdTBpofQ=="
         }
       },
       "is_incremental": false,
@@ -2410,7 +2554,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.html",
-          "hash": "/RdhafSkOMs9S5SaPlmITQ=="
+          "hash": "ZGAz9CmEKBuE2kHpIQsP6Q=="
         }
       },
       "is_incremental": false,
@@ -2422,7 +2566,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitorFactory.html",
-          "hash": "oq3W6R+AcPbUHZVOY2PJ8A=="
+          "hash": "8TsSB+k2ushKNHEBGc7EEQ=="
         }
       },
       "is_incremental": false,
@@ -2446,7 +2590,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Scaffolding.Internal.DbDataReaderExtension.html",
-          "hash": "smi1bkCqktg3hlyhicNtSA=="
+          "hash": "hv5iXLYI+Cp9NhiOQYj5+w=="
         }
       },
       "is_incremental": false,
@@ -2458,7 +2602,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Scaffolding.Internal.NpgsqlCodeGenerator.html",
-          "hash": "zfXuRqYuzDzu/yDAfkyYAA=="
+          "hash": "v+a8wpNwnH5tsyDAlwXb+w=="
         }
       },
       "is_incremental": false,
@@ -2470,7 +2614,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Scaffolding.Internal.NpgsqlDatabaseModelFactory.html",
-          "hash": "30PpbQ5WnuvCFEPgUJPlAw=="
+          "hash": "F5KA9vHoWDFIHjQfVdWjIQ=="
         }
       },
       "is_incremental": false,
@@ -2494,7 +2638,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.DateMapping.html",
-          "hash": "a7h6R4c3p8Qm31CqOGKKIQ=="
+          "hash": "LmFpLu3fHg3RLhK4c8HXsg=="
         }
       },
       "is_incremental": false,
@@ -2506,7 +2650,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.INpgsqlRelationalConnection.html",
-          "hash": "K4Wrwdl0QqD4XDjTX7iBrA=="
+          "hash": "wfFjU02Gl2wLiwKebEA9ww=="
         }
       },
       "is_incremental": false,
@@ -2518,7 +2662,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.IntervalMapping.html",
-          "hash": "NgHgseesLgo3d/T09zD0aw=="
+          "hash": "AUg3JJMZOkuDxjWynFiEyg=="
         }
       },
       "is_incremental": false,
@@ -2530,7 +2674,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlArrayTypeMapping.html",
-          "hash": "lq2Ux+WmKDecF6jEZxdmoA=="
+          "hash": "JbZignejcvr9JV7zWO/tlQ=="
         }
       },
       "is_incremental": false,
@@ -2542,7 +2686,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlBitTypeMapping.html",
-          "hash": "V8pFos4wBtGkb3bjXzv22A=="
+          "hash": "LI+U7FV4YI+kTCfH5goTPA=="
         }
       },
       "is_incremental": false,
@@ -2554,7 +2698,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlBoolTypeMapping.html",
-          "hash": "s7KlhJN6teaTXsIS0JRnJg=="
+          "hash": "Qu1Oxhz+c6Cy6yX7OGmSCA=="
         }
       },
       "is_incremental": false,
@@ -2566,7 +2710,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlBoxTypeMapping.html",
-          "hash": "AMopGiOrg/0WNN2Yb6sKZQ=="
+          "hash": "RniVKxjWHDnYhR7qZtJRYw=="
         }
       },
       "is_incremental": false,
@@ -2578,7 +2722,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlByteArrayTypeMapping.html",
-          "hash": "KAIh02aZG8d5MjSsMZgaaw=="
+          "hash": "r2He1l+kpSBgCGO8ppbOww=="
         }
       },
       "is_incremental": false,
@@ -2590,7 +2734,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlCharacterTypeMapping.html",
-          "hash": "XztWhfVB9DXw/druYtQ52Q=="
+          "hash": "4s8utXn5sEvfvIRKnGm4iA=="
         }
       },
       "is_incremental": false,
@@ -2602,7 +2746,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlCidrTypeMapping.html",
-          "hash": "Ej0zVutx/aaCo5BSLmnfmQ=="
+          "hash": "UI0s5DT6pAh9jR8oQJD7wg=="
         }
       },
       "is_incremental": false,
@@ -2614,7 +2758,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlCircleTypeMapping.html",
-          "hash": "EZvgt6aT9cNf4qB1NTkp5w=="
+          "hash": "ksYz3YxjfdiDDl/I8UsD7w=="
         }
       },
       "is_incremental": false,
@@ -2626,7 +2770,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlDateTypeMapping.html",
-          "hash": "k+qO/g1KCSgNuSFfNn+o1w=="
+          "hash": "ZiLn//7pKmFgzheiu8gCqA=="
         }
       },
       "is_incremental": false,
@@ -2638,7 +2782,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlEStringTypeMapping.html",
-          "hash": "WCoY0mP2Q3ph4+BJeQJsbA=="
+          "hash": "1NBuppquw4NsWdZabFqC4g=="
         }
       },
       "is_incremental": false,
@@ -2650,7 +2794,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlEnumTypeMapping.html",
-          "hash": "ODPbAXWv55S8Fcewxc3J7w=="
+          "hash": "6Ela8fORon/IlrZ4g5yaEw=="
         }
       },
       "is_incremental": false,
@@ -2662,7 +2806,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlHstoreTypeMapping.html",
-          "hash": "g4Tb50jeMLSfUWnpfAKo8Q=="
+          "hash": "vKedt45/dBAVCwQR0cqrVQ=="
         }
       },
       "is_incremental": false,
@@ -2674,7 +2818,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlInetTypeMapping.html",
-          "hash": "dy+yzRA3p+U1aTqI8IEnXQ=="
+          "hash": "wEcy0CP/z8B0N3ciZQ/lqw=="
         }
       },
       "is_incremental": false,
@@ -2686,7 +2830,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlIntervalTypeMapping.html",
-          "hash": "wZSAaYUl4L5dyY19ceDZpA=="
+          "hash": "1FqEv+9erazxyOrQYc3F9Q=="
         }
       },
       "is_incremental": false,
@@ -2698,7 +2842,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlJsonTypeMapping.html",
-          "hash": "rrN5NkKq3q1C60U3nDa4rA=="
+          "hash": "z5m7FY5MHcrODSumcQg51Q=="
         }
       },
       "is_incremental": false,
@@ -2710,7 +2854,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlLineSegmentTypeMapping.html",
-          "hash": "h+t4PIGjwD9WC3AVTtsf2w=="
+          "hash": "bW1DQRX9iyDeGdZwajDw9A=="
         }
       },
       "is_incremental": false,
@@ -2722,7 +2866,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlLineTypeMapping.html",
-          "hash": "ZrpQ6p+3PuIpquQmR3yDUw=="
+          "hash": "rbaMq5/25F+pNG9pVdoUSg=="
         }
       },
       "is_incremental": false,
@@ -2734,7 +2878,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlListTypeMapping.html",
-          "hash": "1gAEoselxayYYVd792eDaQ=="
+          "hash": "kNy9d3XNY6Rwcc9z9cMRHw=="
         }
       },
       "is_incremental": false,
@@ -2746,7 +2890,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlMacaddr8TypeMapping.html",
-          "hash": "/gO78XqjgxOXMreD/txsVA=="
+          "hash": "mi8Diepl5RoHG79Rq4DhEw=="
         }
       },
       "is_incremental": false,
@@ -2758,7 +2902,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlMacaddrTypeMapping.html",
-          "hash": "TxnQGj6yxCeqTDJJJcofHg=="
+          "hash": "TJoRvAAk0UNKVRpOWpC97A=="
         }
       },
       "is_incremental": false,
@@ -2770,7 +2914,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlPathTypeMapping.html",
-          "hash": "xvZMOhpDCFpfyZ6z0qG11Q=="
+          "hash": "0+06VY6UzQiHjPGszoSIrw=="
         }
       },
       "is_incremental": false,
@@ -2782,7 +2926,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlPointTypeMapping.html",
-          "hash": "fhGFUlSZ0BfObpTeIWlbmQ=="
+          "hash": "ZJkNKcbs+scIzEkoyi/Rkg=="
         }
       },
       "is_incremental": false,
@@ -2794,7 +2938,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlPolygonTypeMapping.html",
-          "hash": "7DqS4f9yqQA4vf2WCDe7VA=="
+          "hash": "Iqk4lGTZdkDMirfde0vq+Q=="
         }
       },
       "is_incremental": false,
@@ -2806,7 +2950,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlRangeTypeMapping.html",
-          "hash": "s7+7BbGaVakJ6WuZMDMZPw=="
+          "hash": "YsFZuo32txC0LFpxPy6Chg=="
         }
       },
       "is_incremental": false,
@@ -2818,7 +2962,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlRegconfigTypeMapping.html",
-          "hash": "Q9odCaVZhiihfn1l2beXYA=="
+          "hash": "wwomgBvNCUYpk5jbrsqx2w=="
         }
       },
       "is_incremental": false,
@@ -2830,7 +2974,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlStringTypeMapping.html",
-          "hash": "xiukKngKf5dBaAWtM6cZTA=="
+          "hash": "+E8Zr1XN8zufyFHBS1m2Vw=="
         }
       },
       "is_incremental": false,
@@ -2842,7 +2986,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTidTypeMapping.html",
-          "hash": "sTx2fGfcZ5vvZW31eJe/Tw=="
+          "hash": "GCCE/aqOuakQ7N05ah537g=="
         }
       },
       "is_incremental": false,
@@ -2854,7 +2998,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTimeTypeMapping.html",
-          "hash": "XIVZwwYwqFDYM+pjcZxcBg=="
+          "hash": "CUN5CKYjNvhR/6a3d9ZI2g=="
         }
       },
       "is_incremental": false,
@@ -2866,7 +3010,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTimeTzTypeMapping.html",
-          "hash": "qUPS9c7usVSXHsB1o/Te6w=="
+          "hash": "8yoPO4peuPoYkYqDybUXoA=="
         }
       },
       "is_incremental": false,
@@ -2878,7 +3022,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTimestampTypeMapping.html",
-          "hash": "cUSIjrBMWuFSFrJhoME2KA=="
+          "hash": "5Fm/OUxYaYzAZawaKKqWTw=="
         }
       },
       "is_incremental": false,
@@ -2890,7 +3034,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTimestampTzTypeMapping.html",
-          "hash": "MDQGB9dbAOpIjhz+5jqUgQ=="
+          "hash": "BvONJ8FKWUxG0b1YP+Vgtw=="
         }
       },
       "is_incremental": false,
@@ -2902,7 +3046,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTsQueryTypeMapping.html",
-          "hash": "aeIITVDAKdWkuyxtWFUabQ=="
+          "hash": "hqsu15YNs4E4wyxu4idtqQ=="
         }
       },
       "is_incremental": false,
@@ -2914,7 +3058,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTsRankingNormalizationTypeMapping.html",
-          "hash": "A4zn1k9s+cu87bmc1wQxzg=="
+          "hash": "j+CPRqfXxFd6IZWiuPFQxw=="
         }
       },
       "is_incremental": false,
@@ -2926,7 +3070,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTsVectorTypeMapping.html",
-          "hash": "4igbYd9iyPbYEtm4CQv2KA=="
+          "hash": "2EAa3RRY5bAJPS4DwG4L1g=="
         }
       },
       "is_incremental": false,
@@ -2938,7 +3082,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlTypeMapping.html",
-          "hash": "iESqYztBSxqwNb1YwyHoTg=="
+          "hash": "DXsKJq9aD0lvr5ZtE5odjw=="
         }
       },
       "is_incremental": false,
@@ -2950,7 +3094,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlUintTypeMapping.html",
-          "hash": "xtOaMJuUIbO22LAScZH7zQ=="
+          "hash": "cHUFzk20FADYFTMsdEmLAw=="
         }
       },
       "is_incremental": false,
@@ -2962,7 +3106,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.NpgsqlVarbitTypeMapping.html",
-          "hash": "qEReP11KeUUwY2HFv7bNXg=="
+          "hash": "N03LbiEynYI7e1M9MyoNHw=="
         }
       },
       "is_incremental": false,
@@ -2974,7 +3118,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping.html",
-          "hash": "iqfc+yiqdndb8PwePmmC7g=="
+          "hash": "mb6mqatyZV4nY48aJWvBWQ=="
         }
       },
       "is_incremental": false,
@@ -2986,7 +3130,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.html",
-          "hash": "T1URJ7v401t22d7tIGu+WA=="
+          "hash": "Z1oaJIiD3vfswgaNOjUufw=="
         }
       },
       "is_incremental": false,
@@ -2998,7 +3142,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.html",
-          "hash": "L/wJkI9lJ8iBcjpAdzQGjg=="
+          "hash": "8780GnPQrEtLs9RjfHztqg=="
         }
       },
       "is_incremental": false,
@@ -3010,7 +3154,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategyFactory.html",
-          "hash": "KnOIB7I7sirsAE+ano3riw=="
+          "hash": "JHViWH9wbcHawiMELPpkQA=="
         }
       },
       "is_incremental": false,
@@ -3022,7 +3166,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlGeometryTypeMapping-1.html",
-          "hash": "VMPgHjF1afr0HVBFgbTKOQ=="
+          "hash": "OzUju96DqxC8NEN1GKG4Uw=="
         }
       },
       "is_incremental": false,
@@ -3034,7 +3178,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlNetTopologySuiteTypeMappingSourcePlugin.html",
-          "hash": "hIuBdTNLr7h0Y7CYxfWQNg=="
+          "hash": "Jelefi5C7rQKX0kvTLb0qw=="
         }
       },
       "is_incremental": false,
@@ -3046,7 +3190,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlNodaTimeTypeMappingSourcePlugin.html",
-          "hash": "JFC9INtrkmlUBgqzNtGSDQ=="
+          "hash": "2BVFG1TIGKfUgziN8K3rwg=="
         }
       },
       "is_incremental": false,
@@ -3058,7 +3202,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlRelationalConnection.html",
-          "hash": "d1lFudC49P/b4WJiDMc8bA=="
+          "hash": "HaXFl7JZZ11kNZFhkyZU5Q=="
         }
       },
       "is_incremental": false,
@@ -3070,7 +3214,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlSqlGenerationHelper.html",
-          "hash": "bj8LZLjyGRrigjErrVRSCQ=="
+          "hash": "S1/x06dh1Vn+R9/X9XvVbQ=="
         }
       },
       "is_incremental": false,
@@ -3082,7 +3226,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlTransientExceptionDetector.html",
-          "hash": "j24ACwO4fOqQhkqz8PlTcA=="
+          "hash": "8RRTLSBeCqHmYNy6DgceQQ=="
         }
       },
       "is_incremental": false,
@@ -3094,7 +3238,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlTypeMappingSource.html",
-          "hash": "kJw0dOEjIhGRqniDeMPkiA=="
+          "hash": "uwwl/daouYODEMXdU86yKg=="
         }
       },
       "is_incremental": false,
@@ -3106,7 +3250,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.TimeMapping.html",
-          "hash": "l59w/pXVthvoCro4zhpqgA=="
+          "hash": "pSiLx15OUWcgFUKV4fXSZQ=="
         }
       },
       "is_incremental": false,
@@ -3118,7 +3262,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.TimeTzMapping.html",
-          "hash": "b7sFVGyWhaOsBqPXNzrrSw=="
+          "hash": "5Kcp9HL2VQnfILV5nrNCZw=="
         }
       },
       "is_incremental": false,
@@ -3130,7 +3274,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.TimestampInstantMapping.html",
-          "hash": "LG7QCxJ0aDCaCYUDQcLDQw=="
+          "hash": "43+u+e0h5hno0GZzUCzg0g=="
         }
       },
       "is_incremental": false,
@@ -3142,7 +3286,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.TimestampLocalDateTimeMapping.html",
-          "hash": "DhgKdNnzI3zmrsiqmcggKQ=="
+          "hash": "Bl3/zMfmuxmk4HX+1rUIfw=="
         }
       },
       "is_incremental": false,
@@ -3154,7 +3298,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.TimestampTzInstantMapping.html",
-          "hash": "lcFubmmyQ/fxE/JWr2PHLg=="
+          "hash": "nUqRvuMLpF8dZP0/rRthTw=="
         }
       },
       "is_incremental": false,
@@ -3166,7 +3310,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.TimestampTzOffsetDateTimeMapping.html",
-          "hash": "HXUyUB9Zwr5yEdOHhNqTzQ=="
+          "hash": "ZNTJd6ECwH7T7I/jrOCDWw=="
         }
       },
       "is_incremental": false,
@@ -3178,7 +3322,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.TimestampTzZonedDateTimeMapping.html",
-          "hash": "4jLw/7kiaiNiGpIDkThujA=="
+          "hash": "nyuETRLSjFBkZcJH+AGRZA=="
         }
       },
       "is_incremental": false,
@@ -3202,7 +3346,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.ValueConversion.NpgsqlArrayConverter-2.html",
-          "hash": "c0/4aMpDpMTaR5B7ocRzFw=="
+          "hash": "LV5VcDMMReRUcUQS9vLn+A=="
         }
       },
       "is_incremental": false,
@@ -3214,7 +3358,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Storage.ValueConversion.NpgsqlValueConverterSelector.html",
-          "hash": "bVs65aKV4WaL4otH1y5+2g=="
+          "hash": "dbTWBc8xWiGeMC7YbSECQA=="
         }
       },
       "is_incremental": false,
@@ -3238,7 +3382,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatch.html",
-          "hash": "2+Yl737P3w3nOtO17J1/ow=="
+          "hash": "wXEVhzAF827Jly0pFNrb8Q=="
         }
       },
       "is_incremental": false,
@@ -3250,7 +3394,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatchFactory.html",
-          "hash": "RzxfnYZdRdVyDhu5rZPYnA=="
+          "hash": "qe9+7P5+CdnO/3rzQ0WCiQ=="
         }
       },
       "is_incremental": false,
@@ -3262,7 +3406,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlUpdateSqlGenerator.ResultsGrouping.html",
-          "hash": "WGQVrZDLFQhSFG+JrCzc6w=="
+          "hash": "i5BcmostCYm0jpUIeGmLxA=="
         }
       },
       "is_incremental": false,
@@ -3274,7 +3418,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlUpdateSqlGenerator.html",
-          "hash": "jq+9oGYVP9ZCqOxRy9GBBw=="
+          "hash": "/JidlShO/xB8h25B1OrzrA=="
         }
       },
       "is_incremental": false,
@@ -3298,7 +3442,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.ValueGeneration.Internal.INpgsqlSequenceValueGeneratorFactory.html",
-          "hash": "aEjDWdlJSgP4epbMvc1Q8w=="
+          "hash": "zvlmG37KhcQLwz8byLbLIw=="
         }
       },
       "is_incremental": false,
@@ -3310,7 +3454,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.ValueGeneration.Internal.INpgsqlValueGeneratorCache.html",
-          "hash": "9Un6lv3FrXw+H2TKzB6SuQ=="
+          "hash": "M9djdlEgaZzPjL4ukOc1ZQ=="
         }
       },
       "is_incremental": false,
@@ -3322,7 +3466,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.ValueGeneration.Internal.NpgsqlSequenceHiLoValueGenerator-1.html",
-          "hash": "XsSkOkuEHhIic5mOj22aOw=="
+          "hash": "/Au5selm5nBZ49XGXXV8Cg=="
         }
       },
       "is_incremental": false,
@@ -3334,7 +3478,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.ValueGeneration.Internal.NpgsqlSequenceValueGeneratorFactory.html",
-          "hash": "UObwfelRYnev1eBtuhSBaQ=="
+          "hash": "D6q1d0S7G+s5qLA6PHMULw=="
         }
       },
       "is_incremental": false,
@@ -3346,7 +3490,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.ValueGeneration.Internal.NpgsqlSequenceValueGeneratorState.html",
-          "hash": "hzKPaq7uo9YtZoYovn8rgA=="
+          "hash": "mb3I7nlEyfGpFa8JFqbQVw=="
         }
       },
       "is_incremental": false,
@@ -3358,7 +3502,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.ValueGeneration.Internal.NpgsqlValueGeneratorCache.html",
-          "hash": "c+WknPJygQDKYCX1JZg8VQ=="
+          "hash": "vLvs9HL0PlGtr4Dq+p8zlw=="
         }
       },
       "is_incremental": false,
@@ -3370,7 +3514,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/Npgsql.EntityFrameworkCore.PostgreSQL.ValueGeneration.Internal.NpgsqlValueGeneratorSelector.html",
-          "hash": "rS7NX6eEI6TwYlsqOMLQJQ=="
+          "hash": "5t+gCKgTvJ1G4+VIvJfTgw=="
         }
       },
       "is_incremental": false,
@@ -3406,7 +3550,7 @@
       "output": {
         ".html": {
           "relative_path": "efcore/api/toc.html",
-          "hash": "DTo4PKyy89FiM6ULnnbvpA=="
+          "hash": "HBrt3GvjyxP3vmwmMlp7hg=="
         }
       },
       "is_incremental": false,
@@ -5936,7 +6080,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 419,
+          "total_file_count": 431,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
