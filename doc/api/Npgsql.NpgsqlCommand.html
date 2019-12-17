@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlCommand
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -90,114 +90,17 @@ against a PostgreSQL database. This class cannot be inherited.</p>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
-    <div class="level2"><span class="xref">System.ComponentModel.Component</span></div>
-    <div class="level3"><span class="xref">System.Data.Common.DbCommand</span></div>
-    <div class="level4"><span class="xref">NpgsqlCommand</span></div>
+    <div class="level1"><span class="xref">NpgsqlCommand</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.ComponentModel.IComponent</span></div>
-    <div><span class="xref">System.Data.IDbCommand</span></div>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.IAsyncDisposable</span></div>
-    <div><span class="xref">System.ICloneable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.ExecuteNonQueryAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.ExecuteReaderAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.ExecuteReaderAsync(System.Data.CommandBehavior)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.ExecuteScalarAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.System.Data.IDbCommand.CreateParameter()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(System.Data.CommandBehavior)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.DisposeAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.System.Data.IDbCommand.Connection</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.System.Data.IDbCommand.Parameters</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommand.System.Data.IDbCommand.Transaction</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Dispose()</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.GetService(System.Type)</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.CanRaiseEvents</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Container</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.DesignMode</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Events</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Site</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Disposed</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.InitializeLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
+    <div><span class="xref">ICloneable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.html">Npgsql</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_NpgsqlCommand_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NpgsqlCommand : DbCommand, IComponent, IDbCommand, IDisposable, IAsyncDisposable, ICloneable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NpgsqlCommand : DbCommand, ICloneable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -404,8 +307,6 @@ attempt to parse them. They will be accessible as strings only.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.CommandText</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_CommandTimeout.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.CommandTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -438,8 +339,6 @@ attempt to parse them. They will be accessible as strings only.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.CommandTimeout</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_CommandType.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.CommandType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -467,14 +366,12 @@ attempt to parse them. They will be accessible as strings only.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.CommandType</span></td>
-        <td><p>One of the <span class="xref">System.Data.CommandType</span> values. The default is <span class="xref">System.Data.CommandType</span>.</p>
+        <td><span class="xref">CommandType</span></td>
+        <td><p>One of the <see cref="!:System.Data.CommandType">CommandType</see> values. The default is <see cref="!:System.Data.CommandType">CommandType.Text</see>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.CommandType</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_Connection.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.Connection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -522,7 +419,7 @@ used by this instance of the <a class="xref" href="Npgsql.NpgsqlCommand.html">Np
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override DbConnection DbConnection { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override DbConnection? DbConnection { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -534,13 +431,11 @@ used by this instance of the <a class="xref" href="Npgsql.NpgsqlCommand.html">Np
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbConnection</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DbConnection</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.DbConnection</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_DbParameterCollection.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.DbParameterCollection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -567,13 +462,11 @@ used by this instance of the <a class="xref" href="Npgsql.NpgsqlCommand.html">Np
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbParameterCollection</span></td>
+        <td><span class="xref">DbParameterCollection</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.DbParameterCollection</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_DbTransaction.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.DbTransaction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -588,7 +481,7 @@ used by this instance of the <a class="xref" href="Npgsql.NpgsqlCommand.html">Np
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override DbTransaction DbTransaction { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override DbTransaction? DbTransaction { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -600,13 +493,11 @@ used by this instance of the <a class="xref" href="Npgsql.NpgsqlCommand.html">Np
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbTransaction</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DbTransaction</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.DbTransaction</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_DesignTimeVisible.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.DesignTimeVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -638,8 +529,6 @@ used by this instance of the <a class="xref" href="Npgsql.NpgsqlCommand.html">Np
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.DesignTimeVisible</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_IsPrepared.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.IsPrepared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -730,7 +619,7 @@ Is only populated when an Execute* method is called.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Npgsql.NpgsqlStatement.html">NpgsqlStatement</a>&gt;</td>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="Npgsql.NpgsqlStatement.html">NpgsqlStatement</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -834,14 +723,12 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.UpdateRowSource</span></td>
-        <td><p>One of the <span class="xref">System.Data.UpdateRowSource</span> values.</p>
+        <td><span class="xref">UpdateRowSource</span></td>
+        <td><p>One of the <see cref="!:System.Data.UpdateRowSource">UpdateRowSource</see> values.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.UpdatedRowSource</span></div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -860,8 +747,6 @@ DbDataAdapter.Update(DataSet) method.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Cancel()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.Cancel()</span></div>
   <h5 id="Npgsql_NpgsqlCommand_Cancel_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>As per the specs, no exception will be thrown by this method in case of failure</p>
 </div>
@@ -906,7 +791,7 @@ DbDataAdapter.Update(DataSet) method.</p>
   </span>
   <a id="Npgsql_NpgsqlCommand_CreateDbParameter_" data-uid="Npgsql.NpgsqlCommand.CreateDbParameter*"></a>
   <h4 id="Npgsql_NpgsqlCommand_CreateDbParameter" data-uid="Npgsql.NpgsqlCommand.CreateDbParameter">CreateDbParameter()</h4>
-  <div class="markdown level1 summary"><p>Creates a new instance of an <span class="xref">System.Data.Common.DbParameter</span> object.</p>
+  <div class="markdown level1 summary"><p>Creates a new instance of an <see cref="!:System.Data.Common.DbParameter">DbParameter</see> object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -923,14 +808,12 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbParameter</span></td>
-        <td><p>An <span class="xref">System.Data.Common.DbParameter</span> object.</p>
+        <td><span class="xref">DbParameter</span></td>
+        <td><p>An <see cref="!:System.Data.Common.DbParameter">DbParameter</see> object.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.CreateDbParameter()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_CreateParameter.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.CreateParameter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -996,17 +879,15 @@ DbDataAdapter.Update(DataSet) method.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ComponentModel.Component.Dispose(System.Boolean)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteDbDataReader_System_Data_CommandBehavior_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteDbDataReader(System.Data.CommandBehavior)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteDbDataReader_CommandBehavior_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1034">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommand_ExecuteDbDataReader_" data-uid="Npgsql.NpgsqlCommand.ExecuteDbDataReader*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_ExecuteDbDataReader_System_Data_CommandBehavior_" data-uid="Npgsql.NpgsqlCommand.ExecuteDbDataReader(System.Data.CommandBehavior)">ExecuteDbDataReader(CommandBehavior)</h4>
+  <h4 id="Npgsql_NpgsqlCommand_ExecuteDbDataReader_CommandBehavior_" data-uid="Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior)">ExecuteDbDataReader(CommandBehavior)</h4>
   <div class="markdown level1 summary"><p>Executes the command text against the connection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1025,7 +906,7 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="xref">CommandBehavior</span></td>
         <td><span class="parametername">behavior</span></td>
         <td></td>
       </tr>
@@ -1041,23 +922,21 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbDataReader</span></td>
+        <td><span class="xref">DbDataReader</span></td>
         <td><p>A task representing the operation.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.ExecuteDbDataReader(System.Data.CommandBehavior)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteDbDataReaderAsync_System_Data_CommandBehavior_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteDbDataReaderAsync_CommandBehavior_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1043">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommand_ExecuteDbDataReaderAsync_" data-uid="Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_ExecuteDbDataReaderAsync_System_Data_CommandBehavior_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)">ExecuteDbDataReaderAsync(CommandBehavior, CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlCommand_ExecuteDbDataReaderAsync_CommandBehavior_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior,CancellationToken)">ExecuteDbDataReaderAsync(CommandBehavior, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Executes the command text against the connection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1076,13 +955,13 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="xref">CommandBehavior</span></td>
         <td><span class="parametername">behavior</span></td>
-        <td><p>An instance of <span class="xref">System.Data.CommandBehavior</span>.</p>
+        <td><p>An instance of <see cref="!:CommandBehavior"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -1099,14 +978,12 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Data.Common.DbDataReader</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">DbDataReader</span>&gt;</td>
         <td><p>A task representing the asynchronous operation.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior, System.Threading.CancellationToken)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteNonQuery.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteNonQuery%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1139,17 +1016,15 @@ DbDataAdapter.Update(DataSet) method.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.ExecuteNonQuery()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteNonQueryAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteNonQueryAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteNonQueryAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L966">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommand_ExecuteNonQueryAsync_" data-uid="Npgsql.NpgsqlCommand.ExecuteNonQueryAsync*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_ExecuteNonQueryAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)">ExecuteNonQueryAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlCommand_ExecuteNonQueryAsync_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteNonQueryAsync(CancellationToken)">ExecuteNonQueryAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Asynchronous version of <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_ExecuteNonQuery">ExecuteNonQuery()</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1168,7 +1043,7 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -1185,14 +1060,12 @@ DbDataAdapter.Update(DataSet) method.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><p>A task representing the asynchronous operation, with the number of rows affected if known; -1 otherwise.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteReader.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteReader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1227,13 +1100,13 @@ and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataRead
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteReader_System_Data_CommandBehavior_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteReader(System.Data.CommandBehavior)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteReader_CommandBehavior_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1058">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommand_ExecuteReader_" data-uid="Npgsql.NpgsqlCommand.ExecuteReader*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_ExecuteReader_System_Data_CommandBehavior_" data-uid="Npgsql.NpgsqlCommand.ExecuteReader(System.Data.CommandBehavior)">ExecuteReader(CommandBehavior)</h4>
+  <h4 id="Npgsql_NpgsqlCommand_ExecuteReader_CommandBehavior_" data-uid="Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior)">ExecuteReader(CommandBehavior)</h4>
   <div class="markdown level1 summary"><p>Executes the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_CommandText">CommandText</a> against the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_Connection">Connection</a>
 and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>.</p>
 </div>
@@ -1253,7 +1126,7 @@ and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataRead
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="xref">CommandBehavior</span></td>
         <td><span class="parametername">behavior</span></td>
         <td><p>One of the enumeration values that specified the command behavior.</p>
 </td>
@@ -1278,21 +1151,21 @@ and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataRead
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteReaderAsync_System_Data_CommandBehavior_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteReaderAsync(System.Data.CommandBehavior%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteReaderAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteReaderAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1079">View Source</a>
+    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1068">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommand_ExecuteReaderAsync_" data-uid="Npgsql.NpgsqlCommand.ExecuteReaderAsync*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_ExecuteReaderAsync_System_Data_CommandBehavior_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)">ExecuteReaderAsync(CommandBehavior, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>An asynchronous version of <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_ExecuteReader_System_Data_CommandBehavior_">ExecuteReader(CommandBehavior)</a>,
-which executes the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_CommandText">CommandText</a> against the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_Connection">Connection</a>
+  <h4 id="Npgsql_NpgsqlCommand_ExecuteReaderAsync_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteReaderAsync(CancellationToken)">ExecuteReaderAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>An asynchronous version of <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_ExecuteReader_CommandBehavior_">ExecuteReader(CommandBehavior)</a>, which executes
+the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_CommandText">CommandText</a> against the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_Connection">Connection</a>
 and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;NpgsqlDataReader&gt; ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;NpgsqlDataReader&gt; ExecuteReaderAsync(CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1305,13 +1178,65 @@ and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataRead
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The token to monitor for cancellation requests. The default value is <see cref="!:CancellationToken.None"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>&gt;</td>
+        <td><p>A task representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteReaderAsync_CommandBehavior_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1079">View Source</a>
+  </span>
+  <a id="Npgsql_NpgsqlCommand_ExecuteReaderAsync_" data-uid="Npgsql.NpgsqlCommand.ExecuteReaderAsync*"></a>
+  <h4 id="Npgsql_NpgsqlCommand_ExecuteReaderAsync_CommandBehavior_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior,CancellationToken)">ExecuteReaderAsync(CommandBehavior, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>An asynchronous version of <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_ExecuteReader_CommandBehavior_">ExecuteReader(CommandBehavior)</a>,
+which executes the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_CommandText">CommandText</a> against the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_Connection">Connection</a>
+and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;NpgsqlDataReader&gt; ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CommandBehavior</span></td>
         <td><span class="parametername">behavior</span></td>
         <td><p>One of the enumeration values that specified the command behavior.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -1328,59 +1253,7 @@ and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataRead
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>&gt;</td>
-        <td><p>A task representing the asynchronous operation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteReaderAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteReaderAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1068">View Source</a>
-  </span>
-  <a id="Npgsql_NpgsqlCommand_ExecuteReaderAsync_" data-uid="Npgsql.NpgsqlCommand.ExecuteReaderAsync*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_ExecuteReaderAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteReaderAsync(System.Threading.CancellationToken)">ExecuteReaderAsync(CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>An asynchronous version of <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_ExecuteReader_System_Data_CommandBehavior_">ExecuteReader(CommandBehavior)</a>, which executes
-the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_CommandText">CommandText</a> against the <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_Connection">Connection</a>
-and returns a <a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;NpgsqlDataReader&gt; ExecuteReaderAsync(CancellationToken cancellationToken = default(CancellationToken))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p>The token to monitor for cancellation requests. The default value is <span class="xref">System.Threading.CancellationToken.None</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Npgsql.NpgsqlDataReader.html">NpgsqlDataReader</a>&gt;</td>
         <td><p>A task representing the asynchronous operation.</p>
 </td>
       </tr>
@@ -1420,17 +1293,15 @@ or a null reference if the result set is empty.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.ExecuteScalar()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteScalarAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteScalarAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_ExecuteScalarAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.ExecuteScalarAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1005">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommand_ExecuteScalarAsync_" data-uid="Npgsql.NpgsqlCommand.ExecuteScalarAsync*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_ExecuteScalarAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteScalarAsync(System.Threading.CancellationToken)">ExecuteScalarAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlCommand_ExecuteScalarAsync_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.ExecuteScalarAsync(CancellationToken)">ExecuteScalarAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Asynchronous version of <a class="xref" href="Npgsql.NpgsqlCommand.html#Npgsql_NpgsqlCommand_ExecuteScalar">ExecuteScalar()</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1449,7 +1320,7 @@ or a null reference if the result set is empty.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -1466,15 +1337,13 @@ or a null reference if the result set is empty.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><p>A task representing the asynchronous operation, with the first column of the
 first row in the result set, or a null reference if the result set is empty.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.ExecuteScalarAsync(System.Threading.CancellationToken)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_Prepare.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.Prepare%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1492,8 +1361,6 @@ This will make repeated future executions of this command much faster.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Prepare()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.Prepare()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_PrepareAsync.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.PrepareAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1521,27 +1388,27 @@ This will make repeated future executions of this command much faster.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_PrepareAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.PrepareAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_PrepareAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.PrepareAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L542">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommand_PrepareAsync_" data-uid="Npgsql.NpgsqlCommand.PrepareAsync*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_PrepareAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.PrepareAsync(System.Threading.CancellationToken)">PrepareAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlCommand_PrepareAsync_CancellationToken_" data-uid="Npgsql.NpgsqlCommand.PrepareAsync(CancellationToken)">PrepareAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Creates a server-side prepared statement on the PostgreSQL server.
 This will make repeated future executions of this command much faster.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task PrepareAsync(CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public override Task PrepareAsync(CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1554,9 +1421,9 @@ This will make repeated future executions of this command much faster.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>The token to monitor for cancellation requests. The default value is <span class="xref">System.Threading.CancellationToken.None</span>.</p>
+        <td><p>The token to monitor for cancellation requests. The default value is <see cref="!:CancellationToken.None"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -1571,13 +1438,11 @@ This will make repeated future executions of this command much faster.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommand.PrepareAsync(System.Threading.CancellationToken)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_Unprepare.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.Unprepare%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1596,55 +1461,9 @@ automatically prepared statements.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Unprepare()</code></pre>
   </div>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommand_System_ICloneable_Clone.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommand.System%23ICloneable%23Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommand.cs/#L1291">View Source</a>
-  </span>
-  <a id="Npgsql_NpgsqlCommand_System_ICloneable_Clone_" data-uid="Npgsql.NpgsqlCommand.System#ICloneable#Clone*"></a>
-  <h4 id="Npgsql_NpgsqlCommand_System_ICloneable_Clone" data-uid="Npgsql.NpgsqlCommand.System#ICloneable#Clone">ICloneable.Clone()</h4>
-  <div class="markdown level1 summary"><p>Create a new command based on this one.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object ICloneable.Clone()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><p>A new NpgsqlCommand object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.ComponentModel.IComponent</span>
-  </div>
-  <div>
-      <span class="xref">System.Data.IDbCommand</span>
-  </div>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
-  <div>
-      <span class="xref">System.IAsyncDisposable</span>
-  </div>
-  <div>
-      <span class="xref">System.ICloneable</span>
+      <span class="xref">ICloneable</span>
   </div>
 </article>
           </div>

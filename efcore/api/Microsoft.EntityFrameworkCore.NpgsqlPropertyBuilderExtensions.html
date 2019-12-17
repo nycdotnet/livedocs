@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlPropertyBuilderExtensions
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -91,11 +91,35 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">NpgsqlPropertyBuilderExtensions</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.EntityFrameworkCore.html">Microsoft.EntityFrameworkCore</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.EntityFrameworkCore.PostgreSQL.dll</h6>
   <h5 id="Microsoft_EntityFrameworkCore_NpgsqlPropertyBuilderExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class NpgsqlPropertyBuilderExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class NpgsqlPropertyBuilderExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -181,7 +205,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CanSetIdentityOptions(this IConventionPropertyBuilder propertyBuilder, long? startValue = null, long? incrementBy = null, long? minValue = null, long? maxValue = null, bool? isCyclic = null, long? numbersToCache = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool CanSetIdentityOptions(this IConventionPropertyBuilder propertyBuilder, long? startValue = default(long? ), long? incrementBy = default(long? ), long? minValue = default(long? ), long? maxValue = default(long? ), bool? isCyclic = default(bool? ), long? numbersToCache = default(long? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -334,7 +358,8 @@ The minimum value is 1 (only one value can be generated at a time, i.e., no cach
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder ForNpgsqlHasComment(this PropertyBuilder propertyBuilder, string comment)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HasComment&quot;)]
+public static PropertyBuilder ForNpgsqlHasComment(this PropertyBuilder propertyBuilder, string comment)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -390,7 +415,8 @@ The minimum value is 1 (only one value can be generated at a time, i.e., no cach
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TEntity&gt; ForNpgsqlHasComment&lt;TEntity&gt;(this PropertyBuilder&lt;TEntity&gt; propertyBuilder, string comment)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HasComment&quot;)]
+public static PropertyBuilder&lt;TEntity&gt; ForNpgsqlHasComment&lt;TEntity&gt;(this PropertyBuilder&lt;TEntity&gt; propertyBuilder, string comment)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -463,7 +489,8 @@ when targeting PostgreSQL. This method sets the property to be <see cref="!:Valu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder ForNpgsqlUseSequenceHiLo(this PropertyBuilder propertyBuilder, string name = null, string schema = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseHiLo&quot;)]
+public static PropertyBuilder ForNpgsqlUseSequenceHiLo(this PropertyBuilder propertyBuilder, string name = null, string schema = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -526,7 +553,8 @@ when targeting PostgreSQL. This method sets the property to be <see cref="!:Valu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TProperty&gt; ForNpgsqlUseSequenceHiLo&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder, string name = null, string schema = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseHiLo&quot;)]
+public static PropertyBuilder&lt;TProperty&gt; ForNpgsqlUseSequenceHiLo&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder, string name = null, string schema = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -674,7 +702,7 @@ The column must be set as identity via <a class="xref" href="Microsoft.EntityFra
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IConventionPropertyBuilder HasIdentityOptions(this IConventionPropertyBuilder propertyBuilder, long? startValue = null, long? incrementBy = null, long? minValue = null, long? maxValue = null, bool? isCyclic = null, long? numbersToCache = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IConventionPropertyBuilder HasIdentityOptions(this IConventionPropertyBuilder propertyBuilder, long? startValue = default(long? ), long? incrementBy = default(long? ), long? minValue = default(long? ), long? maxValue = default(long? ), bool? isCyclic = default(bool? ), long? numbersToCache = default(long? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -767,7 +795,7 @@ The column must be set as identity via <a class="xref" href="Microsoft.EntityFra
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder HasIdentityOptions(this PropertyBuilder propertyBuilder, long? startValue = null, long? incrementBy = null, long? minValue = null, long? maxValue = null, bool? isCyclic = null, long? numbersToCache = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static PropertyBuilder HasIdentityOptions(this PropertyBuilder propertyBuilder, long? startValue = default(long? ), long? incrementBy = default(long? ), long? minValue = default(long? ), long? maxValue = default(long? ), bool? isCyclic = default(bool? ), long? numbersToCache = default(long? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -860,7 +888,7 @@ The column must be set as identity via <a class="xref" href="Microsoft.EntityFra
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TProperty&gt; HasIdentityOptions&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder, long? startValue = null, long? incrementBy = null, long? minValue = null, long? maxValue = null, bool? isCyclic = null, long? numbersToCache = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TProperty&gt; HasIdentityOptions&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder, long? startValue = default(long? ), long? incrementBy = default(long? ), long? minValue = default(long? ), long? maxValue = default(long? ), bool? isCyclic = default(bool? ), long? numbersToCache = default(long? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1682,7 +1710,8 @@ to override this behavior by providing a value.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder UseNpgsqlIdentityAlwaysColumn(this PropertyBuilder propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseIdentityAlwaysColumn&quot;)]
+public static PropertyBuilder UseNpgsqlIdentityAlwaysColumn(this PropertyBuilder propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1738,7 +1767,8 @@ to override this behavior by providing a value.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlIdentityAlwaysColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseIdentityAlwaysColumn&quot;)]
+public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlIdentityAlwaysColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1809,7 +1839,8 @@ to override this behavior by providing a value.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder UseNpgsqlIdentityByDefaultColumn(this PropertyBuilder propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseIdentityByDefaultColumn&quot;)]
+public static PropertyBuilder UseNpgsqlIdentityByDefaultColumn(this PropertyBuilder propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1865,7 +1896,8 @@ to override this behavior by providing a value.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlIdentityByDefaultColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseIdentityByDefaultColumn&quot;)]
+public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlIdentityByDefaultColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1937,7 +1969,8 @@ to override this behavior by providing a value.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder UseNpgsqlIdentityColumn(this PropertyBuilder propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseIdentityColumn&quot;)]
+public static PropertyBuilder UseNpgsqlIdentityColumn(this PropertyBuilder propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1993,7 +2026,8 @@ to override this behavior by providing a value.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlIdentityColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseIdentityColumn&quot;)]
+public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlIdentityColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2060,7 +2094,8 @@ when targeting PostgreSQL. This method sets the property to be <see cref="!:Valu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder UseNpgsqlSerialColumn(this PropertyBuilder propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseSerialColumn&quot;)]
+public static PropertyBuilder UseNpgsqlSerialColumn(this PropertyBuilder propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2111,7 +2146,8 @@ when targeting PostgreSQL. This method sets the property to be <see cref="!:Valu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlSerialColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UseSerialColumn&quot;)]
+public static PropertyBuilder&lt;TProperty&gt; UseNpgsqlSerialColumn&lt;TProperty&gt;(this PropertyBuilder&lt;TProperty&gt; propertyBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

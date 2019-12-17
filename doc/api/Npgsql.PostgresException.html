@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PostgresException
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -90,71 +90,14 @@ SQL issues, constraint violations).</p>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Exception</span></div>
-    <div class="level2"><span class="xref">System.SystemException</span></div>
-    <div class="level3"><span class="xref">System.Runtime.InteropServices.ExternalException</span></div>
-    <div class="level4"><span class="xref">System.Data.Common.DbException</span></div>
-    <div class="level5"><a class="xref" href="Npgsql.NpgsqlException.html">NpgsqlException</a></div>
-    <div class="level6"><span class="xref">PostgresException</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.ExternalException.ErrorCode</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.GetBaseException()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HelpLink</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HResult</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.InnerException</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Source</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.StackTrace</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.TargetSite</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.SerializeObjectState</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
+    <div class="level1"><a class="xref" href="Npgsql.NpgsqlException.html">NpgsqlException</a></div>
+    <div class="level2"><span class="xref">PostgresException</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.html">Npgsql</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_PostgresException_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public sealed class PostgresException : NpgsqlException, ISerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class PostgresException : NpgsqlException</code></pre>
   </div>
   <h5 id="Npgsql_PostgresException_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This exception only corresponds to a PostgreSQL-delivered error.
@@ -180,8 +123,7 @@ via the standard CLR exceptions (e.g. ArgumentException).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
-public PostgresException()</code></pre>
+    <pre><code class="lang-csharp hljs">public PostgresException()</code></pre>
   </div>
   <h5 id="Npgsql_PostgresException__ctor_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Exists for backwards compat with 4.0, has been removed for 5.0.</p>
@@ -250,8 +192,7 @@ public PostgresException()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use SqlState instead&quot;)]
-public string Code { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Code { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -288,7 +229,7 @@ See <a href="http://www.postgresql.org/docs/current/static/errcodes-appendix.htm
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ColumnName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? ColumnName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -300,7 +241,7 @@ See <a href="http://www.postgresql.org/docs/current/static/errcodes-appendix.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -324,7 +265,7 @@ Refer to fields listed above for the associated table or domain.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ConstraintName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? ConstraintName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -336,7 +277,7 @@ Refer to fields listed above for the associated table or domain.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -370,13 +311,11 @@ Refer to fields listed above for the associated table or domain.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.IDictionary</span></td>
+        <td><span class="xref">IDictionary</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Exception.Data</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_PostgresException_DataTypeName.md&amp;value=---%0Auid%3A%20Npgsql.PostgresException.DataTypeName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -392,7 +331,7 @@ Refer to fields listed above for the associated table or domain.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DataTypeName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? DataTypeName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -404,7 +343,7 @@ Refer to fields listed above for the associated table or domain.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -427,7 +366,7 @@ May run to multiple lines.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Detail { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Detail { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -439,7 +378,7 @@ May run to multiple lines.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -458,7 +397,7 @@ May run to multiple lines.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string File { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? File { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -470,7 +409,7 @@ May run to multiple lines.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -494,7 +433,7 @@ May run to multiple lines.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Hint { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Hint { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -506,7 +445,7 @@ May run to multiple lines.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -559,7 +498,7 @@ This could be, for example, a SQL query issued by a PL/pgSQL function.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string InternalQuery { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? InternalQuery { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -571,7 +510,7 @@ This could be, for example, a SQL query issued by a PL/pgSQL function.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -656,7 +595,7 @@ succeed (e.g. a network error). Check <a class="xref" href="Npgsql.PostgresExcep
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Line { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Line { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -668,7 +607,7 @@ succeed (e.g. a network error). Check <a class="xref" href="Npgsql.PostgresExcep
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -704,8 +643,6 @@ succeed (e.g. a network error). Check <a class="xref" href="Npgsql.PostgresExcep
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Exception.Message</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_PostgresException_MessageText.md&amp;value=---%0Auid%3A%20Npgsql.PostgresException.MessageText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -787,7 +724,7 @@ The first character has index 1, and positions are measured in characters not by
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Routine { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Routine { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -799,7 +736,7 @@ The first character has index 1, and positions are measured in characters not by
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -818,7 +755,7 @@ The first character has index 1, and positions are measured in characters not by
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SchemaName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? SchemaName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -830,7 +767,7 @@ The first character has index 1, and positions are measured in characters not by
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -952,7 +889,7 @@ See <a href="http://www.postgresql.org/docs/current/static/errcodes-appendix.htm
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TableName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? TableName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -964,7 +901,7 @@ See <a href="http://www.postgresql.org/docs/current/static/errcodes-appendix.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -988,7 +925,7 @@ The trace is one entry per line, most recent first.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Where { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Where { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1000,7 +937,7 @@ The trace is one entry per line, most recent first.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1009,14 +946,14 @@ The trace is one entry per line, most recent first.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_PostgresException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20Npgsql.PostgresException.GetObjectData(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_PostgresException_GetObjectData_SerializationInfo_StreamingContext_.md&amp;value=---%0Auid%3A%20Npgsql.PostgresException.GetObjectData(SerializationInfo%2CStreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/PostgresException.cs/#L106">View Source</a>
   </span>
   <a id="Npgsql_PostgresException_GetObjectData_" data-uid="Npgsql.PostgresException.GetObjectData*"></a>
-  <h4 id="Npgsql_PostgresException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="Npgsql.PostgresException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
-  <div class="markdown level1 summary"><p>Populates a <span class="xref">System.Runtime.Serialization.SerializationInfo</span> with the data needed to serialize the target object.</p>
+  <h4 id="Npgsql_PostgresException_GetObjectData_SerializationInfo_StreamingContext_" data-uid="Npgsql.PostgresException.GetObjectData(SerializationInfo,StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Populates a <see cref="!:SerializationInfo"></see> with the data needed to serialize the target object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1034,21 +971,19 @@ The trace is one entry per line, most recent first.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="xref">SerializationInfo</span></td>
         <td><span class="parametername">info</span></td>
-        <td><p>The <span class="xref">System.Runtime.Serialization.SerializationInfo</span> to populate with data.</p>
+        <td><p>The <see cref="!:SerializationInfo"></see> to populate with data.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="xref">StreamingContext</span></td>
         <td><span class="parametername">context</span></td>
-        <td><p>The destination (see <span class="xref">System.Runtime.Serialization.StreamingContext</span>) for this serialization.</p>
+        <td><p>The destination (see <see cref="!:StreamingContext"></see>) for this serialization.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_PostgresException_ToString.md&amp;value=---%0Auid%3A%20Npgsql.PostgresException.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1079,12 +1014,6 @@ The trace is one entry per line, most recent first.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Runtime.InteropServices.ExternalException.ToString()</span></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.Runtime.Serialization.ISerializable</span>
-  </div>
 </article>
           </div>
           

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlDataReader
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -89,78 +89,17 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
-    <div class="level2"><span class="xref">System.Data.Common.DbDataReader</span></div>
-    <div class="level3"><span class="xref">NpgsqlDataReader</span></div>
+    <div class="level1"><span class="xref">NpgsqlDataReader</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.Collections.IEnumerable</span></div>
-    <div><span class="xref">System.Data.IDataReader</span></div>
-    <div><span class="xref">System.Data.IDataRecord</span></div>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.IAsyncDisposable</span></div>
-    <div><span class="xref">System.Data.Common.IDbColumnSchemaGenerator</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Data.Common.DbDataReader.GetDbDataReader(System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbDataReader.GetFieldValueAsync&lt;T&gt;(System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbDataReader.NextResultAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbDataReader.ReadAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbDataReader.System.Data.IDataRecord.GetData(System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbDataReader.VisibleFieldCount</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.InitializeLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+    <div><span class="xref">IDbColumnSchemaGenerator</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.html">Npgsql</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_NpgsqlDataReader_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NpgsqlDataReader : DbDataReader, IEnumerable, IDataReader, IDataRecord, IDisposable, IAsyncDisposable, IDbColumnSchemaGenerator</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NpgsqlDataReader : DbDataReader, IDbColumnSchemaGenerator</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -195,8 +134,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.Depth</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_FieldCount.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.FieldCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -228,8 +165,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.FieldCount</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_HasRows.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.HasRows%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -261,8 +196,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.HasRows</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_IsClosed.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.IsClosed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -294,8 +227,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.IsClosed</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_IsOnRow.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.IsOnRow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -340,7 +271,7 @@ has been called</p>
   </span>
   <a id="Npgsql_NpgsqlDataReader_Item_" data-uid="Npgsql.NpgsqlDataReader.Item*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_Item_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.Item(System.Int32)">Item[Int32]</h4>
-  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <span class="xref">System.Object</span>.</p>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <see cref="!:System.Object"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -381,8 +312,6 @@ has been called</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.Item[System.Int32]</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_Item_System_String_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -392,7 +321,7 @@ has been called</p>
   </span>
   <a id="Npgsql_NpgsqlDataReader_Item_" data-uid="Npgsql.NpgsqlDataReader.Item*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_Item_System_String_" data-uid="Npgsql.NpgsqlDataReader.Item(System.String)">Item[String]</h4>
-  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <span class="xref">System.Object</span>.</p>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <see cref="!:System.Object"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -433,8 +362,6 @@ has been called</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.Item[System.String]</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_RecordsAffected.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.RecordsAffected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -466,8 +393,6 @@ has been called</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.RecordsAffected</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_Statements.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.Statements%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -494,7 +419,7 @@ has been called</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Npgsql.NpgsqlStatement.html">NpgsqlStatement</a>&gt;</td>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="Npgsql.NpgsqlStatement.html">NpgsqlStatement</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -524,8 +449,6 @@ which exposes an aggregation across all statements.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Close()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.Close()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_CloseAsync.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.CloseAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -552,13 +475,11 @@ which exposes an aggregation across all statements.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.CloseAsync()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -592,8 +513,6 @@ which exposes an aggregation across all statements.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.Dispose(System.Boolean)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_DisposeAsync.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.DisposeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -620,13 +539,11 @@ which exposes an aggregation across all statements.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.DisposeAsync()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetBoolean_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetBoolean(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -677,8 +594,6 @@ which exposes an aggregation across all statements.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetBoolean(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetByte_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetByte(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -729,8 +644,6 @@ which exposes an aggregation across all statements.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetByte(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetBytes_System_Int32_System_Int64_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetBytes(System.Int32%2CSystem.Int64%2CSystem.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -805,8 +718,6 @@ which exposes an aggregation across all statements.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetBytes(System.Int32, System.Int64, System.Byte[], System.Int32, System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetChar_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetChar(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -857,8 +768,6 @@ which exposes an aggregation across all statements.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetChar(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetChars_System_Int32_System_Int64_System_Char___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetChars(System.Int32%2CSystem.Int64%2CSystem.Char%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -933,8 +842,6 @@ which exposes an aggregation across all statements.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetChars(System.Int32, System.Int64, System.Char[], System.Int32, System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetColumnSchema.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetColumnSchema%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -961,7 +868,7 @@ which exposes an aggregation across all statements.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="Npgsql.Schema.NpgsqlDbColumn.html">NpgsqlDbColumn</a>&gt;</td>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Npgsql.Schema.NpgsqlDbColumn.html">NpgsqlDbColumn</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1017,8 +924,6 @@ This will be the PostgreSQL type name (e.g. double precision), not the .NET type
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetDataTypeName(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetDataTypeOID_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetDataTypeOID(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1126,7 +1031,7 @@ Npgsql&apos;s provider-specific type for dates.</p>
   <h5 id="Npgsql_NpgsqlDataReader_GetDate_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>PostgreSQL&apos;s date type represents dates from 4713 BC to 5874897 AD, while .NET&apos;s DateTime
 only supports years from 1 to 1999. If you require years outside this range use this accessor.
-The standard <span class="xref">System.Data.Common.DbDataReader.GetProviderSpecificValue(System.Int32)</span> method will also return this type, but has
+The standard <see cref="!:DbDataReader.GetProviderSpecificValue"></see> method will also return this type, but has
 the disadvantage of boxing the value.
 See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.html">http://www.postgresql.org/docs/current/static/datatype-datetime.html</a></p>
 </div>
@@ -1139,7 +1044,7 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetDateTime_" data-uid="Npgsql.NpgsqlDataReader.GetDateTime*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetDateTime_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetDateTime(System.Int32)">GetDateTime(Int32)</h4>
-  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <span class="xref">System.DateTime</span> object.</p>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <see cref="!:DateTime"></see> object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1174,14 +1079,12 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td><p>The value of the specified column.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetDateTime(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetDecimal_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetDecimal(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1191,7 +1094,7 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetDecimal_" data-uid="Npgsql.NpgsqlDataReader.GetDecimal*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetDecimal_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetDecimal(System.Int32)">GetDecimal(Int32)</h4>
-  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <span class="xref">System.Decimal</span> object.</p>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <see cref="!:System.Decimal"></see> object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1232,8 +1135,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetDecimal(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetDouble_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetDouble(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1284,8 +1185,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetDouble(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetEnumerator.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1295,7 +1194,7 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetEnumerator_" data-uid="Npgsql.NpgsqlDataReader.GetEnumerator*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetEnumerator" data-uid="Npgsql.NpgsqlDataReader.GetEnumerator">GetEnumerator()</h4>
-  <div class="markdown level1 summary"><p>Returns an <span class="xref">System.Collections.IEnumerator</span> that can be used to iterate through the rows in the data reader.</p>
+  <div class="markdown level1 summary"><p>Returns an <see cref="!:IEnumerator"></see> that can be used to iterate through the rows in the data reader.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1312,14 +1211,12 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
-        <td><p>An <span class="xref">System.Collections.IEnumerator</span> that can be used to iterate through the rows in the data reader.</p>
+        <td><span class="xref">IEnumerator</span></td>
+        <td><p>An <see cref="!:IEnumerator"></see> that can be used to iterate through the rows in the data reader.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetEnumerator()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetFieldType_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetFieldType(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1364,14 +1261,12 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><p>The data type of the specified column.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetFieldType(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetFieldValue__1_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetFieldValue%60%601(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1438,17 +1333,15 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetFieldValue&lt;T&gt;(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetFieldValueAsync__1_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetFieldValueAsync%60%601(System.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetFieldValueAsync__1_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetFieldValueAsync%60%601(System.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlDataReader.cs/#L1306">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetFieldValueAsync_" data-uid="Npgsql.NpgsqlDataReader.GetFieldValueAsync*"></a>
-  <h4 id="Npgsql_NpgsqlDataReader_GetFieldValueAsync__1_System_Int32_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.GetFieldValueAsync``1(System.Int32,System.Threading.CancellationToken)">GetFieldValueAsync&lt;T&gt;(Int32, CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlDataReader_GetFieldValueAsync__1_System_Int32_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.GetFieldValueAsync``1(System.Int32,CancellationToken)">GetFieldValueAsync&lt;T&gt;(Int32, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Asynchronously gets the value of the specified column as a type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1473,7 +1366,7 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -1490,7 +1383,7 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1511,8 +1404,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetFieldValueAsync&lt;T&gt;(System.Int32, System.Threading.CancellationToken)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetFloat_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetFloat(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1563,8 +1454,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetFloat(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetGuid_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetGuid(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1609,14 +1498,12 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Guid</span></td>
+        <td><span class="xref">Guid</span></td>
         <td><p>The value of the specified column.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetGuid(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetInt16_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetInt16(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1667,8 +1554,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetInt16(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetInt32_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetInt32(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1719,8 +1604,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetInt32(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetInt64_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetInt64(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1771,8 +1654,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetInt64(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetInterval_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetInterval(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1829,7 +1710,7 @@ Npgsql&apos;s provider-specific type for time spans.</p>
 -178000000 to 178000000 years, while .NET&apos;s TimeSpan has a resolution of 100 nanoseconds
 and ranges from roughly -29247 to 29247 years. If you require values from outside TimeSpan&apos;s
 range use this accessor.
-The standard ADO.NET <span class="xref">System.Data.Common.DbDataReader.GetProviderSpecificValue(System.Int32)</span> method will also return this
+The standard ADO.NET <see cref="!:DbDataReader.GetProviderSpecificValue"></see> method will also return this
 type, but has the disadvantage of boxing the value.
 See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.html">http://www.postgresql.org/docs/current/static/datatype-datetime.html</a></p>
 </div>
@@ -1883,8 +1764,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetName(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetOrdinal_System_String_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetOrdinal(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1935,8 +1814,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetOrdinal(System.String)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetPostgresType_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetPostgresType(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2031,14 +1908,12 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><p>The Type object that describes the data type of the specified column.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetProviderSpecificFieldType(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetProviderSpecificValue_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetProviderSpecificValue(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2048,7 +1923,7 @@ The returned representation can be used to access various information about the 
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetProviderSpecificValue_" data-uid="Npgsql.NpgsqlDataReader.GetProviderSpecificValue*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetProviderSpecificValue_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetProviderSpecificValue(System.Int32)">GetProviderSpecificValue(Int32)</h4>
-  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <span class="xref">System.Object</span>.</p>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <see cref="!:System.Object"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2089,8 +1964,6 @@ The returned representation can be used to access various information about the 
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetProviderSpecificValue(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetProviderSpecificValues_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetProviderSpecificValues(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2136,13 +2009,11 @@ The returned representation can be used to access various information about the 
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of instances of <span class="xref">System.Object</span> in the array.</p>
+        <td><p>The number of instances of <see cref="!:System.Object"></see> in the array.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetProviderSpecificValues(System.Object[])</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetSchemaTable.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetSchemaTable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2169,13 +2040,11 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="xref">DataTable</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetSchemaTable()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetStream_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetStream(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2185,7 +2054,7 @@ The returned representation can be used to access various information about the 
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetStream_" data-uid="Npgsql.NpgsqlDataReader.GetStream*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetStream_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetStream(System.Int32)">GetStream(Int32)</h4>
-  <div class="markdown level1 summary"><p>Retrieves data as a <span class="xref">System.IO.Stream</span>.</p>
+  <div class="markdown level1 summary"><p>Retrieves data as a <see cref="!:Stream"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2220,14 +2089,12 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="xref">Stream</span></td>
         <td><p>The returned object.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetStream(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetStreamAsync_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetStreamAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2237,7 +2104,7 @@ The returned representation can be used to access various information about the 
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetStreamAsync_" data-uid="Npgsql.NpgsqlDataReader.GetStreamAsync*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetStreamAsync_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetStreamAsync(System.Int32)">GetStreamAsync(Int32)</h4>
-  <div class="markdown level1 summary"><p>Retrieves data as a <span class="xref">System.IO.Stream</span>.</p>
+  <div class="markdown level1 summary"><p>Retrieves data as a <see cref="!:Stream"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2272,7 +2139,7 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.IO.Stream</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Stream</span>&gt;</td>
         <td><p>The returned object.</p>
 </td>
       </tr>
@@ -2280,14 +2147,14 @@ The returned representation can be used to access various information about the 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetStreamAsync_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetStreamAsync(System.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetStreamAsync_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetStreamAsync(System.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlDataReader.cs/#L1095">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetStreamAsync_" data-uid="Npgsql.NpgsqlDataReader.GetStreamAsync*"></a>
-  <h4 id="Npgsql_NpgsqlDataReader_GetStreamAsync_System_Int32_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.GetStreamAsync(System.Int32,System.Threading.CancellationToken)">GetStreamAsync(Int32, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Retrieves data as a <span class="xref">System.IO.Stream</span>.</p>
+  <h4 id="Npgsql_NpgsqlDataReader_GetStreamAsync_System_Int32_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.GetStreamAsync(System.Int32,CancellationToken)">GetStreamAsync(Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Retrieves data as a <see cref="!:Stream"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2311,9 +2178,9 @@ The returned representation can be used to access various information about the 
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>The token to monitor for cancellation requests. The default value is <span class="xref">System.Threading.CancellationToken.None</span>.</p>
+        <td><p>The token to monitor for cancellation requests. The default value is <see cref="!:CancellationToken.None"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -2328,7 +2195,7 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.IO.Stream</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Stream</span>&gt;</td>
         <td><p>The returned object.</p>
 </td>
       </tr>
@@ -2343,7 +2210,7 @@ The returned representation can be used to access various information about the 
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetString_" data-uid="Npgsql.NpgsqlDataReader.GetString*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetString_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetString(System.Int32)">GetString(Int32)</h4>
-  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <span class="xref">System.String</span>.</p>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <see cref="!:System.String"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2384,8 +2251,6 @@ The returned representation can be used to access various information about the 
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetString(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetTextReader_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetTextReader(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2395,7 +2260,7 @@ The returned representation can be used to access various information about the 
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetTextReader_" data-uid="Npgsql.NpgsqlDataReader.GetTextReader*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetTextReader_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetTextReader(System.Int32)">GetTextReader(Int32)</h4>
-  <div class="markdown level1 summary"><p>Retrieves data as a <span class="xref">System.IO.TextReader</span>.</p>
+  <div class="markdown level1 summary"><p>Retrieves data as a <see cref="!:TextReader"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2430,14 +2295,12 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.TextReader</span></td>
+        <td><span class="xref">TextReader</span></td>
         <td><p>The returned object.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetTextReader(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetTextReaderAsync_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetTextReaderAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2447,7 +2310,7 @@ The returned representation can be used to access various information about the 
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetTextReaderAsync_" data-uid="Npgsql.NpgsqlDataReader.GetTextReaderAsync*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetTextReaderAsync_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetTextReaderAsync(System.Int32)">GetTextReaderAsync(Int32)</h4>
-  <div class="markdown level1 summary"><p>Retrieves data as a <span class="xref">System.IO.TextReader</span>.</p>
+  <div class="markdown level1 summary"><p>Retrieves data as a <see cref="!:TextReader"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2482,7 +2345,7 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.IO.TextReader</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">TextReader</span>&gt;</td>
         <td><p>The returned object.</p>
 </td>
       </tr>
@@ -2490,14 +2353,14 @@ The returned representation can be used to access various information about the 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetTextReaderAsync_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetTextReaderAsync(System.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetTextReaderAsync_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetTextReaderAsync(System.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlDataReader.cs/#L1274">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetTextReaderAsync_" data-uid="Npgsql.NpgsqlDataReader.GetTextReaderAsync*"></a>
-  <h4 id="Npgsql_NpgsqlDataReader_GetTextReaderAsync_System_Int32_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.GetTextReaderAsync(System.Int32,System.Threading.CancellationToken)">GetTextReaderAsync(Int32, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Retrieves data as a <span class="xref">System.IO.TextReader</span>.</p>
+  <h4 id="Npgsql_NpgsqlDataReader_GetTextReaderAsync_System_Int32_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.GetTextReaderAsync(System.Int32,CancellationToken)">GetTextReaderAsync(Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Retrieves data as a <see cref="!:TextReader"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2521,9 +2384,9 @@ The returned representation can be used to access various information about the 
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>The token to monitor for cancellation requests. The default value is <span class="xref">System.Threading.CancellationToken.None</span>.</p>
+        <td><p>The token to monitor for cancellation requests. The default value is <see cref="!:CancellationToken.None"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -2538,7 +2401,7 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.IO.TextReader</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">TextReader</span>&gt;</td>
         <td><p>The returned object.</p>
 </td>
       </tr>
@@ -2588,7 +2451,7 @@ The returned representation can be used to access various information about the 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">TimeSpan</span></td>
         <td><p>The value of the specified column.</p>
 </td>
       </tr>
@@ -2656,7 +2519,7 @@ which differ only in how they are converted upon input/output.</p>
   <h5 id="Npgsql_NpgsqlDataReader_GetTimeStamp_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>PostgreSQL&apos;s timestamp type represents dates from 4713 BC to 5874897 AD, while .NET&apos;s DateTime
 only supports years from 1 to 1999. If you require years outside this range use this accessor.
-The standard <span class="xref">System.Data.Common.DbDataReader.GetProviderSpecificValue(System.Int32)</span> method will also return this type, but has
+The standard <see cref="!:DbDataReader.GetProviderSpecificValue"></see> method will also return this type, but has
 the disadvantage of boxing the value.
 See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.html">http://www.postgresql.org/docs/current/static/datatype-datetime.html</a></p>
 </div>
@@ -2669,7 +2532,7 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
   </span>
   <a id="Npgsql_NpgsqlDataReader_GetValue_" data-uid="Npgsql.NpgsqlDataReader.GetValue*"></a>
   <h4 id="Npgsql_NpgsqlDataReader_GetValue_System_Int32_" data-uid="Npgsql.NpgsqlDataReader.GetValue(System.Int32)">GetValue(Int32)</h4>
-  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <span class="xref">System.Object</span>.</p>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as an instance of <see cref="!:System.Object"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2710,8 +2573,6 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetValue(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_GetValues_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.GetValues(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2757,13 +2618,11 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of instances of <span class="xref">System.Object</span> in the array.</p>
+        <td><p>The number of instances of <see cref="!:System.Object"></see> in the array.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.GetValues(System.Object[])</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_IsDBNull_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.IsDBNull(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2809,22 +2668,20 @@ See <a href="http://www.postgresql.org/docs/current/static/datatype-datetime.htm
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p><strong>true</strong> if the specified column is equivalent to <span class="xref">System.DBNull</span>; otherwise <strong>false</strong>.</p>
+        <td><p><strong>true</strong> if the specified column is equivalent to <see cref="!:DBNull"></see>; otherwise <strong>false</strong>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.IsDBNull(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_IsDBNullAsync_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.IsDBNullAsync(System.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_IsDBNullAsync_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.IsDBNullAsync(System.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlDataReader.cs/#L1548">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlDataReader_IsDBNullAsync_" data-uid="Npgsql.NpgsqlDataReader.IsDBNullAsync*"></a>
-  <h4 id="Npgsql_NpgsqlDataReader_IsDBNullAsync_System_Int32_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)">IsDBNullAsync(Int32, CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlDataReader_IsDBNullAsync_System_Int32_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.IsDBNullAsync(System.Int32,CancellationToken)">IsDBNullAsync(Int32, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>An asynchronous version of <a class="xref" href="Npgsql.NpgsqlDataReader.html#Npgsql_NpgsqlDataReader_IsDBNull_System_Int32_">IsDBNull(Int32)</a>, which gets a value that indicates whether the column contains non-existent or missing values.
 The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</code> parameter is currently ignored.</p>
 </div>
@@ -2850,7 +2707,7 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -2867,14 +2724,12 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><p><strong>true</strong> if the specified column value is equivalent to <span class="xref">System.DBNull</span> otherwise <strong>false</strong>.</p>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p><strong>true</strong> if the specified column value is equivalent to <see cref="!:DBNull"></see> otherwise <strong>false</strong>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.IsDBNullAsync(System.Int32, System.Threading.CancellationToken)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_NextResult.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.NextResult%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2906,17 +2761,15 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.NextResult()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_NextResultAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.NextResultAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_NextResultAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.NextResultAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlDataReader.cs/#L316">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlDataReader_NextResultAsync_" data-uid="Npgsql.NpgsqlDataReader.NextResultAsync*"></a>
-  <h4 id="Npgsql_NpgsqlDataReader_NextResultAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.NextResultAsync(System.Threading.CancellationToken)">NextResultAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlDataReader_NextResultAsync_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.NextResultAsync(CancellationToken)">NextResultAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This is the asynchronous version of NextResult.
 The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</code> parameter is currently ignored.</p>
 </div>
@@ -2936,7 +2789,7 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -2953,14 +2806,12 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><p>A task representing the asynchronous operation.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.NextResultAsync(System.Threading.CancellationToken)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_Read.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.Read%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -2993,20 +2844,18 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.Read()</span></div>
   <h5 id="Npgsql_NpgsqlDataReader_Read_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The default position of a data reader is before the first record. Therefore, you must call Read to begin accessing data.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_ReadAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.ReadAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_ReadAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.ReadAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlDataReader.cs/#L172">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlDataReader_ReadAsync_" data-uid="Npgsql.NpgsqlDataReader.ReadAsync*"></a>
-  <h4 id="Npgsql_NpgsqlDataReader_ReadAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.ReadAsync(System.Threading.CancellationToken)">ReadAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlDataReader_ReadAsync_CancellationToken_" data-uid="Npgsql.NpgsqlDataReader.ReadAsync(CancellationToken)">ReadAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This is the asynchronous version of <a class="xref" href="Npgsql.NpgsqlDataReader.html#Npgsql_NpgsqlDataReader_Read">Read()</a> The cancellation token is currently ignored.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -3025,7 +2874,7 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -3042,14 +2891,12 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><p>A task representing the asynchronous operation.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbDataReader.ReadAsync(System.Threading.CancellationToken)</span></div>
   <h3 id="events">Events
   </h3>
   <span class="small pull-right mobile-hide">
@@ -3065,7 +2912,7 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler ReaderClosed</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler? ReaderClosed</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3077,61 +2924,14 @@ The <code data-dev-comment-type="paramref" class="paramref">cancellationToken</c
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.EventHandler</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlDataReader_System_Data_Common_IDbColumnSchemaGenerator_GetColumnSchema.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlDataReader.System%23Data%23Common%23IDbColumnSchemaGenerator%23GetColumnSchema%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlDataReader.cs/#L1665">View Source</a>
-  </span>
-  <a id="Npgsql_NpgsqlDataReader_System_Data_Common_IDbColumnSchemaGenerator_GetColumnSchema_" data-uid="Npgsql.NpgsqlDataReader.System#Data#Common#IDbColumnSchemaGenerator#GetColumnSchema*"></a>
-  <h4 id="Npgsql_NpgsqlDataReader_System_Data_Common_IDbColumnSchemaGenerator_GetColumnSchema" data-uid="Npgsql.NpgsqlDataReader.System#Data#Common#IDbColumnSchemaGenerator#GetColumnSchema">IDbColumnSchemaGenerator.GetColumnSchema()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;DbColumn&gt; IDbColumnSchemaGenerator.GetColumnSchema()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<span class="xref">System.Data.Common.DbColumn</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">EventHandler</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.Collections.IEnumerable</span>
-  </div>
-  <div>
-      <span class="xref">System.Data.IDataReader</span>
-  </div>
-  <div>
-      <span class="xref">System.Data.IDataRecord</span>
-  </div>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
-  <div>
-      <span class="xref">System.IAsyncDisposable</span>
-  </div>
-  <div>
-      <span class="xref">System.Data.Common.IDbColumnSchemaGenerator</span>
+      <span class="xref">IDbColumnSchemaGenerator</span>
   </div>
 </article>
           </div>

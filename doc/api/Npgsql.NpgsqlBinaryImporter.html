@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlBinaryImporter
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -94,38 +94,14 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.IAsyncDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">IAsyncDisposable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.html">Npgsql</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_NpgsqlBinaryImporter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NpgsqlBinaryImporter : ICancelable, IDisposable, IAsyncDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NpgsqlBinaryImporter : object, ICancelable, IDisposable, IAsyncDisposable</code></pre>
   </div>
   <h5 id="Npgsql_NpgsqlBinaryImporter_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>See <a href="http://www.postgresql.org/docs/current/static/sql-copy.html">http://www.postgresql.org/docs/current/static/sql-copy.html</a>.</p>
@@ -150,19 +126,19 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_CloseAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.CloseAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_CloseAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.CloseAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L460">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlBinaryImporter_CloseAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.CloseAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_CloseAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.CloseAsync(System.Threading.CancellationToken)">CloseAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_CloseAsync_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.CloseAsync(CancellationToken)">CloseAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Async completes the import process and signals to the database to write everything.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask CloseAsync(CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueTask CloseAsync(CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,7 +151,7 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
@@ -191,22 +167,7 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -229,19 +190,19 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_CompleteAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.CompleteAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_CompleteAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.CompleteAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L373">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlBinaryImporter_CompleteAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.CompleteAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_CompleteAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.CompleteAsync(System.Threading.CancellationToken)">CompleteAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_CompleteAsync_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.CompleteAsync(CancellationToken)">CompleteAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Completes the import operation. The writer is unusable after this operation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask&lt;ulong&gt; CompleteAsync(CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueTask&lt;ulong&gt; CompleteAsync(CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,7 +215,7 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
@@ -270,7 +231,7 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -317,7 +278,7 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -340,19 +301,19 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_StartRowAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.StartRowAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_StartRowAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.StartRowAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L104">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlBinaryImporter_StartRowAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.StartRowAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_StartRowAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.StartRowAsync(System.Threading.CancellationToken)">StartRowAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_StartRowAsync_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.StartRowAsync(CancellationToken)">StartRowAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Starts writing a single row, must be invoked before writing any columns.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task StartRowAsync(CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task StartRowAsync(CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -365,7 +326,7 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
@@ -381,7 +342,7 @@ a PostgreSQL table. Initiated by <a class="xref" href="Npgsql.NpgsqlConnection.h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -556,19 +517,91 @@ the database. This parameter and be used to unambiguously specify the type.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_NpgsqlTypes_NpgsqlDbType_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteAsync%60%601(%60%600%2CNpgsqlTypes.NpgsqlDbType%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteAsync%60%601(%60%600%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L147">View Source</a>
+  </span>
+  <a id="Npgsql_NpgsqlBinaryImporter_WriteAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync*"></a>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync``1(``0,CancellationToken)">WriteAsync&lt;T&gt;(T, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Writes a single column in the current row.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WriteAsync&lt;T&gt;(T value, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be written</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the column to be written. This must correspond to the actual type or data
+corruption will occur. If in doubt, use <a class="xref" href="Npgsql.NpgsqlBinaryImporter.html#Npgsql_NpgsqlBinaryImporter_Write__1___0_NpgsqlTypes_NpgsqlDbType_">Write&lt;T&gt;(T, NpgsqlDbType)</a> to manually
+specify the type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_NpgsqlTypes_NpgsqlDbType_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteAsync%60%601(%60%600%2CNpgsqlTypes.NpgsqlDbType%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L195">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlBinaryImporter_WriteAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_NpgsqlTypes_NpgsqlDbType_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync``1(``0,NpgsqlTypes.NpgsqlDbType,System.Threading.CancellationToken)">WriteAsync&lt;T&gt;(T, NpgsqlDbType, CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_NpgsqlTypes_NpgsqlDbType_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync``1(``0,NpgsqlTypes.NpgsqlDbType,CancellationToken)">WriteAsync&lt;T&gt;(T, NpgsqlDbType, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Writes a single column in the current row as type <code data-dev-comment-type="paramref" class="paramref">npgsqlDbType</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task WriteAsync&lt;T&gt;(T value, NpgsqlDbType npgsqlDbType, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task WriteAsync&lt;T&gt;(T value, NpgsqlDbType npgsqlDbType, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -596,7 +629,7 @@ the JSONB type, for which <code data-dev-comment-type="typeparamref" class="type
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
@@ -612,7 +645,7 @@ the JSONB type, for which <code data-dev-comment-type="typeparamref" class="type
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -635,19 +668,19 @@ the JSONB type, for which <code data-dev-comment-type="typeparamref" class="type
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteAsync%60%601(%60%600%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteAsync%60%601(%60%600%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L243">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlBinaryImporter_WriteAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_System_String_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync``1(``0,System.String,System.Threading.CancellationToken)">WriteAsync&lt;T&gt;(T, String, CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_System_String_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync``1(``0,System.String,CancellationToken)">WriteAsync&lt;T&gt;(T, String, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Writes a single column in the current row as type <code data-dev-comment-type="paramref" class="paramref">dataTypeName</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task WriteAsync&lt;T&gt;(T value, string dataTypeName, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task WriteAsync&lt;T&gt;(T value, string dataTypeName, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -673,7 +706,7 @@ the database. This parameter and be used to unambiguously specify the type.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
@@ -689,7 +722,7 @@ the database. This parameter and be used to unambiguously specify the type.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -712,78 +745,6 @@ the database. This parameter and be used to unambiguously specify the type.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteAsync%60%601(%60%600%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L147">View Source</a>
-  </span>
-  <a id="Npgsql_NpgsqlBinaryImporter_WriteAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteAsync__1___0_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteAsync``1(``0,System.Threading.CancellationToken)">WriteAsync&lt;T&gt;(T, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Writes a single column in the current row.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task WriteAsync&lt;T&gt;(T value, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value to be written</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type of the column to be written. This must correspond to the actual type or data
-corruption will occur. If in doubt, use <a class="xref" href="Npgsql.NpgsqlBinaryImporter.html#Npgsql_NpgsqlBinaryImporter_Write__1___0_NpgsqlTypes_NpgsqlDbType_">Write&lt;T&gt;(T, NpgsqlDbType)</a> to manually
-specify the type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteNull.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -800,19 +761,19 @@ specify the type.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteNullAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteNullAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteNullAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteNullAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L310">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlBinaryImporter_WriteNullAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteNullAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteNullAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteNullAsync(System.Threading.CancellationToken)">WriteNullAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteNullAsync_CancellationToken_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteNullAsync(CancellationToken)">WriteNullAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Writes a single null column value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task WriteNullAsync(CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task WriteNullAsync(CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -825,7 +786,7 @@ specify the type.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
@@ -841,7 +802,7 @@ specify the type.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -884,13 +845,13 @@ on each value.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteRowAsync_System_Threading_CancellationToken_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteRowAsync(System.Threading.CancellationToken%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlBinaryImporter_WriteRowAsync_CancellationToken_System_Object___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlBinaryImporter.WriteRowAsync(CancellationToken%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlBinaryImporter.cs/#L346">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlBinaryImporter_WriteRowAsync_" data-uid="Npgsql.NpgsqlBinaryImporter.WriteRowAsync*"></a>
-  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteRowAsync_System_Threading_CancellationToken_System_Object___" data-uid="Npgsql.NpgsqlBinaryImporter.WriteRowAsync(System.Threading.CancellationToken,System.Object[])">WriteRowAsync(CancellationToken, Object[])</h4>
+  <h4 id="Npgsql_NpgsqlBinaryImporter_WriteRowAsync_CancellationToken_System_Object___" data-uid="Npgsql.NpgsqlBinaryImporter.WriteRowAsync(CancellationToken,System.Object[])">WriteRowAsync(CancellationToken, Object[])</h4>
   <div class="markdown level1 summary"><p>Writes an entire row of columns.
 Equivalent to calling <a class="xref" href="Npgsql.NpgsqlBinaryImporter.html#Npgsql_NpgsqlBinaryImporter_StartRow">StartRow()</a>, followed by multiple <a class="xref" href="Npgsql.NpgsqlBinaryImporter.html#Npgsql_NpgsqlBinaryImporter_Write__1___0_">Write&lt;T&gt;(T)</a>
 on each value.</p>
@@ -898,7 +859,7 @@ on each value.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task WriteRowAsync(CancellationToken cancellationToken = default(CancellationToken), params object[] values)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task WriteRowAsync(CancellationToken cancellationToken = null, params object[] values)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -911,7 +872,7 @@ on each value.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
@@ -933,17 +894,17 @@ on each value.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <span class="xref">IDisposable</span>
   </div>
   <div>
-      <span class="xref">System.IAsyncDisposable</span>
+      <span class="xref">IAsyncDisposable</span>
   </div>
 </article>
           </div>

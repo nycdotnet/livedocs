@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct NpgsqlDate
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -87,33 +87,52 @@
   <div class="markdown level0 conceptual"></div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a>&gt;</div>
-    <div><span class="xref">System.IComparable</span>&lt;<a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a>&gt;</div>
-    <div><span class="xref">System.IComparable</span></div>
-    <div><span class="xref">System.Collections.Generic.IComparer</span>&lt;<a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a>&gt;</div>
-    <div><span class="xref">System.Collections.IComparer</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a>&gt;</div>
+    <div><span class="xref">IComparable</span>&lt;<a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a>&gt;</div>
+    <div><span class="xref">IComparable</span></div>
+    <div><span class="xref">IComparer</span>&lt;<a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a>&gt;</div>
+    <div><span class="xref">IComparer</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NpgsqlTypes.html">NpgsqlTypes</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="NpgsqlTypes_NpgsqlDate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDate&gt;, IComparable, IComparer&lt;NpgsqlDate&gt;, IComparer</code></pre>
+    <pre><code class="lang-csharp hljs">public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDate&gt;, IComparable, IComparer&lt;NpgsqlDate&gt;, IComparer</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate__ctor_DateTime_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.%23ctor(DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L70">View Source</a>
+  </span>
+  <a id="NpgsqlTypes_NpgsqlDate__ctor_" data-uid="NpgsqlTypes.NpgsqlDate.#ctor*"></a>
+  <h4 id="NpgsqlTypes_NpgsqlDate__ctor_DateTime_" data-uid="NpgsqlTypes.NpgsqlDate.#ctor(DateTime)">NpgsqlDate(DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NpgsqlDate(DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate__ctor_NpgsqlTypes_NpgsqlDate_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.%23ctor(NpgsqlTypes.NpgsqlDate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -142,38 +161,6 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
       <tr>
         <td><a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a></td>
         <td><span class="parametername">copyFrom</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate__ctor_System_DateTime_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.%23ctor(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L70">View Source</a>
-  </span>
-  <a id="NpgsqlTypes_NpgsqlDate__ctor_" data-uid="NpgsqlTypes.NpgsqlDate.#ctor*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlDate__ctor_System_DateTime_" data-uid="NpgsqlTypes.NpgsqlDate.#ctor(System.DateTime)">NpgsqlDate(DateTime)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NpgsqlDate(DateTime dateTime)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.DateTime</span></td>
-        <td><span class="parametername">dateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -352,7 +339,7 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int MaxYear = 5874897</code></pre>
+    <pre><code class="lang-csharp hljs">public const int MaxYear = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -410,7 +397,7 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int MinYear = -4714</code></pre>
+    <pre><code class="lang-csharp hljs">public const int MinYear = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -513,7 +500,7 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DayOfWeek</span></td>
+        <td><span class="xref">DayOfWeek</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1092,18 +1079,18 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_Compare_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.Compare(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_Compare_System_Nullable_System_Object__System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.Compare(System.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L352">View Source</a>
   </span>
   <a id="NpgsqlTypes_NpgsqlDate_Compare_" data-uid="NpgsqlTypes.NpgsqlDate.Compare*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlDate_Compare_System_Object_System_Object_" data-uid="NpgsqlTypes.NpgsqlDate.Compare(System.Object,System.Object)">Compare(Object, Object)</h4>
+  <h4 id="NpgsqlTypes_NpgsqlDate_Compare_System_Nullable_System_Object__System_Nullable_System_Object__" data-uid="NpgsqlTypes.NpgsqlDate.Compare(System.Nullable{System.Object},System.Nullable{System.Object})">Compare(Nullable&lt;Object&gt;, Nullable&lt;Object&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Compare(object x, object y)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Compare(object? x, object? y)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1116,12 +1103,12 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">x</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">y</span></td>
         <td></td>
       </tr>
@@ -1191,18 +1178,18 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_CompareTo_System_Object_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.CompareTo(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_CompareTo_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.CompareTo(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L393">View Source</a>
   </span>
   <a id="NpgsqlTypes_NpgsqlDate_CompareTo_" data-uid="NpgsqlTypes.NpgsqlDate.CompareTo*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlDate_CompareTo_System_Object_" data-uid="NpgsqlTypes.NpgsqlDate.CompareTo(System.Object)">CompareTo(Object)</h4>
+  <h4 id="NpgsqlTypes_NpgsqlDate_CompareTo_System_Nullable_System_Object__" data-uid="NpgsqlTypes.NpgsqlDate.CompareTo(System.Nullable{System.Object})">CompareTo(Nullable&lt;Object&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CompareTo(object o)</code></pre>
+    <pre><code class="lang-csharp hljs">public int CompareTo(object? o)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1215,7 +1202,7 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">o</span></td>
         <td></td>
       </tr>
@@ -1285,18 +1272,18 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_Equals_System_Object_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_Equals_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.Equals(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L378">View Source</a>
   </span>
   <a id="NpgsqlTypes_NpgsqlDate_Equals_" data-uid="NpgsqlTypes.NpgsqlDate.Equals*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlDate_Equals_System_Object_" data-uid="NpgsqlTypes.NpgsqlDate.Equals(System.Object)">Equals(Object)</h4>
+  <h4 id="NpgsqlTypes_NpgsqlDate_Equals_System_Nullable_System_Object__" data-uid="NpgsqlTypes.NpgsqlDate.Equals(System.Nullable{System.Object})">Equals(Nullable&lt;Object&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1309,7 +1296,7 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
@@ -1330,8 +1317,6 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_GetHashCode.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1362,8 +1347,6 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_Parse_System_String_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.Parse(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1500,20 +1483,20 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_ToNpgsqlDate_System_DateTime_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.ToNpgsqlDate(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_ToNpgsqlDate_DateTime_.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.ToNpgsqlDate(DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L430">View Source</a>
   </span>
   <a id="NpgsqlTypes_NpgsqlDate_ToNpgsqlDate_" data-uid="NpgsqlTypes.NpgsqlDate.ToNpgsqlDate*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlDate_ToNpgsqlDate_System_DateTime_" data-uid="NpgsqlTypes.NpgsqlDate.ToNpgsqlDate(System.DateTime)">ToNpgsqlDate(DateTime)</h4>
+  <h4 id="NpgsqlTypes_NpgsqlDate_ToNpgsqlDate_DateTime_" data-uid="NpgsqlTypes.NpgsqlDate.ToNpgsqlDate(DateTime)">ToNpgsqlDate(DateTime)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1531,7 +1514,7 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td><span class="parametername">date</span></td>
         <td></td>
       </tr>
@@ -1582,8 +1565,6 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.ToString()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_TryParse_System_String_NpgsqlTypes_NpgsqlDate__.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.TryParse(System.String%2CNpgsqlTypes.NpgsqlDate%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1796,13 +1777,60 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_op_Explicit_NpgsqlTypes_NpgsqlDate__System_DateTime.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.op_Explicit(NpgsqlTypes.NpgsqlDate)~System.DateTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_op_Explicit_DateTime__NpgsqlTypes_NpgsqlDate.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.op_Explicit(DateTime)~NpgsqlTypes.NpgsqlDate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L433">View Source</a>
+  </span>
+  <a id="NpgsqlTypes_NpgsqlDate_op_Explicit_" data-uid="NpgsqlTypes.NpgsqlDate.op_Explicit*"></a>
+  <h4 id="NpgsqlTypes_NpgsqlDate_op_Explicit_DateTime__NpgsqlTypes_NpgsqlDate" data-uid="NpgsqlTypes.NpgsqlDate.op_Explicit(DateTime)~NpgsqlTypes.NpgsqlDate">Explicit(DateTime to NpgsqlDate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator NpgsqlDate(DateTime date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_op_Explicit_NpgsqlTypes_NpgsqlDate__DateTime.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.op_Explicit(NpgsqlTypes.NpgsqlDate)~DateTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L428">View Source</a>
   </span>
   <a id="NpgsqlTypes_NpgsqlDate_op_Explicit_" data-uid="NpgsqlTypes.NpgsqlDate.op_Explicit*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlDate_op_Explicit_NpgsqlTypes_NpgsqlDate__System_DateTime" data-uid="NpgsqlTypes.NpgsqlDate.op_Explicit(NpgsqlTypes.NpgsqlDate)~System.DateTime">Explicit(NpgsqlDate to DateTime)</h4>
+  <h4 id="NpgsqlTypes_NpgsqlDate_op_Explicit_NpgsqlTypes_NpgsqlDate__DateTime" data-uid="NpgsqlTypes.NpgsqlDate.op_Explicit(NpgsqlTypes.NpgsqlDate)~DateTime">Explicit(NpgsqlDate to DateTime)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1836,54 +1864,7 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=NpgsqlTypes_NpgsqlDate_op_Explicit_System_DateTime__NpgsqlTypes_NpgsqlDate.md&amp;value=---%0Auid%3A%20NpgsqlTypes.NpgsqlDate.op_Explicit(System.DateTime)~NpgsqlTypes.NpgsqlDate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlTypes/NpgsqlDate.cs/#L433">View Source</a>
-  </span>
-  <a id="NpgsqlTypes_NpgsqlDate_op_Explicit_" data-uid="NpgsqlTypes.NpgsqlDate.op_Explicit*"></a>
-  <h4 id="NpgsqlTypes_NpgsqlDate_op_Explicit_System_DateTime__NpgsqlTypes_NpgsqlDate" data-uid="NpgsqlTypes.NpgsqlDate.op_Explicit(System.DateTime)~NpgsqlTypes.NpgsqlDate">Explicit(DateTime to NpgsqlDate)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static explicit operator NpgsqlDate(DateTime date)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.DateTime</span></td>
-        <td><span class="parametername">date</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NpgsqlTypes.NpgsqlDate.html">NpgsqlDate</a></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2254,19 +2235,19 @@ public struct NpgsqlDate : IEquatable&lt;NpgsqlDate&gt;, IComparable&lt;NpgsqlDa
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
+      <span class="xref">IEquatable&lt;&gt;</span>
   </div>
   <div>
-      <span class="xref">System.IComparable&lt;T&gt;</span>
+      <span class="xref">IComparable&lt;&gt;</span>
   </div>
   <div>
-      <span class="xref">System.IComparable</span>
+      <span class="xref">IComparable</span>
   </div>
   <div>
-      <span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span>
+      <span class="xref">IComparer&lt;&gt;</span>
   </div>
   <div>
-      <span class="xref">System.Collections.IComparer</span>
+      <span class="xref">IComparer</span>
   </div>
 </article>
           </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface INpgsqlTypeMapper
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -153,7 +153,7 @@ A type mapper exists for each connection, as well as a single global type mapper
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Npgsql.TypeMapping.NpgsqlTypeMapping.html">NpgsqlTypeMapping</a>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Npgsql.TypeMapping.NpgsqlTypeMapping.html">NpgsqlTypeMapping</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -210,19 +210,19 @@ A type mapper exists for each connection, as well as a single global type mapper
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_MapComposite__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.MapComposite%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_MapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.MapComposite%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeMapping/INpgsqlTypeMapper.cs/#L108">View Source</a>
   </span>
   <a id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapComposite_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.MapComposite*"></a>
-  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapComposite__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.MapComposite``1(System.String,Npgsql.INpgsqlNameTranslator)">MapComposite&lt;T&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.MapComposite``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">MapComposite&lt;T&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Maps a CLR type to a PostgreSQL composite type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">INpgsqlTypeMapper MapComposite&lt;T&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)</code></pre>
+    <pre><code class="lang-csharp hljs">INpgsqlTypeMapper MapComposite&lt;T&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,7 +235,7 @@ A type mapper exists for each connection, as well as a single global type mapper
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -281,7 +281,7 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
       </tr>
     </tbody>
   </table>
-  <h5 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapComposite__1_System_String_Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
+  <h5 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>CLR fields and properties by string to PostgreSQL enum labels.
 The translation strategy can be controlled by the <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code> parameter,
 which defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTranslator.html">NpgsqlSnakeCaseNameTranslator</a>.
@@ -291,19 +291,19 @@ an exception will be raised.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.MapEnum%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.MapEnum%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeMapping/INpgsqlTypeMapper.cs/#L66">View Source</a>
   </span>
   <a id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapEnum_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.MapEnum*"></a>
-  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.MapEnum``1(System.String,Npgsql.INpgsqlNameTranslator)">MapEnum&lt;TEnum&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.MapEnum``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">MapEnum&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Maps a CLR enum to a PostgreSQL enum type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">INpgsqlTypeMapper MapEnum&lt;TEnum&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">INpgsqlTypeMapper MapEnum&lt;TEnum&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)
     where TEnum : struct, Enum</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -317,7 +317,7 @@ an exception will be raised.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -363,7 +363,7 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
       </tr>
     </tbody>
   </table>
-  <h5 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
+  <h5 id="Npgsql_TypeMapping_INpgsqlTypeMapper_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>CLR enum labels are mapped by name to PostgreSQL enum labels.
 The translation strategy can be controlled by the <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code> parameter,
 which defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTranslator.html">NpgsqlSnakeCaseNameTranslator</a>.
@@ -439,19 +439,19 @@ after removal will result in an exception.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapComposite__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapComposite%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapComposite%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeMapping/INpgsqlTypeMapper.cs/#L124">View Source</a>
   </span>
   <a id="Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapComposite_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapComposite*"></a>
-  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapComposite__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapComposite``1(System.String,Npgsql.INpgsqlNameTranslator)">UnmapComposite&lt;T&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapComposite``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">UnmapComposite&lt;T&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Removes an existing enum mapping.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool UnmapComposite&lt;T&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)</code></pre>
+    <pre><code class="lang-csharp hljs">bool UnmapComposite&lt;T&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -464,7 +464,7 @@ after removal will result in an exception.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding composite type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -511,19 +511,19 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapEnum%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapEnum%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeMapping/INpgsqlTypeMapper.cs/#L83">View Source</a>
   </span>
   <a id="Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapEnum_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapEnum*"></a>
-  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapEnum``1(System.String,Npgsql.INpgsqlNameTranslator)">UnmapEnum&lt;TEnum&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_TypeMapping_INpgsqlTypeMapper_UnmapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.TypeMapping.INpgsqlTypeMapper.UnmapEnum``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">UnmapEnum&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Removes an existing enum mapping.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool UnmapEnum&lt;TEnum&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">bool UnmapEnum&lt;TEnum&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)
     where TEnum : struct, Enum</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -537,7 +537,7 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code> will be used.</p>
@@ -599,7 +599,7 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
       <a class="xref" href="Npgsql.NpgsqlRawPostgisExtensions.html#Npgsql_NpgsqlRawPostgisExtensions_UseRawPostgis_Npgsql_TypeMapping_INpgsqlTypeMapper_">NpgsqlRawPostgisExtensions.UseRawPostgis(INpgsqlTypeMapper)</a>
   </div>
   <div>
-      <a class="xref" href="Npgsql.NpgsqlJsonNetExtensions.html#Npgsql_NpgsqlJsonNetExtensions_UseJsonNet_Npgsql_TypeMapping_INpgsqlTypeMapper_System_Type___System_Type___System_Nullable_JsonSerializerSettings__">NpgsqlJsonNetExtensions.UseJsonNet(INpgsqlTypeMapper, Type[], Type[], Nullable&lt;JsonSerializerSettings&gt;)</a>
+      <a class="xref" href="Npgsql.NpgsqlJsonNetExtensions.html#Npgsql_NpgsqlJsonNetExtensions_UseJsonNet_Npgsql_TypeMapping_INpgsqlTypeMapper_Type___Type___System_Nullable_JsonSerializerSettings__">NpgsqlJsonNetExtensions.UseJsonNet(INpgsqlTypeMapper, Type[], Type[], Nullable&lt;JsonSerializerSettings&gt;)</a>
   </div>
 </article>
           </div>

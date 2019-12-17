@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TextHandler
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -97,7 +97,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Npgsql.TypeHandling.INpgsqlTypeHandler-1.html">INpgsqlTypeHandler</a>&lt;<span class="xref">System.String</span>&gt;</div>
     <div><a class="xref" href="Npgsql.TypeHandling.INpgsqlTypeHandler-1.html">INpgsqlTypeHandler</a>&lt;<span class="xref">System.Char</span>[]&gt;</div>
-    <div><a class="xref" href="Npgsql.TypeHandling.INpgsqlTypeHandler-1.html">INpgsqlTypeHandler</a>&lt;<span class="xref">System.ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;&gt;</div>
+    <div><a class="xref" href="Npgsql.TypeHandling.INpgsqlTypeHandler-1.html">INpgsqlTypeHandler</a>&lt;<span class="xref">ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;&gt;</div>
     <div><a class="xref" href="Npgsql.TypeHandling.INpgsqlTypeHandler-1.html">INpgsqlTypeHandler</a>&lt;<span class="xref">System.Char</span>&gt;</div>
     <div><a class="xref" href="Npgsql.TypeHandling.INpgsqlTypeHandler-1.html">INpgsqlTypeHandler</a>&lt;<span class="xref">System.Byte</span>[]&gt;</div>
   </div>
@@ -125,28 +125,7 @@
       <a class="xref" href="Npgsql.TypeHandling.NpgsqlTypeHandler-1.html#Npgsql_TypeHandling_NpgsqlTypeHandler_1_CreateRangeHandler_Npgsql_PostgresTypes_PostgresRangeType_">NpgsqlTypeHandler&lt;String&gt;.CreateRangeHandler(PostgresRangeType)</a>
     </div>
     <div>
-      <a class="xref" href="Npgsql.TypeHandling.NpgsqlTypeHandler.html#Npgsql_TypeHandling_NpgsqlTypeHandler_CreateConversionButNoParamException_System_Type_">NpgsqlTypeHandler.CreateConversionButNoParamException(Type)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="Npgsql.TypeHandling.NpgsqlTypeHandler.html#Npgsql_TypeHandling_NpgsqlTypeHandler_CreateConversionButNoParamException_Type_">NpgsqlTypeHandler.CreateConversionButNoParamException(Type)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.TypeHandlers.html">Npgsql.TypeHandlers</a></h6>
@@ -163,6 +142,43 @@ Use it at your own risk.</p>
 </div>
   <h3 id="constructors">Constructors
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler__ctor_Npgsql_PostgresTypes_PostgresType_Encoding_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.%23ctor(Npgsql.PostgresTypes.PostgresType%2CEncoding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeHandlers/TextHandler.cs/#L74">View Source</a>
+  </span>
+  <a id="Npgsql_TypeHandlers_TextHandler__ctor_" data-uid="Npgsql.TypeHandlers.TextHandler.#ctor*"></a>
+  <h4 id="Npgsql_TypeHandlers_TextHandler__ctor_Npgsql_PostgresTypes_PostgresType_Encoding_" data-uid="Npgsql.TypeHandlers.TextHandler.#ctor(Npgsql.PostgresTypes.PostgresType,Encoding)">TextHandler(PostgresType, Encoding)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TextHandler(PostgresType postgresType, Encoding encoding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Npgsql.PostgresTypes.PostgresType.html">PostgresType</a></td>
+        <td><span class="parametername">postgresType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Encoding</span></td>
+        <td><span class="parametername">encoding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler__ctor_Npgsql_PostgresTypes_PostgresType_Npgsql_NpgsqlConnection_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.%23ctor(Npgsql.PostgresTypes.PostgresType%2CNpgsql.NpgsqlConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -200,54 +216,17 @@ Use it at your own risk.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler__ctor_Npgsql_PostgresTypes_PostgresType_System_Text_Encoding_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.%23ctor(Npgsql.PostgresTypes.PostgresType%2CSystem.Text.Encoding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeHandlers/TextHandler.cs/#L74">View Source</a>
-  </span>
-  <a id="Npgsql_TypeHandlers_TextHandler__ctor_" data-uid="Npgsql.TypeHandlers.TextHandler.#ctor*"></a>
-  <h4 id="Npgsql_TypeHandlers_TextHandler__ctor_Npgsql_PostgresTypes_PostgresType_System_Text_Encoding_" data-uid="Npgsql.TypeHandlers.TextHandler.#ctor(Npgsql.PostgresTypes.PostgresType,System.Text.Encoding)">TextHandler(PostgresType, Encoding)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TextHandler(PostgresType postgresType, Encoding encoding)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Npgsql.PostgresTypes.PostgresType.html">PostgresType</a></td>
-        <td><span class="parametername">postgresType</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Text.Encoding</span></td>
-        <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_GetTextReader_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.GetTextReader(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_GetTextReader_Stream_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.GetTextReader(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeHandlers/TextHandler.cs/#L312">View Source</a>
   </span>
   <a id="Npgsql_TypeHandlers_TextHandler_GetTextReader_" data-uid="Npgsql.TypeHandlers.TextHandler.GetTextReader*"></a>
-  <h4 id="Npgsql_TypeHandlers_TextHandler_GetTextReader_System_IO_Stream_" data-uid="Npgsql.TypeHandlers.TextHandler.GetTextReader(System.IO.Stream)">GetTextReader(Stream)</h4>
+  <h4 id="Npgsql_TypeHandlers_TextHandler_GetTextReader_Stream_" data-uid="Npgsql.TypeHandlers.TextHandler.GetTextReader(Stream)">GetTextReader(Stream)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -265,7 +244,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="xref">Stream</span></td>
         <td><span class="parametername">stream</span></td>
         <td></td>
       </tr>
@@ -281,7 +260,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.TextReader</span></td>
+        <td><span class="xref">TextReader</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -343,7 +322,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -352,13 +331,13 @@ Use it at your own risk.</p>
   <div><span class="xref">Npgsql.TypeHandling.NpgsqlTypeHandler&lt;System.String&gt;.Read(Npgsql.NpgsqlReadBuffer, System.Int32, System.Boolean, Npgsql.BackendMessages.FieldDescription)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_ValidateAndGetLength_System_ArraySegment_System_Char__Npgsql_NpgsqlLengthCache__Npgsql_NpgsqlParameter_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.ValidateAndGetLength(System.ArraySegment%7BSystem.Char%7D%2CNpgsql.NpgsqlLengthCache%40%2CNpgsql.NpgsqlParameter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_ValidateAndGetLength_ArraySegment_System_Char__Npgsql_NpgsqlLengthCache__Npgsql_NpgsqlParameter_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.ValidateAndGetLength(ArraySegment%7BSystem.Char%7D%2CNpgsql.NpgsqlLengthCache%40%2CNpgsql.NpgsqlParameter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeHandlers/TextHandler.cs/#L248">View Source</a>
   </span>
   <a id="Npgsql_TypeHandlers_TextHandler_ValidateAndGetLength_" data-uid="Npgsql.TypeHandlers.TextHandler.ValidateAndGetLength*"></a>
-  <h4 id="Npgsql_TypeHandlers_TextHandler_ValidateAndGetLength_System_ArraySegment_System_Char__Npgsql_NpgsqlLengthCache__Npgsql_NpgsqlParameter_" data-uid="Npgsql.TypeHandlers.TextHandler.ValidateAndGetLength(System.ArraySegment{System.Char},Npgsql.NpgsqlLengthCache@,Npgsql.NpgsqlParameter)">ValidateAndGetLength(ArraySegment&lt;Char&gt;, ref NpgsqlLengthCache, NpgsqlParameter)</h4>
+  <h4 id="Npgsql_TypeHandlers_TextHandler_ValidateAndGetLength_ArraySegment_System_Char__Npgsql_NpgsqlLengthCache__Npgsql_NpgsqlParameter_" data-uid="Npgsql.TypeHandlers.TextHandler.ValidateAndGetLength(ArraySegment{System.Char},Npgsql.NpgsqlLengthCache@,Npgsql.NpgsqlParameter)">ValidateAndGetLength(ArraySegment&lt;Char&gt;, ref NpgsqlLengthCache, NpgsqlParameter)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -376,7 +355,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="xref">ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;</td>
         <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
@@ -639,13 +618,13 @@ Use it at your own risk.</p>
   <div><span class="xref">Npgsql.TypeHandling.NpgsqlTypeHandler&lt;System.String&gt;.ValidateAndGetLength(System.String, Npgsql.NpgsqlLengthCache, Npgsql.NpgsqlParameter)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_Write_System_ArraySegment_System_Char__Npgsql_NpgsqlWriteBuffer_Npgsql_NpgsqlLengthCache_Npgsql_NpgsqlParameter_System_Boolean_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.Write(System.ArraySegment%7BSystem.Char%7D%2CNpgsql.NpgsqlWriteBuffer%2CNpgsql.NpgsqlLengthCache%2CNpgsql.NpgsqlParameter%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_Write_ArraySegment_System_Char__Npgsql_NpgsqlWriteBuffer_Npgsql_NpgsqlLengthCache_Npgsql_NpgsqlParameter_System_Boolean_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.Write(ArraySegment%7BSystem.Char%7D%2CNpgsql.NpgsqlWriteBuffer%2CNpgsql.NpgsqlLengthCache%2CNpgsql.NpgsqlParameter%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeHandlers/TextHandler.cs/#L286">View Source</a>
   </span>
   <a id="Npgsql_TypeHandlers_TextHandler_Write_" data-uid="Npgsql.TypeHandlers.TextHandler.Write*"></a>
-  <h4 id="Npgsql_TypeHandlers_TextHandler_Write_System_ArraySegment_System_Char__Npgsql_NpgsqlWriteBuffer_Npgsql_NpgsqlLengthCache_Npgsql_NpgsqlParameter_System_Boolean_" data-uid="Npgsql.TypeHandlers.TextHandler.Write(System.ArraySegment{System.Char},Npgsql.NpgsqlWriteBuffer,Npgsql.NpgsqlLengthCache,Npgsql.NpgsqlParameter,System.Boolean)">Write(ArraySegment&lt;Char&gt;, NpgsqlWriteBuffer, NpgsqlLengthCache, NpgsqlParameter, Boolean)</h4>
+  <h4 id="Npgsql_TypeHandlers_TextHandler_Write_ArraySegment_System_Char__Npgsql_NpgsqlWriteBuffer_Npgsql_NpgsqlLengthCache_Npgsql_NpgsqlParameter_System_Boolean_" data-uid="Npgsql.TypeHandlers.TextHandler.Write(ArraySegment{System.Char},Npgsql.NpgsqlWriteBuffer,Npgsql.NpgsqlLengthCache,Npgsql.NpgsqlParameter,System.Boolean)">Write(ArraySegment&lt;Char&gt;, NpgsqlWriteBuffer, NpgsqlLengthCache, NpgsqlParameter, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -663,7 +642,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="xref">ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;</td>
         <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
@@ -699,7 +678,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -766,7 +745,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -833,7 +812,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -900,7 +879,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -967,7 +946,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -978,13 +957,13 @@ Use it at your own risk.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_Npgsql_TypeHandling_INpgsqlTypeHandler_System_ArraySegment_System_Char___Read_Npgsql_NpgsqlReadBuffer_System_Int32_System_Boolean_Npgsql_BackendMessages_FieldDescription_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.Npgsql%23TypeHandling%23INpgsqlTypeHandler%7BSystem%23ArraySegment%7BSystem%23Char%7D%7D%23Read(Npgsql.NpgsqlReadBuffer%2CSystem.Int32%2CSystem.Boolean%2CNpgsql.BackendMessages.FieldDescription)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_TypeHandlers_TextHandler_Npgsql_TypeHandling_INpgsqlTypeHandler_ArraySegment_System_Char___Read_Npgsql_NpgsqlReadBuffer_System_Int32_System_Boolean_Npgsql_BackendMessages_FieldDescription_.md&amp;value=---%0Auid%3A%20Npgsql.TypeHandlers.TextHandler.Npgsql%23TypeHandling%23INpgsqlTypeHandler%7BArraySegment%7BSystem%23Char%7D%7D%23Read(Npgsql.NpgsqlReadBuffer%2CSystem.Int32%2CSystem.Boolean%2CNpgsql.BackendMessages.FieldDescription)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/TypeHandlers/TextHandler.cs/#L165">View Source</a>
   </span>
-  <a id="Npgsql_TypeHandlers_TextHandler_Npgsql_TypeHandling_INpgsqlTypeHandler_System_ArraySegment_System_Char___Read_" data-uid="Npgsql.TypeHandlers.TextHandler.Npgsql#TypeHandling#INpgsqlTypeHandler{System#ArraySegment{System#Char}}#Read*"></a>
-  <h4 id="Npgsql_TypeHandlers_TextHandler_Npgsql_TypeHandling_INpgsqlTypeHandler_System_ArraySegment_System_Char___Read_Npgsql_NpgsqlReadBuffer_System_Int32_System_Boolean_Npgsql_BackendMessages_FieldDescription_" data-uid="Npgsql.TypeHandlers.TextHandler.Npgsql#TypeHandling#INpgsqlTypeHandler{System#ArraySegment{System#Char}}#Read(Npgsql.NpgsqlReadBuffer,System.Int32,System.Boolean,Npgsql.BackendMessages.FieldDescription)">INpgsqlTypeHandler&lt;ArraySegment&lt;Char&gt;&gt;.Read(NpgsqlReadBuffer, Int32, Boolean, FieldDescription)</h4>
+  <a id="Npgsql_TypeHandlers_TextHandler_Npgsql_TypeHandling_INpgsqlTypeHandler_ArraySegment_System_Char___Read_" data-uid="Npgsql.TypeHandlers.TextHandler.Npgsql#TypeHandling#INpgsqlTypeHandler{ArraySegment{System#Char}}#Read*"></a>
+  <h4 id="Npgsql_TypeHandlers_TextHandler_Npgsql_TypeHandling_INpgsqlTypeHandler_ArraySegment_System_Char___Read_Npgsql_NpgsqlReadBuffer_System_Int32_System_Boolean_Npgsql_BackendMessages_FieldDescription_" data-uid="Npgsql.TypeHandlers.TextHandler.Npgsql#TypeHandling#INpgsqlTypeHandler{ArraySegment{System#Char}}#Read(Npgsql.NpgsqlReadBuffer,System.Int32,System.Boolean,Npgsql.BackendMessages.FieldDescription)">INpgsqlTypeHandler&lt;ArraySegment&lt;Char&gt;&gt;.Read(NpgsqlReadBuffer, Int32, Boolean, FieldDescription)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1033,7 +1012,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<span class="xref">System.ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1095,7 +1074,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1157,7 +1136,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<span class="xref">System.Char</span>[]&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">System.Char</span>[]&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1219,7 +1198,7 @@ Use it at your own risk.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">System.Char</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

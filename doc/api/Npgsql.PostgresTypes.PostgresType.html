@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PostgresType
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -99,32 +99,11 @@ This class is abstract, see derived classes for concrete types of PostgreSQL typ
       <div class="level2"><a class="xref" href="Npgsql.PostgresTypes.PostgresRangeType.html">PostgresRangeType</a></div>
       <div class="level2"><a class="xref" href="Npgsql.PostgresTypes.UnknownBackendType.html">UnknownBackendType</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.PostgresTypes.html">Npgsql.PostgresTypes</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_PostgresTypes_PostgresType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class PostgresType</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PostgresType : object</code></pre>
   </div>
   <h5 id="Npgsql_PostgresTypes_PostgresType_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>Instances of this class are shared between connections to the same databases.
@@ -522,8 +501,6 @@ Otherwise null.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
 </article>
           </div>
           

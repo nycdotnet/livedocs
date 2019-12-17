@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlCommandBuilder
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -89,111 +89,13 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
-    <div class="level2"><span class="xref">System.ComponentModel.Component</span></div>
-    <div class="level3"><span class="xref">System.Data.Common.DbCommandBuilder</span></div>
-    <div class="level4"><span class="xref">NpgsqlCommandBuilder</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.ComponentModel.IComponent</span></div>
-    <div><span class="xref">System.IDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.Dispose(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.GetSchemaTable(System.Data.Common.DbCommand)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.InitializeCommand(System.Data.Common.DbCommand)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.RefreshSchema()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.RowUpdatingHandler(System.Data.Common.RowUpdatingEventArgs)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.CatalogLocation</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.CatalogSeparator</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.ConflictOption</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.DataAdapter</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.SchemaSeparator</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbCommandBuilder.SetAllValues</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Dispose()</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.GetService(System.Type)</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.CanRaiseEvents</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Container</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.DesignMode</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Events</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Site</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Disposed</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.InitializeLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
+    <div class="level1"><span class="xref">NpgsqlCommandBuilder</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.html">Npgsql</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_NpgsqlCommandBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NpgsqlCommandBuilder : DbCommandBuilder, IComponent, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NpgsqlCommandBuilder : DbCommandBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -281,8 +183,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.QuotePrefix</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_QuoteSuffix.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.QuoteSuffix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -315,25 +215,23 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.QuoteSuffix</span></div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_ApplyParameterInfo_System_Data_Common_DbParameter_System_Data_DataRow_System_Data_StatementType_System_Boolean_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.ApplyParameterInfo(System.Data.Common.DbParameter%2CSystem.Data.DataRow%2CSystem.Data.StatementType%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_ApplyParameterInfo_DbParameter_DataRow_System_Data_StatementType_System_Boolean_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.ApplyParameterInfo(DbParameter%2CDataRow%2CSystem.Data.StatementType%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommandBuilder.cs/#L211">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommandBuilder_ApplyParameterInfo_" data-uid="Npgsql.NpgsqlCommandBuilder.ApplyParameterInfo*"></a>
-  <h4 id="Npgsql_NpgsqlCommandBuilder_ApplyParameterInfo_System_Data_Common_DbParameter_System_Data_DataRow_System_Data_StatementType_System_Boolean_" data-uid="Npgsql.NpgsqlCommandBuilder.ApplyParameterInfo(System.Data.Common.DbParameter,System.Data.DataRow,System.Data.StatementType,System.Boolean)">ApplyParameterInfo(DbParameter, DataRow, StatementType, Boolean)</h4>
+  <h4 id="Npgsql_NpgsqlCommandBuilder_ApplyParameterInfo_DbParameter_DataRow_System_Data_StatementType_System_Boolean_" data-uid="Npgsql.NpgsqlCommandBuilder.ApplyParameterInfo(DbParameter,DataRow,System.Data.StatementType,System.Boolean)">ApplyParameterInfo(DbParameter, DataRow, Data.StatementType, Boolean)</h4>
   <div class="markdown level1 summary"><p>Applies the parameter information.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void ApplyParameterInfo(DbParameter p, DataRow row, StatementType statementType, bool whereClause)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void ApplyParameterInfo(DbParameter p, DataRow row, Data.StatementType statementType, bool whereClause)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -346,13 +244,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbParameter</span></td>
+        <td><span class="xref">DbParameter</span></td>
         <td><span class="parametername">p</span></td>
         <td><p>The parameter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Data.DataRow</span></td>
+        <td><span class="xref">DataRow</span></td>
         <td><span class="parametername">row</span></td>
         <td><p>The row.</p>
 </td>
@@ -371,8 +269,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.ApplyParameterInfo(System.Data.Common.DbParameter, System.Data.DataRow, System.Data.StatementType, System.Boolean)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_DeriveParameters_Npgsql_NpgsqlCommand_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.DeriveParameters(Npgsql.NpgsqlCommand)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -629,8 +525,6 @@ If <code>false</code>, generate @p1, @p2, and so on.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.GetParameterName(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_GetParameterName_System_String_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.GetParameterName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -681,8 +575,6 @@ If <code>false</code>, generate @p1, @p2, and so on.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.GetParameterName(System.String)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_GetParameterPlaceholder_System_Int32_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.GetParameterPlaceholder(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -733,8 +625,6 @@ If <code>false</code>, generate @p1, @p2, and so on.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.GetParameterPlaceholder(System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_GetUpdateCommand.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.GetUpdateCommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -870,33 +760,15 @@ If <code>false</code>, generate @p1, @p2, and so on.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.QuoteIdentifier(System.String)</span></div>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>Unquoted identifier parameter cannot be null</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_SetRowUpdatingHandler_System_Data_Common_DbDataAdapter_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.SetRowUpdatingHandler(System.Data.Common.DbDataAdapter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_SetRowUpdatingHandler_DbDataAdapter_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.SetRowUpdatingHandler(DbDataAdapter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlCommandBuilder.cs/#L251">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlCommandBuilder_SetRowUpdatingHandler_" data-uid="Npgsql.NpgsqlCommandBuilder.SetRowUpdatingHandler*"></a>
-  <h4 id="Npgsql_NpgsqlCommandBuilder_SetRowUpdatingHandler_System_Data_Common_DbDataAdapter_" data-uid="Npgsql.NpgsqlCommandBuilder.SetRowUpdatingHandler(System.Data.Common.DbDataAdapter)">SetRowUpdatingHandler(DbDataAdapter)</h4>
+  <h4 id="Npgsql_NpgsqlCommandBuilder_SetRowUpdatingHandler_DbDataAdapter_" data-uid="Npgsql.NpgsqlCommandBuilder.SetRowUpdatingHandler(DbDataAdapter)">SetRowUpdatingHandler(DbDataAdapter)</h4>
   <div class="markdown level1 summary"><p>Registers the <a class="xref" href="Npgsql.NpgsqlCommandBuilder.html">NpgsqlCommandBuilder</a> to handle the <a class="xref" href="Npgsql.NpgsqlDataAdapter.html#Npgsql_NpgsqlDataAdapter_RowUpdating">RowUpdating</a> event for a <a class="xref" href="Npgsql.NpgsqlDataAdapter.html">NpgsqlDataAdapter</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -915,15 +787,13 @@ If <code>false</code>, generate @p1, @p2, and so on.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbDataAdapter</span></td>
+        <td><span class="xref">DbDataAdapter</span></td>
         <td><span class="parametername">adapter</span></td>
-        <td><p>The <span class="xref">System.Data.Common.DbDataAdapter</span> to be used for the update.</p>
+        <td><p>The <see cref="!:System.Data.Common.DbDataAdapter"></see> to be used for the update.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.SetRowUpdatingHandler(System.Data.Common.DbDataAdapter)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlCommandBuilder_UnquoteIdentifier_System_String_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlCommandBuilder.UnquoteIdentifier(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -974,31 +844,6 @@ If <code>false</code>, generate @p1, @p2, and so on.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbCommandBuilder.UnquoteIdentifier(System.String)</span></div>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>Quoted identifier parameter cannot be null</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.ComponentModel.IComponent</span>
-  </div>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
 </article>
           </div>
           

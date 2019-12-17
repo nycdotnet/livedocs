@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlSimpleTypeHandlerWithPsv&lt;TDefault, TPsv&gt;
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -85,9 +85,9 @@
   </h1>
   <div class="markdown level0 summary"><p>A simple type handler that supports a provider-specific value in addition to its default value.
 This is necessary mainly in cases where the CLR type cannot represent the full range of the
-PostgreSQL type, and a custom CLR type is needed (e.g. <span class="xref">System.DateTime</span> and
+PostgreSQL type, and a custom CLR type is needed (e.g. <see cref="!:DateTime"></see> and
 <a class="xref" href="NpgsqlTypes.NpgsqlDateTime.html">NpgsqlDateTime</a>). The provider-specific type <code data-dev-comment-type="typeparamref" class="typeparamref">TPsv</code> will be returned
-from calls to <span class="xref">System.Data.Common.DbDataReader.GetProviderSpecificValue(System.Int32)</span>.</p>
+from calls to <see cref="!:DbDataReader.GetProviderSpecificValue"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -147,28 +147,7 @@ from calls to <span class="xref">System.Data.Common.DbDataReader.GetProviderSpec
       <a class="xref" href="Npgsql.TypeHandling.NpgsqlTypeHandler-1.html#Npgsql_TypeHandling_NpgsqlTypeHandler_1_CreateRangeHandler_Npgsql_PostgresTypes_PostgresRangeType_">NpgsqlTypeHandler&lt;TDefault&gt;.CreateRangeHandler(PostgresRangeType)</a>
     </div>
     <div>
-      <a class="xref" href="Npgsql.TypeHandling.NpgsqlTypeHandler.html#Npgsql_TypeHandling_NpgsqlTypeHandler_CreateConversionButNoParamException_System_Type_">NpgsqlTypeHandler.CreateConversionButNoParamException(Type)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="Npgsql.TypeHandling.NpgsqlTypeHandler.html#Npgsql_TypeHandling_NpgsqlTypeHandler_CreateConversionButNoParamException_Type_">NpgsqlTypeHandler.CreateConversionButNoParamException(Type)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.TypeHandling.html">Npgsql.TypeHandling</a></h6>
@@ -188,7 +167,7 @@ from calls to <span class="xref">System.Data.Common.DbDataReader.GetProviderSpec
     <tbody>
       <tr>
         <td><span class="parametername">TDefault</span></td>
-        <td><p>The default CLR type that this handler will read and write. For example, calling <span class="xref">System.Data.Common.DbDataReader.GetValue(System.Int32)</span>
+        <td><p>The default CLR type that this handler will read and write. For example, calling <see cref="!:DbDataReader.GetValue"></see>
 on a column with this handler will return a value with type <code data-dev-comment-type="typeparamref" class="typeparamref">TDefault</code>.
 Type handlers can support additional types by implementing <a class="xref" href="Npgsql.TypeHandling.INpgsqlTypeHandler-1.html">INpgsqlTypeHandler&lt;T&gt;</a>.</p>
 </td>

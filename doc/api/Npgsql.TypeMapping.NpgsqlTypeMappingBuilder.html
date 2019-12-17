@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlTypeMappingBuilder
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -91,35 +91,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">NpgsqlTypeMappingBuilder</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.TypeMapping.html">Npgsql.TypeMapping</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_TypeMapping_NpgsqlTypeMappingBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NpgsqlTypeMappingBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public class NpgsqlTypeMappingBuilder : object</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -151,7 +127,7 @@ to one of these types will make Npgsql write its value to PostgreSQL with this m
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="xref">Type</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -165,7 +141,7 @@ to one of these types will make Npgsql write its value to PostgreSQL with this m
   </span>
   <a id="Npgsql_TypeMapping_NpgsqlTypeMappingBuilder_DbTypes_" data-uid="Npgsql.TypeMapping.NpgsqlTypeMappingBuilder.DbTypes*"></a>
   <h4 id="Npgsql_TypeMapping_NpgsqlTypeMappingBuilder_DbTypes" data-uid="Npgsql.TypeMapping.NpgsqlTypeMappingBuilder.DbTypes">DbTypes</h4>
-  <div class="markdown level1 summary"><p>A set of <span class="xref">System.Data.DbType</span>s that correspond to this type. Setting an
+  <div class="markdown level1 summary"><p>A set of <see cref="!:DbType"></see>s that correspond to this type. Setting an
 <a class="xref" href="Npgsql.NpgsqlParameter.html">NpgsqlParameter</a>&apos;s <a class="xref" href="Npgsql.NpgsqlParameter.html#Npgsql_NpgsqlParameter_DbType">DbType</a> property
 to one of these values will make Npgsql write its value to PostgreSQL with this mapping.</p>
 </div>
@@ -184,7 +160,7 @@ to one of these values will make Npgsql write its value to PostgreSQL with this 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.DbType</span>[]</td>
+        <td><span class="xref">DbType</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -216,7 +192,7 @@ is used.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Data.DbType</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DbType</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -268,7 +244,7 @@ to this value will make Npgsql write its value to PostgreSQL with this mapping.<
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PgTypeName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? PgTypeName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -280,7 +256,7 @@ to this value will make Npgsql write its value to PostgreSQL with this mapping.<
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

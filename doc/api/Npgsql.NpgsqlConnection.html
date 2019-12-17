@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NpgsqlConnection
    | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.0.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -89,111 +89,17 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
-    <div class="level2"><span class="xref">System.ComponentModel.Component</span></div>
-    <div class="level3"><span class="xref">System.Data.Common.DbConnection</span></div>
-    <div class="level4"><span class="xref">NpgsqlConnection</span></div>
+    <div class="level1"><span class="xref">NpgsqlConnection</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.ComponentModel.IComponent</span></div>
-    <div><span class="xref">System.Data.IDbConnection</span></div>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.IAsyncDisposable</span></div>
-    <div><span class="xref">System.ICloneable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.ChangeDatabaseAsync(System.String, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.OnStateChange(System.Data.StateChangeEventArgs)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.OpenAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.System.Data.IDbConnection.BeginTransaction()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.System.Data.IDbConnection.BeginTransaction(System.Data.IsolationLevel)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.BeginDbTransactionAsync(System.Data.IsolationLevel, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.BeginTransactionAsync(System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.BeginTransactionAsync(System.Data.IsolationLevel, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.System.Data.IDbConnection.CreateCommand()</span>
-    </div>
-    <div>
-      <span class="xref">System.Data.Common.DbConnection.StateChange</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Dispose()</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.GetService(System.Type)</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.CanRaiseEvents</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Container</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.DesignMode</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Events</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Site</span>
-    </div>
-    <div>
-      <span class="xref">System.ComponentModel.Component.Disposed</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.InitializeLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
+    <div><span class="xref">ICloneable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Npgsql.html">Npgsql</a></h6>
   <h6><strong>Assembly</strong>: Npgsql.dll</h6>
   <h5 id="Npgsql_NpgsqlConnection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NpgsqlConnection : DbConnection, IComponent, IDbConnection, IDisposable, IAsyncDisposable, ICloneable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NpgsqlConnection : DbConnection, ICloneable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -263,7 +169,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int DefaultPort = 5432</code></pre>
+    <pre><code class="lang-csharp hljs">public const int DefaultPort = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -349,8 +255,6 @@ the initial connection. The default value is an empty string.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.ConnectionString</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_ConnectionTimeout.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.ConnectionTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -384,8 +288,6 @@ before terminating the attempt and generating an error.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.ConnectionTimeout</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_Database.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.Database%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -400,7 +302,7 @@ before terminating the attempt and generating an error.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Database { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override string? Database { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -412,15 +314,13 @@ before terminating the attempt and generating an error.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><p>The name of the current database or the name of the database to be
 used after a connection is opened. The default value is the empty string.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.Database</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_DataSource.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.DataSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -452,8 +352,6 @@ used after a connection is opened. The default value is the empty string.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.DataSource</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_DbProviderFactory.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.DbProviderFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -480,13 +378,11 @@ used after a connection is opened. The default value is the empty string.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbProviderFactory</span></td>
+        <td><span class="xref">DbProviderFactory</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.DbProviderFactory</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_FullState.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.FullState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -501,8 +397,7 @@ used after a connection is opened. The default value is the empty string.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-public ConnectionState FullState { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ConnectionState FullState { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -514,8 +409,8 @@ public ConnectionState FullState { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.ConnectionState</span></td>
-        <td><p>A bitwise combination of the <span class="xref">System.Data.ConnectionState</span> values. The default is <strong>Closed</strong>.</p>
+        <td><span class="xref">ConnectionState</span></td>
+        <td><p>A bitwise combination of the <see cref="!:System.Data.ConnectionState">ConnectionState</see> values. The default is <strong>Closed</strong>.</p>
 </td>
       </tr>
     </tbody>
@@ -568,8 +463,7 @@ Meant for use by type plugins (e.g. NodaTime)</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-public bool HasIntegerDateTimes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool HasIntegerDateTimes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -600,8 +494,7 @@ public bool HasIntegerDateTimes { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(true)]
-public string Host { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Host { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -613,7 +506,7 @@ public string Host { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -663,8 +556,7 @@ public string Host { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(true)]
-public int Port { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Port { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -696,8 +588,7 @@ public int Port { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-public IReadOnlyDictionary&lt;string, string&gt; PostgresParameters { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;string, string&gt; PostgresParameters { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -709,7 +600,7 @@ public IReadOnlyDictionary&lt;string, string&gt; PostgresParameters { get; }</co
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -729,8 +620,7 @@ This can only be called when there is an active connection.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-public Version PostgreSqlVersion { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Version PostgreSqlVersion { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -742,7 +632,7 @@ public Version PostgreSqlVersion { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Version</span></td>
+        <td><span class="xref">Version</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -762,8 +652,7 @@ This can only be called when there is an active connection.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-public int ProcessID { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int ProcessID { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -885,8 +774,6 @@ is opened, not when reusing a connection that was previously opened from the poo
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.ServerVersion</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_State.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -901,8 +788,7 @@ is opened, not when reusing a connection that was previously opened from the poo
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-public override ConnectionState State { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override ConnectionState State { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -914,14 +800,12 @@ public override ConnectionState State { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.ConnectionState</span></td>
+        <td><span class="xref">ConnectionState</span></td>
         <td><p>ConnectionState.Open, ConnectionState.Closed or ConnectionState.Connecting</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.State</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_Timezone.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.Timezone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -936,8 +820,7 @@ public override ConnectionState State { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-public string Timezone { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Timezone { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1001,7 +884,7 @@ Ignored if <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html#Npgsq
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RemoteCertificateValidationCallback UserCertificateValidationCallback { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public RemoteCertificateValidationCallback? UserCertificateValidationCallback { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1013,7 +896,7 @@ Ignored if <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html#Npgsq
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Security.RemoteCertificateValidationCallback</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">RemoteCertificateValidationCallback</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1035,7 +918,7 @@ Ignored if <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html#Npgsq
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string UserName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? UserName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1047,7 +930,7 @@ Ignored if <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html#Npgsq
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1168,13 +1051,13 @@ Ignored if <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html#Npgsq
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L498">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_BeginDbTransaction_" data-uid="Npgsql.NpgsqlConnection.BeginDbTransaction*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_BeginDbTransaction_System_Data_IsolationLevel_" data-uid="Npgsql.NpgsqlConnection.BeginDbTransaction(System.Data.IsolationLevel)">BeginDbTransaction(IsolationLevel)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_BeginDbTransaction_System_Data_IsolationLevel_" data-uid="Npgsql.NpgsqlConnection.BeginDbTransaction(System.Data.IsolationLevel)">BeginDbTransaction(Data.IsolationLevel)</h4>
   <div class="markdown level1 summary"><p>Begins a database transaction with the specified isolation level.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override DbTransaction BeginDbTransaction(IsolationLevel isolationLevel)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override DbTransaction BeginDbTransaction(Data.IsolationLevel isolationLevel)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1189,7 +1072,7 @@ Ignored if <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html#Npgsq
       <tr>
         <td><span class="xref">System.Data.IsolationLevel</span></td>
         <td><span class="parametername">isolationLevel</span></td>
-        <td><p>The <span class="xref">System.Data.IsolationLevel</span> under which the transaction should run.</p>
+        <td><p>The <see cref="!:System.Data.IsolationLevel">isolation level</see> under which the transaction should run.</p>
 </td>
       </tr>
     </tbody>
@@ -1204,15 +1087,13 @@ Ignored if <a class="xref" href="Npgsql.NpgsqlConnectionStringBuilder.html#Npgsq
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbTransaction</span></td>
-        <td><p>An <span class="xref">System.Data.Common.DbTransaction</span>
+        <td><span class="xref">DbTransaction</span></td>
+        <td><p>An <see cref="!:System.Data.Common.DbTransaction">DbTransaction</see>
 object representing the new transaction.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.BeginDbTransaction(System.Data.IsolationLevel)</span></div>
   <h5 id="Npgsql_NpgsqlConnection_BeginDbTransaction_System_Data_IsolationLevel__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Currently the IsolationLevel ReadCommitted and Serializable are supported by the PostgreSQL backend.
 There&apos;s no support for nested transactions.</p>
@@ -1319,7 +1200,7 @@ in <code data-dev-comment-type="paramref" class="paramref">copyToCommand</code>.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.TextReader</span></td>
+        <td><span class="xref">TextReader</span></td>
         <td><p>A TextReader that can be used to read textual data.</p>
 </td>
       </tr>
@@ -1374,7 +1255,7 @@ in <code data-dev-comment-type="paramref" class="paramref">copyFromCommand</code
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.TextWriter</span></td>
+        <td><span class="xref">TextWriter</span></td>
         <td><p>A TextWriter that can be used to send textual data.</p>
 </td>
       </tr>
@@ -1427,13 +1308,13 @@ object representing the new transaction.</p>
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L523">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_BeginTransaction_" data-uid="Npgsql.NpgsqlConnection.BeginTransaction*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_BeginTransaction_System_Data_IsolationLevel_" data-uid="Npgsql.NpgsqlConnection.BeginTransaction(System.Data.IsolationLevel)">BeginTransaction(IsolationLevel)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_BeginTransaction_System_Data_IsolationLevel_" data-uid="Npgsql.NpgsqlConnection.BeginTransaction(System.Data.IsolationLevel)">BeginTransaction(Data.IsolationLevel)</h4>
   <div class="markdown level1 summary"><p>Begins a database transaction with the specified isolation level.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NpgsqlTransaction BeginTransaction(IsolationLevel level)</code></pre>
+    <pre><code class="lang-csharp hljs">public NpgsqlTransaction BeginTransaction(Data.IsolationLevel level)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1448,7 +1329,7 @@ object representing the new transaction.</p>
       <tr>
         <td><span class="xref">System.Data.IsolationLevel</span></td>
         <td><span class="parametername">level</span></td>
-        <td><p>The <span class="xref">System.Data.IsolationLevel</span> under which the transaction should run.</p>
+        <td><p>The <see cref="!:System.Data.IsolationLevel">isolation level</see> under which the transaction should run.</p>
 </td>
       </tr>
     </tbody>
@@ -1509,8 +1390,6 @@ database and connecting to the specified.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.ChangeDatabase(System.String)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_ClearAllPools.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.ClearAllPools%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1628,8 +1507,6 @@ If it is non-pooled, the physical connection will be closed.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Close()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.Close()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_CloseAsync.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.CloseAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1657,13 +1534,11 @@ If it is non-pooled, the physical connection will be closed.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.CloseAsync()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_CreateCommand.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.CreateCommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1706,8 +1581,8 @@ object associated with the <a class="xref" href="Npgsql.NpgsqlConnection.html">N
   </span>
   <a id="Npgsql_NpgsqlConnection_CreateDbCommand_" data-uid="Npgsql.NpgsqlConnection.CreateDbCommand*"></a>
   <h4 id="Npgsql_NpgsqlConnection_CreateDbCommand" data-uid="Npgsql.NpgsqlConnection.CreateDbCommand">CreateDbCommand()</h4>
-  <div class="markdown level1 summary"><p>Creates and returns a <span class="xref">System.Data.Common.DbCommand</span>
-object associated with the <span class="xref">System.Data.Common.DbConnection</span>.</p>
+  <div class="markdown level1 summary"><p>Creates and returns a <see cref="!:System.Data.Common.DbCommand">DbCommand</see>
+object associated with the <see cref="!:System.Data.Common.DbConnection">IDbConnection</see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1724,14 +1599,12 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.Common.DbCommand</span></td>
-        <td><p>A <span class="xref">System.Data.Common.DbCommand</span> object.</p>
+        <td><span class="xref">DbCommand</span></td>
+        <td><p>A <see cref="!:System.Data.Common.DbCommand">DbCommand</see> object.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.CreateDbCommand()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1767,8 +1640,6 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ComponentModel.Component.Dispose(System.Boolean)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_DisposeAsync.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.DisposeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1795,22 +1666,20 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.DisposeAsync()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_EnlistTransaction_System_Transactions_Transaction_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.EnlistTransaction(System.Transactions.Transaction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_EnlistTransaction_Transaction_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.EnlistTransaction(Transaction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L545">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_EnlistTransaction_" data-uid="Npgsql.NpgsqlConnection.EnlistTransaction*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_EnlistTransaction_System_Transactions_Transaction_" data-uid="Npgsql.NpgsqlConnection.EnlistTransaction(System.Transactions.Transaction)">EnlistTransaction(Transaction)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_EnlistTransaction_Transaction_" data-uid="Npgsql.NpgsqlConnection.EnlistTransaction(Transaction)">EnlistTransaction(Transaction)</h4>
   <div class="markdown level1 summary"><p>Enlist transaction.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1829,14 +1698,12 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Transactions.Transaction</span></td>
+        <td><span class="xref">Transaction</span></td>
         <td><span class="parametername">transaction</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.EnlistTransaction(System.Transactions.Transaction)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_GetSchema.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.GetSchema%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1863,28 +1730,26 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="xref">DataTable</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.GetSchema()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_GetSchema_System_String_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.GetSchema(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_GetSchema_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.GetSchema(System.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1273">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_GetSchema_" data-uid="Npgsql.NpgsqlConnection.GetSchema*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_GetSchema_System_String_" data-uid="Npgsql.NpgsqlConnection.GetSchema(System.String)">GetSchema(String)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_GetSchema_System_Nullable_System_String__" data-uid="Npgsql.NpgsqlConnection.GetSchema(System.Nullable{System.String})">GetSchema(Nullable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns the schema collection specified by the collection name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override DataTable GetSchema(string collectionName)</code></pre>
+    <pre><code class="lang-csharp hljs">public override DataTable GetSchema(string? collectionName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1897,7 +1762,7 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">collectionName</span></td>
         <td><p>The collection name.</p>
 </td>
@@ -1914,29 +1779,27 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="xref">DataTable</span></td>
         <td><p>The collection specified.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.GetSchema(System.String)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_GetSchema_System_String_System_String___.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.GetSchema(System.String%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_GetSchema_System_Nullable_System_String__System_Nullable_System_String____.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.GetSchema(System.Nullable%7BSystem.String%7D%2CSystem.Nullable%7BSystem.String%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1284">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_GetSchema_" data-uid="Npgsql.NpgsqlConnection.GetSchema*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_GetSchema_System_String_System_String___" data-uid="Npgsql.NpgsqlConnection.GetSchema(System.String,System.String[])">GetSchema(String, String[])</h4>
+  <h4 id="Npgsql_NpgsqlConnection_GetSchema_System_Nullable_System_String__System_Nullable_System_String____" data-uid="Npgsql.NpgsqlConnection.GetSchema(System.Nullable{System.String},System.Nullable{System.String}[])">GetSchema(Nullable&lt;String&gt;, Nullable&lt;String&gt;[])</h4>
   <div class="markdown level1 summary"><p>Returns the schema collection specified by the collection name filtered by the restrictions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override DataTable GetSchema(string collectionName, string[] restrictions)</code></pre>
+    <pre><code class="lang-csharp hljs">public override DataTable GetSchema(string? collectionName, string? [] restrictions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1949,13 +1812,13 @@ object associated with the <span class="xref">System.Data.Common.DbConnection</s
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">collectionName</span></td>
         <td><p>The collection name.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;[]</td>
         <td><span class="parametername">restrictions</span></td>
         <td><p>The restriction values to filter the results.  A description of the restrictions is contained
 in the Restrictions collection.</p>
@@ -1973,30 +1836,27 @@ in the Restrictions collection.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="xref">DataTable</span></td>
         <td><p>The collection specified.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.GetSchema(System.String, System.String[])</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapComposite__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapComposite%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapComposite%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1099">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_MapComposite_" data-uid="Npgsql.NpgsqlConnection.MapComposite*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_MapComposite__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapComposite``1(System.String,Npgsql.INpgsqlNameTranslator)">MapComposite&lt;T&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_MapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapComposite``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">MapComposite&lt;T&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Maps a CLR type to a PostgreSQL composite type for use with this connection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use NpgsqlConnection.TypeMapper.MapComposite() instead&quot;)]
-public void MapComposite&lt;T&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">public void MapComposite&lt;T&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)
     where T : new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2010,7 +1870,7 @@ public void MapComposite&lt;T&gt;(string pgName = null, INpgsqlNameTranslator na
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -2041,7 +1901,7 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
       </tr>
     </tbody>
   </table>
-  <h5 id="Npgsql_NpgsqlConnection_MapComposite__1_System_String_Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
+  <h5 id="Npgsql_NpgsqlConnection_MapComposite__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>CLR fields and properties by string to PostgreSQL enum labels.
 The translation strategy can be controlled by the <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code> parameter,
 which defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTranslator.html">NpgsqlSnakeCaseNameTranslator</a>.
@@ -2049,24 +1909,23 @@ You can also use the <a class="xref" href="NpgsqlTypes.PgNameAttribute.html">PgN
 If there is a discrepancy between the .NET and database labels while a composite is read or written,
 an exception will be raised.</p>
 <p>Can only be invoked on an open connection; if the connection is closed the mapping is lost.</p>
-<p>To avoid mapping the type for each connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_">MapCompositeGlobally&lt;T&gt;(String, INpgsqlNameTranslator)</a> method.</p>
+<p>To avoid mapping the type for each connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_">MapCompositeGlobally&lt;T&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</a> method.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapCompositeGlobally%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapCompositeGlobally%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1126">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_MapCompositeGlobally_" data-uid="Npgsql.NpgsqlConnection.MapCompositeGlobally*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapCompositeGlobally``1(System.String,Npgsql.INpgsqlNameTranslator)">MapCompositeGlobally&lt;T&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapCompositeGlobally``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">MapCompositeGlobally&lt;T&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Maps a CLR type to a PostgreSQL composite type for use with all connections created from now on. Existing connections aren&apos;t affected.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use NpgsqlConnection.GlobalTypeMapper.MapComposite() instead&quot;)]
-public static void MapCompositeGlobally&lt;T&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">public static void MapCompositeGlobally&lt;T&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)
     where T : new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2080,7 +1939,7 @@ public static void MapCompositeGlobally&lt;T&gt;(string pgName = null, INpgsqlNa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -2111,31 +1970,30 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
       </tr>
     </tbody>
   </table>
-  <h5 id="Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_String_Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
+  <h5 id="Npgsql_NpgsqlConnection_MapCompositeGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>CLR fields and properties by string to PostgreSQL enum labels.
 The translation strategy can be controlled by the <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code> parameter,
 which defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTranslator.html">NpgsqlSnakeCaseNameTranslator</a>.
 You can also use the <a class="xref" href="NpgsqlTypes.PgNameAttribute.html">PgNameAttribute</a> on your members to manually specify a PostgreSQL enum label.
 If there is a discrepancy between the .NET and database labels while a composite is read or written,
 an exception will be raised.</p>
-<p>To map the type for a specific connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_">MapEnum&lt;TEnum&gt;(String, INpgsqlNameTranslator)</a> method.</p>
+<p>To map the type for a specific connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_">MapEnum&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</a> method.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapEnum%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapEnum%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1020">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_MapEnum_" data-uid="Npgsql.NpgsqlConnection.MapEnum*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapEnum``1(System.String,Npgsql.INpgsqlNameTranslator)">MapEnum&lt;TEnum&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapEnum``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">MapEnum&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Maps a CLR enum to a PostgreSQL enum type for use with this connection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use NpgsqlConnection.TypeMapper.MapEnum() instead&quot;)]
-public void MapEnum&lt;TEnum&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">public void MapEnum&lt;TEnum&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)
     where TEnum : struct, Enum</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2149,7 +2007,7 @@ public void MapEnum&lt;TEnum&gt;(string pgName = null, INpgsqlNameTranslator nam
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -2180,7 +2038,7 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
       </tr>
     </tbody>
   </table>
-  <h5 id="Npgsql_NpgsqlConnection_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
+  <h5 id="Npgsql_NpgsqlConnection_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>CLR enum labels are mapped by name to PostgreSQL enum labels.
 The translation strategy can be controlled by the <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code> parameter,
 which defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTranslator.html">NpgsqlSnakeCaseNameTranslator</a>.
@@ -2188,24 +2046,23 @@ You can also use the <a class="xref" href="NpgsqlTypes.PgNameAttribute.html">PgN
 If there is a discrepancy between the .NET and database labels while an enum is read or written,
 an exception will be raised.</p>
 <p>Can only be invoked on an open connection; if the connection is closed the mapping is lost.</p>
-<p>To avoid mapping the type for each connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_">MapEnumGlobally&lt;TEnum&gt;(String, INpgsqlNameTranslator)</a> method.</p>
+<p>To avoid mapping the type for each connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_">MapEnumGlobally&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</a> method.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapEnumGlobally%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.MapEnumGlobally%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1048">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_MapEnumGlobally_" data-uid="Npgsql.NpgsqlConnection.MapEnumGlobally*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapEnumGlobally``1(System.String,Npgsql.INpgsqlNameTranslator)">MapEnumGlobally&lt;TEnum&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.MapEnumGlobally``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">MapEnumGlobally&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Maps a CLR enum to a PostgreSQL enum type for use with all connections created from now on. Existing connections aren&apos;t affected.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use NpgsqlConnection.GlobalTypeMapper.MapEnum() instead&quot;)]
-public static void MapEnumGlobally&lt;TEnum&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">public static void MapEnumGlobally&lt;TEnum&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)
     where TEnum : struct, Enum</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2219,7 +2076,7 @@ public static void MapEnumGlobally&lt;TEnum&gt;(string pgName = null, INpgsqlNam
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -2250,14 +2107,14 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
       </tr>
     </tbody>
   </table>
-  <h5 id="Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_String_Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
+  <h5 id="Npgsql_NpgsqlConnection_MapEnumGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>CLR enum labels are mapped by name to PostgreSQL enum labels.
 The translation strategy can be controlled by the <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code> parameter,
 which defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTranslator.html">NpgsqlSnakeCaseNameTranslator</a>.
 You can also use the <a class="xref" href="NpgsqlTypes.PgNameAttribute.html">PgNameAttribute</a> on your enum fields to manually specify a PostgreSQL enum label.
 If there is a discrepancy between the .NET and database labels while an enum is read or written,
 an exception will be raised.</p>
-<p>To map the type for a specific connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapEnum__1_System_String_Npgsql_INpgsqlNameTranslator_">MapEnum&lt;TEnum&gt;(String, INpgsqlNameTranslator)</a> method.</p>
+<p>To map the type for a specific connection, use the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_MapEnum__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_">MapEnum&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</a> method.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
@@ -2276,17 +2133,15 @@ an exception will be raised.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Open()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.Open()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_OpenAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.OpenAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_OpenAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.OpenAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L129">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_OpenAsync_" data-uid="Npgsql.NpgsqlConnection.OpenAsync*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_OpenAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlConnection.OpenAsync(System.Threading.CancellationToken)">OpenAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_OpenAsync_CancellationToken_" data-uid="Npgsql.NpgsqlConnection.OpenAsync(CancellationToken)">OpenAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This is the asynchronous version of <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_Open">Open()</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2305,7 +2160,7 @@ an exception will be raised.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -2322,15 +2177,13 @@ an exception will be raised.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td><p>A task representing the asynchronous operation.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Data.Common.DbConnection.OpenAsync(System.Threading.CancellationToken)</span></div>
-  <h5 id="Npgsql_NpgsqlConnection_OpenAsync_System_Threading_CancellationToken__remarks">Remarks</h5>
+  <h5 id="Npgsql_NpgsqlConnection_OpenAsync_CancellationToken__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Do not invoke other methods and properties of the <a class="xref" href="Npgsql.NpgsqlConnection.html">NpgsqlConnection</a> object until the returned Task is complete.</p>
 </div>
   <span class="small pull-right mobile-hide">
@@ -2364,8 +2217,7 @@ Type changes will appear for other connections only after they are re-opened fro
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use NpgsqlConnection.GlobalTypeMapper.UnmapComposite() instead&quot;)]
-public static void UnmapCompositeGlobally&lt;T&gt;(string pgName, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">public static void UnmapCompositeGlobally&lt;T&gt;(string pgName, INpgsqlNameTranslator nameTranslator = null)
     where T : new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2411,20 +2263,19 @@ Defaults to <a class="xref" href="Npgsql.NameTranslation.NpgsqlSnakeCaseNameTran
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_UnmapEnumGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.UnmapEnumGlobally%60%601(System.String%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_UnmapEnumGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.UnmapEnumGlobally%60%601(System.Nullable%7BSystem.String%7D%2CNpgsql.INpgsqlNameTranslator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1065">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_UnmapEnumGlobally_" data-uid="Npgsql.NpgsqlConnection.UnmapEnumGlobally*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_UnmapEnumGlobally__1_System_String_Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.UnmapEnumGlobally``1(System.String,Npgsql.INpgsqlNameTranslator)">UnmapEnumGlobally&lt;TEnum&gt;(String, INpgsqlNameTranslator)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_UnmapEnumGlobally__1_System_Nullable_System_String__Npgsql_INpgsqlNameTranslator_" data-uid="Npgsql.NpgsqlConnection.UnmapEnumGlobally``1(System.Nullable{System.String},Npgsql.INpgsqlNameTranslator)">UnmapEnumGlobally&lt;TEnum&gt;(Nullable&lt;String&gt;, INpgsqlNameTranslator)</h4>
   <div class="markdown level1 summary"><p>Removes a previous global enum mapping.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use NpgsqlConnection.GlobalTypeMapper.UnmapEnum() instead&quot;)]
-public static void UnmapEnumGlobally&lt;TEnum&gt;(string pgName = null, INpgsqlNameTranslator nameTranslator = null)
+    <pre><code class="lang-csharp hljs">public static void UnmapEnumGlobally&lt;TEnum&gt;(string? pgName = null, INpgsqlNameTranslator nameTranslator = null)
     where TEnum : struct, Enum</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2438,7 +2289,7 @@ public static void UnmapEnumGlobally&lt;TEnum&gt;(string pgName = null, INpgsqlN
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">pgName</span></td>
         <td><p>A PostgreSQL type name for the corresponding enum type in the database.
 If null, the name translator given in <code data-dev-comment-type="paramref" class="paramref">nameTranslator</code>will be used.</p>
@@ -2533,7 +2384,7 @@ exits immediately. The asynchronous message is delivered via the normal events
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">timeout</span></td>
-        <td><p>The time-out value, in milliseconds, passed to <span class="xref">System.Net.Sockets.Socket.ReceiveTimeout</span>.
+        <td><p>The time-out value, in milliseconds, passed to <see cref="!:Socket.ReceiveTimeout"></see>.
 The default value is 0, which indicates an infinite time-out period.
 Specifying -1 also indicates an infinite time-out period.</p>
 </td>
@@ -2558,13 +2409,13 @@ Specifying -1 also indicates an infinite time-out period.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_Wait_System_TimeSpan_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.Wait(System.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_Wait_TimeSpan_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.Wait(TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1182">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_Wait_" data-uid="Npgsql.NpgsqlConnection.Wait*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_Wait_System_TimeSpan_" data-uid="Npgsql.NpgsqlConnection.Wait(System.TimeSpan)">Wait(TimeSpan)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_Wait_TimeSpan_" data-uid="Npgsql.NpgsqlConnection.Wait(TimeSpan)">Wait(TimeSpan)</h4>
   <div class="markdown level1 summary"><p>Waits until an asynchronous PostgreSQL messages (e.g. a notification) arrives, and
 exits immediately. The asynchronous message is delivered via the normal events
 (<a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_Notification">Notification</a>, <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_Notice">Notice</a>).</p>
@@ -2585,9 +2436,9 @@ exits immediately. The asynchronous message is delivered via the normal events
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">TimeSpan</span></td>
         <td><span class="parametername">timeout</span></td>
-        <td><p>The time-out value is passed to <span class="xref">System.Net.Sockets.Socket.ReceiveTimeout</span>.</p>
+        <td><p>The time-out value is passed to <see cref="!:Socket.ReceiveTimeout"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -2636,20 +2487,20 @@ arrives, and exits immediately. The asynchronous message is delivered via the no
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_WaitAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.WaitAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_WaitAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.WaitAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1207">View Source</a>
   </span>
   <a id="Npgsql_NpgsqlConnection_WaitAsync_" data-uid="Npgsql.NpgsqlConnection.WaitAsync*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_WaitAsync_System_Threading_CancellationToken_" data-uid="Npgsql.NpgsqlConnection.WaitAsync(System.Threading.CancellationToken)">WaitAsync(CancellationToken)</h4>
+  <h4 id="Npgsql_NpgsqlConnection_WaitAsync_CancellationToken_" data-uid="Npgsql.NpgsqlConnection.WaitAsync(CancellationToken)">WaitAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits asynchronously until an asynchronous PostgreSQL messages (e.g. a notification)
 arrives, and exits immediately. The asynchronous message is delivered via the normal events
 (<a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_Notification">Notification</a>, <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_Notice">Notice</a>).</p>
@@ -2670,9 +2521,9 @@ arrives, and exits immediately. The asynchronous message is delivered via the no
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>The token to monitor for cancellation requests. The default value is <span class="xref">System.Threading.CancellationToken.None</span>.</p>
+        <td><p>The token to monitor for cancellation requests. The default value is <see cref="!:CancellationToken.None"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -2687,7 +2538,7 @@ arrives, and exits immediately. The asynchronous message is delivered via the no
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2765,54 +2616,9 @@ initiates a &quot;fast&quot; database shutdown).</p>
 LISTEN command. NOTIFY can be used to generate such notifications, allowing for an inter-connection communication channel.</p>
 <p>Note that notifications are very different from notices (see the <a class="xref" href="Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_Notice">Notice</a> event).</p>
 </div>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/npgsql/Npgsql/new/master/apiSpec/new?filename=Npgsql_NpgsqlConnection_System_ICloneable_Clone.md&amp;value=---%0Auid%3A%20Npgsql.NpgsqlConnection.System%23ICloneable%23Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/npgsql/npgsql/blob/b6f0ce803e8e5debb9e93514a3096beba90ce6b9/src/Npgsql/NpgsqlConnection.cs/#L1294">View Source</a>
-  </span>
-  <a id="Npgsql_NpgsqlConnection_System_ICloneable_Clone_" data-uid="Npgsql.NpgsqlConnection.System#ICloneable#Clone*"></a>
-  <h4 id="Npgsql_NpgsqlConnection_System_ICloneable_Clone" data-uid="Npgsql.NpgsqlConnection.System#ICloneable#Clone">ICloneable.Clone()</h4>
-  <div class="markdown level1 summary"><p>Creates a closed connection with the connection string and authentication details of this message.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object ICloneable.Clone()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.ComponentModel.IComponent</span>
-  </div>
-  <div>
-      <span class="xref">System.Data.IDbConnection</span>
-  </div>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
-  <div>
-      <span class="xref">System.IAsyncDisposable</span>
-  </div>
-  <div>
-      <span class="xref">System.ICloneable</span>
+      <span class="xref">ICloneable</span>
   </div>
 </article>
           </div>
