@@ -19109,6 +19109,25 @@ references:
   isSpec: "True"
   fullName: Npgsql.NpgsqlConnection.BeginTransaction
   nameWithType: NpgsqlConnection.BeginTransaction
+- uid: Npgsql.NpgsqlConnection.BeginTransactionAsync(CancellationToken)
+  name: BeginTransactionAsync(CancellationToken)
+  href: doc/api/Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_BeginTransactionAsync_CancellationToken_
+  commentId: M:Npgsql.NpgsqlConnection.BeginTransactionAsync(CancellationToken)
+  fullName: Npgsql.NpgsqlConnection.BeginTransactionAsync(CancellationToken)
+  nameWithType: NpgsqlConnection.BeginTransactionAsync(CancellationToken)
+- uid: Npgsql.NpgsqlConnection.BeginTransactionAsync(System.Data.IsolationLevel,CancellationToken)
+  name: BeginTransactionAsync(Data.IsolationLevel, CancellationToken)
+  href: doc/api/Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_BeginTransactionAsync_System_Data_IsolationLevel_CancellationToken_
+  commentId: M:Npgsql.NpgsqlConnection.BeginTransactionAsync(System.Data.IsolationLevel,CancellationToken)
+  fullName: Npgsql.NpgsqlConnection.BeginTransactionAsync(System.Data.IsolationLevel, CancellationToken)
+  nameWithType: NpgsqlConnection.BeginTransactionAsync(Data.IsolationLevel, CancellationToken)
+- uid: Npgsql.NpgsqlConnection.BeginTransactionAsync*
+  name: BeginTransactionAsync
+  href: doc/api/Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_BeginTransactionAsync_
+  commentId: Overload:Npgsql.NpgsqlConnection.BeginTransactionAsync
+  isSpec: "True"
+  fullName: Npgsql.NpgsqlConnection.BeginTransactionAsync
+  nameWithType: NpgsqlConnection.BeginTransactionAsync
 - uid: Npgsql.NpgsqlConnection.ChangeDatabase(System.String)
   name: ChangeDatabase(String)
   href: doc/api/Npgsql.NpgsqlConnection.html#Npgsql_NpgsqlConnection_ChangeDatabase_System_String_
