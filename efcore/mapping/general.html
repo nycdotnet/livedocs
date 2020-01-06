@@ -8,7 +8,7 @@
     <title>Type mapping | Npgsql Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Type mapping | Npgsql Documentation ">
-    <meta name="generator" content="docfx 2.48.0.0">
+    <meta name="generator" content="docfx 2.48.1.0">
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -92,14 +92,28 @@
 </code></pre><p>Special types such as <a href="array.html">arrays</a> and <a href="enum.html">enums</a> have their own documentation pages with more details.</p>
 <p><a href="https://www.postgresql.org/docs/current/static/rowtypes.html">PostgreSQL composite types</a>, while supported at the ADO.NET level, aren&#39;t yet supported in the EF Core provider. This is tracked by <a href="https://github.com/npgsql/Npgsql.EntityFrameworkCore.PostgreSQL/issues/22">#22</a>.</p>
 <h1 id="explicitly-specifying-data-types">Explicitly specifying data types</h1>
-<p>In some cases, your .NET property type can be mapped to several PostgreSQL data types; a good example is a <code>string</code>, which will be mapped to <code>text</code> by default, but can also be mapped to <code>jsonb</code>. You can explicitly specify the PostgreSQL data type by adding the following to your model&#39;s <code>OnModelCreating</code>:</p>
+<p>In some cases, your .NET property type can be mapped to several PostgreSQL data types; a good example is a <code>string</code>, which will be mapped to <code>text</code> by default, but can also be mapped to <code>jsonb</code>. You can use either Data Annotation attributes or the Fluent API to configure the PostgreSQL data type:</p>
+<div class="tabGroup" id="tabgroup_KmR4DP9uti">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_KmR4DP9uti_data-annotations" role="tab" aria-controls="tabpanel_KmR4DP9uti_data-annotations" data-tab="data-annotations" tabindex="0" aria-selected="true">Data Annotations</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_KmR4DP9uti_fluent-api" role="tab" aria-controls="tabpanel_KmR4DP9uti_fluent-api" data-tab="fluent-api" tabindex="-1">Fluent API</a>
+</li>
+</ul>
+<section id="tabpanel_KmR4DP9uti_data-annotations" role="tabpanel" data-tab="data-annotations">
+<p>Or, if you prefer annotations, use a <code>ColumnAttribute</code>:</p>
+<pre><code class="lang-c#">[Column(TypeName=&quot;jsonb&quot;)]
+public string SomeStringProperty { get; set; }
+</code></pre></section>
+<section id="tabpanel_KmR4DP9uti_fluent-api" role="tabpanel" data-tab="fluent-api" aria-hidden="true" hidden="hidden">
 <pre><code class="lang-c#">builder.Entity&lt;Blog&gt;()
        .Property(b =&gt; b.SomeStringProperty)
        .HasColumnType(&quot;jsonb&quot;);
-</code></pre><p>Or, if you prefer annotations, use a <code>ColumnAttribute</code>:</p>
-<pre><code class="lang-c#">[Column(TypeName=&quot;jsonb&quot;)]
-public string SomeStringProperty { get; set; }
-</code></pre><h2 id="operation-translation-to-sql">Operation translation to SQL</h2>
+</code></pre></section>
+</div>
+<h2 id="operation-translation-to-sql">Operation translation to SQL</h2>
 <p>Entity Framework Core allows providers to translate query expressions to SQL for database evaluation. For example, PostgreSQL supports <a href="http://www.postgresql.org/docs/current/static/functions-matching.html#FUNCTIONS-POSIX-REGEXP">regular expression operations</a>, and the Npgsql EF Core provider automatically translates .NET&#39;s <code>Regex.IsMatch()</code> to use this feature. Since evaluation happens at the server, table data doesn&#39;t need to be transferred to the client (saving bandwidth), and in some cases indexes can be used to speed things up. The same C# code on other providers will trigger client evaluation.</p>
 <p>Below are some Npgsql-specific translations, many additional standard ones are supported as well. See the other pages in the mapping section for more supported types and operations.</p>
 <table>
