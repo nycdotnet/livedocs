@@ -84,7 +84,7 @@
 <pre><code class="lang-c#">protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     =&gt; optionsBuilder
         .UseNpgsql(...)
-        .UseSnakeCaseNamingConventions();
+        .UseSnakeCaseNamingConvention();
 
 public class Customer {
     public int Id { get; set; }
