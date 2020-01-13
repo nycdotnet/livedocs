@@ -3562,7 +3562,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.BackendMessages.FieldDescription.html",
-          "hash": "g2n6gP0q9w96Z97QrsRoLQ=="
+          "hash": "jLi/PxEktDoOpIKsy/CMbA=="
         }
       },
       "is_incremental": false,
@@ -3586,7 +3586,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.GeoJSON.GeoJSONHandlerFactory.html",
-          "hash": "OcMuCoYotKob4K9Lij+Rog=="
+          "hash": "7oRoO9JnSBi27dyrebW2Ag=="
         }
       },
       "is_incremental": false,
@@ -3598,7 +3598,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.GeoJSON.GeoJSONOptions.html",
-          "hash": "yT0G9fG6RwOEdWS+sAOpzw=="
+          "hash": "vu4xzgOGZbcvomErll/NmA=="
         }
       },
       "is_incremental": false,
@@ -3622,7 +3622,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.INpgsqlDatabaseInfoFactory.html",
-          "hash": "2yUEyVvUlPLrp96QiCl3Pg=="
+          "hash": "TNS2niqKTgafXJk7SPcpJw=="
         }
       },
       "is_incremental": false,
@@ -3634,7 +3634,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.INpgsqlNameTranslator.html",
-          "hash": "9QCrfePW4uReEph90z3PNg=="
+          "hash": "A9UdCrfakW6BTLVvF7xGnQ=="
         }
       },
       "is_incremental": false,
@@ -3646,7 +3646,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Json.NET.JsonHandlerFactory.html",
-          "hash": "b5tvSHkU58D8BRKINMXALw=="
+          "hash": "RFOlYH5zJAT7JFpc1H3thg=="
         }
       },
       "is_incremental": false,
@@ -3658,7 +3658,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Json.NET.JsonbHandlerFactory.html",
-          "hash": "uFj2VamLv4tZ/47lghiFrA=="
+          "hash": "DJMClh+mMNV5PMYSlnyacw=="
         }
       },
       "is_incremental": false,
@@ -3682,7 +3682,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.Coordinate2D.html",
-          "hash": "UImLd/mJ9Od5LIpQEz/oHA=="
+          "hash": "YSbOBKF/v17zHsZ/qE09Pg=="
         }
       },
       "is_incremental": false,
@@ -3694,7 +3694,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.LegacyPostgisHandlerFactory.html",
-          "hash": "2XLiLvV765pU+xwDpH6/6w=="
+          "hash": "S3DqY0IuX1E0TkedFkVssQ=="
         }
       },
       "is_incremental": false,
@@ -3706,7 +3706,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisGeometry.html",
-          "hash": "IZ1JWiTilOvPgCMZAnJCNQ=="
+          "hash": "IjGUPKZUZeL1LPc9UBN8Bw=="
         }
       },
       "is_incremental": false,
@@ -3718,7 +3718,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisGeometryCollection.html",
-          "hash": "PMN0wiOAhVAKwy+gzxoLkg=="
+          "hash": "mwl9DFTi+/0aXNW4lilPig=="
         }
       },
       "is_incremental": false,
@@ -3730,7 +3730,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisLineString.html",
-          "hash": "Yv/Z9kvB4vfYjx1rbm+5Dw=="
+          "hash": "aC0nCF4/Omt9SEIWs40Bpw=="
         }
       },
       "is_incremental": false,
@@ -3742,7 +3742,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisMultiLineString.html",
-          "hash": "PoibdWEqkNLFP9CJlhtmdw=="
+          "hash": "/3uP1Xb71+5/xemVQnREOQ=="
         }
       },
       "is_incremental": false,
@@ -3754,7 +3754,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisMultiPoint.html",
-          "hash": "UH2nPSXLKKSsnON6D3r5Lg=="
+          "hash": "ALEXUQjDpLcdPYpSo6hRmQ=="
         }
       },
       "is_incremental": false,
@@ -3766,7 +3766,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisMultiPolygon.html",
-          "hash": "IVFSFiqNInk9nI0CWxLxbw=="
+          "hash": "m+n9Ql0Res2LQzWq4BYSZw=="
         }
       },
       "is_incremental": false,
@@ -3778,7 +3778,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisPoint.html",
-          "hash": "x67ghdt+6yaMs9JlSl/CBg=="
+          "hash": "KszjcOfoud5czhAbo1JTJw=="
         }
       },
       "is_incremental": false,
@@ -3790,7 +3790,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.LegacyPostgis.PostgisPolygon.html",
-          "hash": "iS5h4I6otDlyM0DwjLTHOA=="
+          "hash": "O+djT6Jypq7MRIzArS+02w=="
         }
       },
       "is_incremental": false,
@@ -3814,7 +3814,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Logging.ConsoleLoggingProvider.html",
-          "hash": "c3dRa0+3tBFGrs/gb256zA=="
+          "hash": "+RYnNwxBSouE/1uc07e3ew=="
         }
       },
       "is_incremental": false,
@@ -3826,7 +3826,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Logging.INpgsqlLoggingProvider.html",
-          "hash": "jv4ygn4h+P1RIuH2yW293A=="
+          "hash": "qwAneQOipzL1w5zj0Jv6SA=="
         }
       },
       "is_incremental": false,
@@ -3838,7 +3838,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Logging.NpgsqlLogLevel.html",
-          "hash": "sYZkDtMx5So0S0eR78hVmA=="
+          "hash": "LTT4Kv5coy0YQ+iAnaWRNg=="
         }
       },
       "is_incremental": false,
@@ -3850,7 +3850,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Logging.NpgsqlLogManager.html",
-          "hash": "cNdcN1GhS+P+ZTf45G3Fxg=="
+          "hash": "s92RM23Tbl6EnCKLwHHRjw=="
         }
       },
       "is_incremental": false,
@@ -3862,7 +3862,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Logging.NpgsqlLogger.html",
-          "hash": "SlEOXYb/BCSz9XrWSEAfoQ=="
+          "hash": "e8gxzxOdMUHa9/PXUu0kcQ=="
         }
       },
       "is_incremental": false,
@@ -3886,7 +3886,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NameTranslation.NpgsqlNullNameTranslator.html",
-          "hash": "0OF0Eyd9qSvu2Lv4D2LV6w=="
+          "hash": "5kWiBUZtxlRUmHBTcS6lxQ=="
         }
       },
       "is_incremental": false,
@@ -3898,7 +3898,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NameTranslation.NpgsqlSnakeCaseNameTranslator.html",
-          "hash": "L1e99xIGb7SMAaYM0o93lQ=="
+          "hash": "Txc6vG92ZEicn8WFvDIpQg=="
         }
       },
       "is_incremental": false,
@@ -3922,7 +3922,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NetTopologySuite.NetTopologySuiteHandlerFactory.html",
-          "hash": "LDYtBtR1AWmbICsIyC1AEA=="
+          "hash": "vnbGVNVvoJ52SB6oaRMnKg=="
         }
       },
       "is_incremental": false,
@@ -3946,7 +3946,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NodaTime.DateHandlerFactory.html",
-          "hash": "z660iC2zfLwk9euauGddxQ=="
+          "hash": "iS2B9r9rYbFcFPHmnEqmRQ=="
         }
       },
       "is_incremental": false,
@@ -3958,7 +3958,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NodaTime.IntervalHandlerFactory.html",
-          "hash": "sNdxbO5WmGha1uDApoujxQ=="
+          "hash": "oqcO03SlbkXjm5cEOzC50Q=="
         }
       },
       "is_incremental": false,
@@ -3970,7 +3970,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NodaTime.TimeHandlerFactory.html",
-          "hash": "EQ4b2WGZhf5AOep50pnJTQ=="
+          "hash": "lZ/G2SCB5ADLjttw5YhXmQ=="
         }
       },
       "is_incremental": false,
@@ -3982,7 +3982,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NodaTime.TimeTzHandlerFactory.html",
-          "hash": "nAJ8mHfxLhaQIxl0zoF2fg=="
+          "hash": "mO0mKKhE8H/3gIHbXeUALg=="
         }
       },
       "is_incremental": false,
@@ -3994,7 +3994,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NodaTime.TimestampHandlerFactory.html",
-          "hash": "N9TbHhEOVGYEtXdeqyqwAQ=="
+          "hash": "S6fUVyIuTX4hAO3qBB8mzg=="
         }
       },
       "is_incremental": false,
@@ -4006,7 +4006,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NodaTime.TimestampTzHandlerFactory.html",
-          "hash": "hpQTbJJvNdB1uJiExgzMFA=="
+          "hash": "jaHQJWwZ7uJaIoBj9cUCAw=="
         }
       },
       "is_incremental": false,
@@ -4030,7 +4030,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NoticeEventHandler.html",
-          "hash": "8K4pCphCPSGQB3ydjtCBVA=="
+          "hash": "328rbv6ec69ufr0uBHnaRA=="
         }
       },
       "is_incremental": false,
@@ -4042,7 +4042,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NotificationEventHandler.html",
-          "hash": "mt1rjHrkVobJ5ZC7FzrIGg=="
+          "hash": "Z5e+E7ZgYPgiGnZzV81sHw=="
         }
       },
       "is_incremental": false,
@@ -4054,7 +4054,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlBinaryExporter.html",
-          "hash": "Sdzd27xlDRHZxdblN8hDPw=="
+          "hash": "OleqWgtL1yojO+LoF9a41A=="
         }
       },
       "is_incremental": false,
@@ -4066,7 +4066,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlBinaryImporter.html",
-          "hash": "XIQFe/g2t5MFBmoULo43fQ=="
+          "hash": "inj3Aoq+vXvhCyPr0p9SQg=="
         }
       },
       "is_incremental": false,
@@ -4078,7 +4078,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlCommand.html",
-          "hash": "bcmcb3SmlqqZ2y5YsUNVJg=="
+          "hash": "nXLfSD8F1sluQDQ/A9IGWQ=="
         }
       },
       "is_incremental": false,
@@ -4090,7 +4090,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlCommandBuilder.html",
-          "hash": "B0vbN3RuVsTu6OLsJDnqjw=="
+          "hash": "0krPlDIF/wraZIIG1fC4SA=="
         }
       },
       "is_incremental": false,
@@ -4102,7 +4102,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlConnection.html",
-          "hash": "2PVHB9lKj3C2qEp8RHGbcQ=="
+          "hash": "WilweFIwLnFILZp8PRnoZg=="
         }
       },
       "is_incremental": false,
@@ -4114,7 +4114,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlConnectionStringBuilder.html",
-          "hash": "v5ApVEcA5tj1YKxwh/wo5A=="
+          "hash": "KpWOTtErUDwF2qYQ4ex8zg=="
         }
       },
       "is_incremental": false,
@@ -4126,7 +4126,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlConnectionStringPropertyAttribute.html",
-          "hash": "MtmQHze20D8LMctKTUZ+Xw=="
+          "hash": "f6/H+z+mD2VBgXJP+6xukw=="
         }
       },
       "is_incremental": false,
@@ -4138,7 +4138,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlCopyTextReader.html",
-          "hash": "iKGQvgHWIhLsgxNo1eSm3g=="
+          "hash": "5ZOz1Zt1MwpNzKa6dOSFGA=="
         }
       },
       "is_incremental": false,
@@ -4150,7 +4150,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlCopyTextWriter.html",
-          "hash": "aR2Aou0sTZCZM3ogQDYXiA=="
+          "hash": "+qNTscjnVP3lmLxz8/db9A=="
         }
       },
       "is_incremental": false,
@@ -4162,7 +4162,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlDataAdapter.html",
-          "hash": "5fXi+vIpEBbb7QN7Y6EuDA=="
+          "hash": "tSCtmhUnU6CCFa2iMY32gQ=="
         }
       },
       "is_incremental": false,
@@ -4174,7 +4174,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlDataReader.html",
-          "hash": "5pjn9XsMZ8ICoCm7oAG31A=="
+          "hash": "aftK1KREqY1Kp/vCU6XrTw=="
         }
       },
       "is_incremental": false,
@@ -4186,7 +4186,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlDatabaseInfo.html",
-          "hash": "RdE9Gd2GaIOSdWatroeyIA=="
+          "hash": "SvwiN7HVYA7n7rD4v6YuVQ=="
         }
       },
       "is_incremental": false,
@@ -4198,7 +4198,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlException.html",
-          "hash": "rdVUIBBVp76a+Yp7Yj5VAQ=="
+          "hash": "DRTcQaO4/jnctfmNlWUfmA=="
         }
       },
       "is_incremental": false,
@@ -4210,7 +4210,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlFactory.html",
-          "hash": "B8RLGFuPR/sjW/iVS5KSdg=="
+          "hash": "VQdSubnyI6ckJzOibS7SJA=="
         }
       },
       "is_incremental": false,
@@ -4222,7 +4222,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlGeoJSONExtensions.html",
-          "hash": "FLEWI2M+z2hrEgtnqn1/Lw=="
+          "hash": "yJyMT+73pyAnd5Au1jk2dg=="
         }
       },
       "is_incremental": false,
@@ -4234,7 +4234,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlJsonNetExtensions.html",
-          "hash": "CRpF/WobOVanUIWCXDDasg=="
+          "hash": "z82K8wNeew6VnGke5QGD7g=="
         }
       },
       "is_incremental": false,
@@ -4246,7 +4246,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlLargeObjectManager.html",
-          "hash": "W7kc2fTG6k2bOZFnxwKJ4Q=="
+          "hash": "3KIFmzgK7LqJvomuxJgxOQ=="
         }
       },
       "is_incremental": false,
@@ -4258,7 +4258,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlLargeObjectStream.html",
-          "hash": "Qo25xwOtWt4I0AgYzUaujA=="
+          "hash": "QlMgKDvkrluw/a8qmwlZFA=="
         }
       },
       "is_incremental": false,
@@ -4270,7 +4270,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlLegacyPostgisExtensions.html",
-          "hash": "nhJn7cc1E0DcKB5i7VbeFA=="
+          "hash": "tYM+JpDutn/ngrYWEFyEmg=="
         }
       },
       "is_incremental": false,
@@ -4282,7 +4282,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlLengthCache.html",
-          "hash": "FSjk9WKgsuTJXT4V2MnJDQ=="
+          "hash": "KmbheN+Mzyc3MC0lf8Wxrw=="
         }
       },
       "is_incremental": false,
@@ -4294,7 +4294,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlNetTopologySuiteExtensions.html",
-          "hash": "dz5Pxyq53UHq5nXgBK+x9Q=="
+          "hash": "um1kKQbteXA7XBAtBLTq2g=="
         }
       },
       "is_incremental": false,
@@ -4306,7 +4306,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlNodaTimeExtensions.html",
-          "hash": "IuGJyTlKJ5EsQ4IDHVsw/A=="
+          "hash": "Jnt04QLJLAhfaIxW92kkLA=="
         }
       },
       "is_incremental": false,
@@ -4318,7 +4318,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlNoticeEventArgs.html",
-          "hash": "uYgWMs9vnXxWUYA0H7qlsw=="
+          "hash": "oFeLcRjBgZXcw8EncJArPA=="
         }
       },
       "is_incremental": false,
@@ -4330,7 +4330,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlNotificationEventArgs.html",
-          "hash": "P4CdBnNN1v8H33YSL4yQCA=="
+          "hash": "n+9ik+47JHKHdv0eo7kffw=="
         }
       },
       "is_incremental": false,
@@ -4342,7 +4342,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlOperationInProgressException.html",
-          "hash": "hbMUfrXUlpeZ/QT6IOUBbA=="
+          "hash": "4COYaA2foEiWi/w4l5GLtQ=="
         }
       },
       "is_incremental": false,
@@ -4354,7 +4354,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlParameter-1.html",
-          "hash": "4kOJ5gYSKqVyKSNHx1xLTQ=="
+          "hash": "S4qxTGOUDU7BDYSyXCLiZQ=="
         }
       },
       "is_incremental": false,
@@ -4366,7 +4366,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlParameter.html",
-          "hash": "v0/MhhVjj3j1Kbvddy6yKQ=="
+          "hash": "BGAQqkS99X9aFF68i149OA=="
         }
       },
       "is_incremental": false,
@@ -4378,7 +4378,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlParameterCollection.html",
-          "hash": "AeGCAJ+TtFvU5LCTlQzM1Q=="
+          "hash": "zkshKD+Eh/1TgE+U6gVhfg=="
         }
       },
       "is_incremental": false,
@@ -4390,7 +4390,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlRawCopyStream.html",
-          "hash": "XhHbRXXK7yTPA4x3aqXphg=="
+          "hash": "Y15iV+jUOYUGcLnXeeSkNA=="
         }
       },
       "is_incremental": false,
@@ -4402,7 +4402,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlRawPostgisExtensions.html",
-          "hash": "MJfGiptnEoNDCqKJ2Svzfw=="
+          "hash": "AVj4G7yW9mqxWj4qZfZ5/A=="
         }
       },
       "is_incremental": false,
@@ -4414,7 +4414,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlReadBuffer.html",
-          "hash": "Q6EGadWAz8UfBuKJX9UPSg=="
+          "hash": "wG/RhJjQI4K/FoSrpL3ScA=="
         }
       },
       "is_incremental": false,
@@ -4426,7 +4426,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlRowUpdatedEventArgs.html",
-          "hash": "DBnX4lVTYFeG456b9VPV3w=="
+          "hash": "l1WYSs/k510fZ+qaOI7SSQ=="
         }
       },
       "is_incremental": false,
@@ -4438,7 +4438,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlRowUpdatedEventHandler.html",
-          "hash": "z3ts2rY5x1rvROLlKIjThQ=="
+          "hash": "B1ygMg6mTMgjVSzZOgnk4w=="
         }
       },
       "is_incremental": false,
@@ -4450,7 +4450,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlRowUpdatingEventArgs.html",
-          "hash": "QCsusZzPnW+MQRllAcokMw=="
+          "hash": "es9WDCjgkgrdodmGPni//A=="
         }
       },
       "is_incremental": false,
@@ -4462,7 +4462,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlRowUpdatingEventHandler.html",
-          "hash": "R8W+GhW9IkR1wXwJx+I80Q=="
+          "hash": "bFewfvjp9jhVpNAhDSj8IA=="
         }
       },
       "is_incremental": false,
@@ -4474,7 +4474,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlStatement.html",
-          "hash": "qQRosKAf4RNEZV3HTg8tCQ=="
+          "hash": "MRUKw62kfp26Z1/kSF7v3w=="
         }
       },
       "is_incremental": false,
@@ -4486,7 +4486,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlTimeout.html",
-          "hash": "tXPPj1mw2xhD+IuytjmCLg=="
+          "hash": "qK+SSJtq6b9vsAYIoeFr6A=="
         }
       },
       "is_incremental": false,
@@ -4498,7 +4498,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlTransaction.html",
-          "hash": "ddyh2yN6pIbr71gD3kPk5g=="
+          "hash": "ny0og+ToLi/142k0WnXI5g=="
         }
       },
       "is_incremental": false,
@@ -4510,7 +4510,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.NpgsqlWriteBuffer.html",
-          "hash": "FLAdPdxIF6d1sofITVzV5A=="
+          "hash": "cHLhdUib9IPus9TE9pz9CQ=="
         }
       },
       "is_incremental": false,
@@ -4522,7 +4522,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresErrorCodes.html",
-          "hash": "gbDEbFZFNQiGWamv5qjH7w=="
+          "hash": "sKa2PgNTVFYf+H5iHyF1NA=="
         }
       },
       "is_incremental": false,
@@ -4534,7 +4534,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresException.html",
-          "hash": "xDQmSB3U8QIiBlxFUNyfIA=="
+          "hash": "QY8popp+ce5kZaa7R1u1BQ=="
         }
       },
       "is_incremental": false,
@@ -4546,7 +4546,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresNotice.html",
-          "hash": "xcUY+KHb/QpYO8jVWLORzw=="
+          "hash": "sF43zJmPaGWKGCm1VQcsTA=="
         }
       },
       "is_incremental": false,
@@ -4558,7 +4558,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresArrayType.html",
-          "hash": "qGJU6+2d+r7YqICtlglUsQ=="
+          "hash": "WdG2O3wmA/eAAhxN0YRM7A=="
         }
       },
       "is_incremental": false,
@@ -4570,7 +4570,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresBaseType.html",
-          "hash": "FdDIBMTu8WBBB87gWdYppg=="
+          "hash": "gJcng7FZyMjTkGDFVOwexg=="
         }
       },
       "is_incremental": false,
@@ -4582,7 +4582,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresCompositeType.Field.html",
-          "hash": "mycdbdJzetg6yM4N/KLpsQ=="
+          "hash": "7Xgh5gTQfGE7//7vsuTvtA=="
         }
       },
       "is_incremental": false,
@@ -4594,7 +4594,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresCompositeType.html",
-          "hash": "qKQx9oZJdW8lrc/RPujaug=="
+          "hash": "Hj760ur8jZsVDvYGnYhB8w=="
         }
       },
       "is_incremental": false,
@@ -4606,7 +4606,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresDomainType.html",
-          "hash": "QBqblPFXXgbx6BoX0Tp8Ng=="
+          "hash": "4OxTjsldfHwb2CCIaQapNQ=="
         }
       },
       "is_incremental": false,
@@ -4618,7 +4618,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresEnumType.html",
-          "hash": "CnSQ5kC89ZLTbkxnv/WQ0w=="
+          "hash": "TcZ+Jhssj0fiDEPxbBwE5g=="
         }
       },
       "is_incremental": false,
@@ -4630,7 +4630,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresRangeType.html",
-          "hash": "6oPtBlzsj7M+gzwaxNue3A=="
+          "hash": "4iAL0pMVrQymbP77hPCiIQ=="
         }
       },
       "is_incremental": false,
@@ -4642,7 +4642,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.PostgresType.html",
-          "hash": "3Lqu/gQR0jIDeL+72PcuZg=="
+          "hash": "Je31agzS8l++CrgSyoNwjw=="
         }
       },
       "is_incremental": false,
@@ -4654,7 +4654,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.PostgresTypes.UnknownBackendType.html",
-          "hash": "KRfDdiAkr0ORpCb1Z/Dj1w=="
+          "hash": "WnJi93lina/pnHLVNCS6nA=="
         }
       },
       "is_incremental": false,
@@ -4678,7 +4678,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.ProvideClientCertificatesCallback.html",
-          "hash": "/55yMxvPTsUoQ+FrEfSOXQ=="
+          "hash": "9d/MKt6lBEa/jzQtImFxCA=="
         }
       },
       "is_incremental": false,
@@ -4690,7 +4690,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.ProvidePasswordCallback.html",
-          "hash": "1E1Ctn2q08x1evZMPq9Meg=="
+          "hash": "uWOywxJuUHc4pbzxBFhHlg=="
         }
       },
       "is_incremental": false,
@@ -4702,7 +4702,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.RawPostgis.PostgisRawHandlerFactory.html",
-          "hash": "GKVmp4v2WTYt0M3EZeDUFA=="
+          "hash": "FoLdLHMRfDznTf8Xc0Syjw=="
         }
       },
       "is_incremental": false,
@@ -4726,7 +4726,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.Schema.NpgsqlDbColumn.html",
-          "hash": "FZ2iS39XAyN8pVeWEvOm9Q=="
+          "hash": "4SEsLHW8t61B/g6dUBNx8w=="
         }
       },
       "is_incremental": false,
@@ -4750,7 +4750,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.ServerCompatibilityMode.html",
-          "hash": "C/n33pQZE6lRPhYMNIfZ7Q=="
+          "hash": "39QYyIk1FKnwWrGIZ6JInQ=="
         }
       },
       "is_incremental": false,
@@ -4762,7 +4762,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.SslMode.html",
-          "hash": "2uRthtC07d7pJ/y4JRr2hQ=="
+          "hash": "xBjz4w+4k1H1QhYEyXkAbg=="
         }
       },
       "is_incremental": false,
@@ -4774,7 +4774,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.StatementType.html",
-          "hash": "8YB6GnGijXb7stzRtqLpBQ=="
+          "hash": "Bcm4xBGn6pLKKFaSV8tL+w=="
         }
       },
       "is_incremental": false,
@@ -4786,7 +4786,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.ArrayHandler-1.html",
-          "hash": "FJBDGbtOzoJ4JLn0XZ7reA=="
+          "hash": "vEHIE0Q8Q6leyp5k5CoBxw=="
         }
       },
       "is_incremental": false,
@@ -4798,7 +4798,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.ArrayHandler.html",
-          "hash": "SCTsDnsGOuqTy12ZrynpEw=="
+          "hash": "tqVF3AIVj7wlzRmKIbYW6A=="
         }
       },
       "is_incremental": false,
@@ -4810,7 +4810,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.BitStringArrayHandler.html",
-          "hash": "pqWuAhatdbVl9TJO4wxstA=="
+          "hash": "sYaCK8LQ+DVDU75+G2IaGQ=="
         }
       },
       "is_incremental": false,
@@ -4822,7 +4822,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.BitStringHandler.html",
-          "hash": "XQhbphViFKz7LNXFYKg2Pw=="
+          "hash": "TUqwS9Q2ZRqZrKXD6YTEGQ=="
         }
       },
       "is_incremental": false,
@@ -4834,7 +4834,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.BoolHandler.html",
-          "hash": "7JsRbFGQe5tcpDA4h8T8cw=="
+          "hash": "WPEN3PajufNLfSYjXVa80g=="
         }
       },
       "is_incremental": false,
@@ -4846,7 +4846,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.ByteaHandler.html",
-          "hash": "d3QNIrQr+O9mmQl+Jc69Mg=="
+          "hash": "AVZ40IxL9ESxfyjXHI/biA=="
         }
       },
       "is_incremental": false,
@@ -4858,7 +4858,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.CompositeHandlers.IMappedCompositeTypeHandlerFactory.html",
-          "hash": "gUlW2e5WWqZFsHUt0sY/Fg=="
+          "hash": "LjOXmItFI/heeuIVxN34Qw=="
         }
       },
       "is_incremental": false,
@@ -4882,7 +4882,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.DateHandler.html",
-          "hash": "CTuI28DzG+rzeLOMeSX44g=="
+          "hash": "mr9eRybfOdVKrH1y6dnNMQ=="
         }
       },
       "is_incremental": false,
@@ -4894,7 +4894,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.DateHandlerFactory.html",
-          "hash": "+mQowBeHW85eoUNsQJ330Q=="
+          "hash": "2PIzpitDwaL4uzLCtvH8Hg=="
         }
       },
       "is_incremental": false,
@@ -4906,7 +4906,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.IntervalHandler.html",
-          "hash": "L39dLLRLqpVwFuW4Gf+C0A=="
+          "hash": "diYHdiVH/vV4y4F8p1aDdQ=="
         }
       },
       "is_incremental": false,
@@ -4918,7 +4918,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.IntervalHandlerFactory.html",
-          "hash": "PrtC/Mr0NqZORZh2Px1j2g=="
+          "hash": "0s+tO9kQx8PwzN0/noWinQ=="
         }
       },
       "is_incremental": false,
@@ -4930,7 +4930,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimeHandler.html",
-          "hash": "aS6QQwl2bEOmhiIRU8SGQQ=="
+          "hash": "y+HRmaHAstFV89uKDnxC/g=="
         }
       },
       "is_incremental": false,
@@ -4942,7 +4942,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimeHandlerFactory.html",
-          "hash": "UNt6vmEsJnkHB4Ap6Ass5A=="
+          "hash": "KU7eAVj9EvT1ZDaOXP0Z6A=="
         }
       },
       "is_incremental": false,
@@ -4954,7 +4954,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimeTzHandler.html",
-          "hash": "uyMvj/C5P0dja+HiMNBmMg=="
+          "hash": "IVY1cP3kfhw7SgOD1sr8HQ=="
         }
       },
       "is_incremental": false,
@@ -4966,7 +4966,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimeTzHandlerFactory.html",
-          "hash": "qVFU8qqDCh2ZNpoQiW4APg=="
+          "hash": "z6TkaajnPJXXMV83jfrcsg=="
         }
       },
       "is_incremental": false,
@@ -4978,7 +4978,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimestampHandler.html",
-          "hash": "0ZIdpgnzc/+czvhj4uDPOA=="
+          "hash": "csL54w+RJzbdrMllanYJDA=="
         }
       },
       "is_incremental": false,
@@ -4990,7 +4990,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimestampHandlerFactory.html",
-          "hash": "SUEN5hcZagEgKd+w2hLKUg=="
+          "hash": "BWh6jl8pEzRvqECtomVVkQ=="
         }
       },
       "is_incremental": false,
@@ -5002,7 +5002,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimestampTzHandler.html",
-          "hash": "El8PJdE34tNZS4AxmsGVFw=="
+          "hash": "x24pVmI6xSffUq2xjPVq2g=="
         }
       },
       "is_incremental": false,
@@ -5014,7 +5014,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.DateTimeHandlers.TimestampTzHandlerFactory.html",
-          "hash": "CFfXmxJTHgN9qrUxch1Ylw=="
+          "hash": "JwrF4GwA+p/7cXZCxq+SMQ=="
         }
       },
       "is_incremental": false,
@@ -5038,7 +5038,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.FullTextSearchHandlers.TsQueryHandler.html",
-          "hash": "s1p1HbldP58hREFlst7FnQ=="
+          "hash": "W6aV7av7zPavbKUYEod4lg=="
         }
       },
       "is_incremental": false,
@@ -5050,7 +5050,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.FullTextSearchHandlers.TsVectorHandler.html",
-          "hash": "Ho9/El6WfoK72eNbM3sHIA=="
+          "hash": "aIiRhAGldk1JvQixJLH+SA=="
         }
       },
       "is_incremental": false,
@@ -5074,7 +5074,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.GeometricHandlers.BoxHandler.html",
-          "hash": "fxf1Cb6KHTwyRYF7gC/+0g=="
+          "hash": "dmE5XHFYw3Wa4lI9vOR4qQ=="
         }
       },
       "is_incremental": false,
@@ -5086,7 +5086,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.GeometricHandlers.CircleHandler.html",
-          "hash": "YYt3aTJ68itQKT6/l37vbQ=="
+          "hash": "Ff+D+a3kDlmztX8uj8MPXQ=="
         }
       },
       "is_incremental": false,
@@ -5098,7 +5098,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.GeometricHandlers.LineHandler.html",
-          "hash": "eyhrcS2FZni4rO/EOerniQ=="
+          "hash": "qQ/RNSnR2ookb/dS7PKeSw=="
         }
       },
       "is_incremental": false,
@@ -5110,7 +5110,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.GeometricHandlers.LineSegmentHandler.html",
-          "hash": "fG/jfAqY8IwuitGJwPpOZQ=="
+          "hash": "9CENaSL96wV2lsTd+c2R9Q=="
         }
       },
       "is_incremental": false,
@@ -5122,7 +5122,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.GeometricHandlers.PathHandler.html",
-          "hash": "bKQSm+Ug8y3r3AzrUBC1kg=="
+          "hash": "UsWKlxXmXB55MOejj7gpvA=="
         }
       },
       "is_incremental": false,
@@ -5134,7 +5134,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.GeometricHandlers.PointHandler.html",
-          "hash": "GgvJh6Hxm99dNxS1k4zfHA=="
+          "hash": "l3oL0n7YTfXkklXOangu/Q=="
         }
       },
       "is_incremental": false,
@@ -5146,7 +5146,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.GeometricHandlers.PolygonHandler.html",
-          "hash": "vfmjlN9LBHv9HpfRR8uYHQ=="
+          "hash": "UldhxG55jFyzdj6ywottOw=="
         }
       },
       "is_incremental": false,
@@ -5170,7 +5170,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.HstoreHandler.html",
-          "hash": "AVJr2yzanL+P853Lj8XAyw=="
+          "hash": "fxIqZXGZ+NLCtnjWK9Wcnw=="
         }
       },
       "is_incremental": false,
@@ -5182,7 +5182,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.HstoreHandlerFactory.html",
-          "hash": "a7vmN0sk/flGAK9GWJsG2w=="
+          "hash": "WJQJ783lq8kSAvRqXsgRpg=="
         }
       },
       "is_incremental": false,
@@ -5194,7 +5194,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.IEnumTypeHandlerFactory.html",
-          "hash": "llHWCKvQG0UUcHMSJ1Mhvg=="
+          "hash": "IGLMYefKWSlwzlgKP2mKbw=="
         }
       },
       "is_incremental": false,
@@ -5206,7 +5206,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.InternalCharHandler.html",
-          "hash": "Xpti9nODWX0Wm/Ryw3wwuA=="
+          "hash": "K/AV9e2ZPgjRjIP9CQ68KA=="
         }
       },
       "is_incremental": false,
@@ -5218,7 +5218,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.JsonHandler.html",
-          "hash": "y6Ienvd7d50urceU2wKksw=="
+          "hash": "+6jMO53771hpsTPwpuEBow=="
         }
       },
       "is_incremental": false,
@@ -5230,7 +5230,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.JsonHandlerFactory.html",
-          "hash": "uLOpH2HdOCFZEuvfAh6tyA=="
+          "hash": "hdxaEcJCO1WyPnZQ9p9MYg=="
         }
       },
       "is_incremental": false,
@@ -5242,7 +5242,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.JsonbHandlerFactory.html",
-          "hash": "1gWkmDa4xQn9JqURZZjMEg=="
+          "hash": "/lKlle1C54yYTok0ypBXlA=="
         }
       },
       "is_incremental": false,
@@ -5254,7 +5254,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NetworkHandlers.CidrHandler.html",
-          "hash": "W6NaM8XfAGS4LNg4S0WFaQ=="
+          "hash": "eLi13nXAa4y+Sbarl3Kg/w=="
         }
       },
       "is_incremental": false,
@@ -5266,7 +5266,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NetworkHandlers.InetHandler.html",
-          "hash": "xk+hPLiMwLsIPXwm8Aq28Q=="
+          "hash": "qGJdPRyS6nicLRLn4Kzrow=="
         }
       },
       "is_incremental": false,
@@ -5278,7 +5278,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NetworkHandlers.MacaddrHandler.html",
-          "hash": "NYL8nrAMngZwvWwNQrsKUQ=="
+          "hash": "msD/cv7t02GCIe3FfobuRA=="
         }
       },
       "is_incremental": false,
@@ -5302,7 +5302,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.DoubleHandler.html",
-          "hash": "sQ8oOprtGmtcsrjQEmKr7g=="
+          "hash": "y4Gv8zHeDYXc4aAl6Aw/6Q=="
         }
       },
       "is_incremental": false,
@@ -5314,7 +5314,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.Int16Handler.html",
-          "hash": "+vIuJWPQIOnt5NZEDmmDxw=="
+          "hash": "KUTPsvoUKP/gmGhCk1qiqw=="
         }
       },
       "is_incremental": false,
@@ -5326,7 +5326,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.Int32Handler.html",
-          "hash": "o+a39HKpQ14AwFLQN3zuBg=="
+          "hash": "Ex/y2ab/hYCSSXX2SxuDKQ=="
         }
       },
       "is_incremental": false,
@@ -5338,7 +5338,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.Int64Handler.html",
-          "hash": "T6GefI5KeIyCXDMfXiPTBg=="
+          "hash": "TNlb6EtZrym1bWxsyrrwdg=="
         }
       },
       "is_incremental": false,
@@ -5350,7 +5350,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.MoneyHandler.html",
-          "hash": "lh4AUshUsatsLjjD9gEBzA=="
+          "hash": "INf+1R8oDMmlabII5gLFsA=="
         }
       },
       "is_incremental": false,
@@ -5362,7 +5362,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.NumericHandler.html",
-          "hash": "xYBPWSldGu9GmRC6ZHkpjA=="
+          "hash": "A2HzmoQe1F8+z5UZ9b/10Q=="
         }
       },
       "is_incremental": false,
@@ -5374,7 +5374,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.SingleHandler.html",
-          "hash": "GlJ3kwQQrkCjqtCc6YUP1w=="
+          "hash": "QPjSFmSvnXJKRPC9ujMKaA=="
         }
       },
       "is_incremental": false,
@@ -5386,7 +5386,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.NumericHandlers.UInt32Handler.html",
-          "hash": "awI8ovTkO8MAdb92UkfuAw=="
+          "hash": "zuUYCr0APjley19TE0dJCg=="
         }
       },
       "is_incremental": false,
@@ -5410,7 +5410,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.RangeHandler-1.html",
-          "hash": "epqlZk8ux17r1KFt2OEHWw=="
+          "hash": "pb3+hVzuba1ysgZAK6I9sQ=="
         }
       },
       "is_incremental": false,
@@ -5422,7 +5422,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.RangeHandler.html",
-          "hash": "YgEs+FWinFex6c/HzR6gXw=="
+          "hash": "oXzTtkIox8VmUO/LD6R6cQ=="
         }
       },
       "is_incremental": false,
@@ -5434,7 +5434,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.TextHandler.html",
-          "hash": "QdwGM00OuWfK8CglBhib0Q=="
+          "hash": "r14Tbd0gqzYNBB4IHVPjKA=="
         }
       },
       "is_incremental": false,
@@ -5446,7 +5446,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.TextHandlerFactory.html",
-          "hash": "BAmBEr7HrvUvGpLnLHoZiA=="
+          "hash": "O7l4yQudj6gz9me/YMaWQw=="
         }
       },
       "is_incremental": false,
@@ -5458,7 +5458,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandlers.UuidHandler.html",
-          "hash": "CvXzrcZoWNxHt+OsVSdOCw=="
+          "hash": "n0HLwvK+9Te7t9evdQX3pw=="
         }
       },
       "is_incremental": false,
@@ -5482,7 +5482,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.INpgsqlSimpleTypeHandler-1.html",
-          "hash": "z+Hk0ozprLj4cU+e6aeljQ=="
+          "hash": "MgLuTu2WjQ26a/q+1hPUvg=="
         }
       },
       "is_incremental": false,
@@ -5494,7 +5494,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.INpgsqlTypeHandler-1.html",
-          "hash": "dvkSkFnsIfRwGrfpuHlK2w=="
+          "hash": "JOnunYeHlDTVuxmNVUCjLQ=="
         }
       },
       "is_incremental": false,
@@ -5506,7 +5506,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.NpgsqlSafeReadException.html",
-          "hash": "oax4Gx2eC7UVglhNT0APBA=="
+          "hash": "AAxv0haWQqgIClnbNDen3A=="
         }
       },
       "is_incremental": false,
@@ -5518,7 +5518,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.NpgsqlSimpleTypeHandler-1.html",
-          "hash": "AeeM9Y41OwIbZ+yBDjTuYg=="
+          "hash": "dUYMOu+Zqz88G9u9bRaVHw=="
         }
       },
       "is_incremental": false,
@@ -5530,7 +5530,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.NpgsqlSimpleTypeHandlerWithPsv-2.html",
-          "hash": "LMDb9oP/x2WbodYpzXXeGQ=="
+          "hash": "byVs8bGIFDUSwYy9bWH+Xg=="
         }
       },
       "is_incremental": false,
@@ -5542,7 +5542,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.NpgsqlTypeHandler-1.html",
-          "hash": "wCebTyFWmX88h70La1uoww=="
+          "hash": "f/Dhzl6W8M4DgPdQhK/j2A=="
         }
       },
       "is_incremental": false,
@@ -5554,7 +5554,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.NpgsqlTypeHandler.html",
-          "hash": "9cMxhXlGh3EMdgslsL93lA=="
+          "hash": "UnWojEG45uxRhzpwvuQbfg=="
         }
       },
       "is_incremental": false,
@@ -5566,7 +5566,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.NpgsqlTypeHandlerFactory-1.html",
-          "hash": "BU1AUjBIdsErlpEEM3NnIg=="
+          "hash": "9p9GwjlF83ULSeYxgIsFDg=="
         }
       },
       "is_incremental": false,
@@ -5578,7 +5578,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeHandling.NpgsqlTypeHandlerFactory.html",
-          "hash": "wwZtPmeBrHurJRtBWP9Q3w=="
+          "hash": "XKDk5I9I9NGjZE3kS6ztjw=="
         }
       },
       "is_incremental": false,
@@ -5602,7 +5602,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeMapping.INpgsqlTypeMapper.html",
-          "hash": "ZsDT8VnEB6vmy6VHnSuC3A=="
+          "hash": "sppDQHa4WssM05bJpkywRA=="
         }
       },
       "is_incremental": false,
@@ -5614,7 +5614,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeMapping.NpgsqlTypeMapping.html",
-          "hash": "zlpsbWUxD5FnNC5g7h7Peg=="
+          "hash": "pfOmou5ZLQHg+wamJt+IRQ=="
         }
       },
       "is_incremental": false,
@@ -5626,7 +5626,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Npgsql.TypeMapping.NpgsqlTypeMappingBuilder.html",
-          "hash": "9ttuT2oghdtmf66zumIaUw=="
+          "hash": "l7CUf1DOlDCRKXNuuq0Y1w=="
         }
       },
       "is_incremental": false,
@@ -5662,7 +5662,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlBox.html",
-          "hash": "mzTvvxn8fr3JgXUFkMJPtQ=="
+          "hash": "k8LUxPt+3yKK/zq71ExyHA=="
         }
       },
       "is_incremental": false,
@@ -5674,7 +5674,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlCircle.html",
-          "hash": "Ht/HWm/WwTI4nqY341o1Xw=="
+          "hash": "kYcooematZ9ZOKMWpO8BCQ=="
         }
       },
       "is_incremental": false,
@@ -5686,7 +5686,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlDate.html",
-          "hash": "0oQNlyaQyS0NalWD0YckKw=="
+          "hash": "Za6n5DrzTx2F8CtOxuPKOQ=="
         }
       },
       "is_incremental": false,
@@ -5698,7 +5698,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlDateTime.html",
-          "hash": "aYOZvAEn7c1rN68lESIqhw=="
+          "hash": "Tqs5DgQ69Ag+UXY9murbeA=="
         }
       },
       "is_incremental": false,
@@ -5710,7 +5710,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlDbType.html",
-          "hash": "LgVpZe9KbOXXv92IgPjHhQ=="
+          "hash": "LrGizGO6ISCwLTvW4WJU0g=="
         }
       },
       "is_incremental": false,
@@ -5722,7 +5722,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlInet.html",
-          "hash": "MWLdzqZX00UM2dW7sGD9Yg=="
+          "hash": "jB4i1zxJWXUi3Y5Q+GdHKA=="
         }
       },
       "is_incremental": false,
@@ -5734,7 +5734,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlLSeg.html",
-          "hash": "tMiUOfFh16FEcYInCl0xLg=="
+          "hash": "eeUK3duhn30MUjalivtmoA=="
         }
       },
       "is_incremental": false,
@@ -5746,7 +5746,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlLine.html",
-          "hash": "+Xu/ePOJ+5p5obxB8em44g=="
+          "hash": "j3zIHSLl4PkADwUiuhGq3w=="
         }
       },
       "is_incremental": false,
@@ -5758,7 +5758,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlPath.html",
-          "hash": "cDItQtbwCTUS9/rW2lyEiQ=="
+          "hash": "jUPjS3rVAOH7FVvy+mq7iw=="
         }
       },
       "is_incremental": false,
@@ -5770,7 +5770,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlPoint.html",
-          "hash": "6V6xEcoUHq5WiGSk6ZrgOA=="
+          "hash": "XdJowF/714ZaogO/HrKTtQ=="
         }
       },
       "is_incremental": false,
@@ -5782,7 +5782,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlPolygon.html",
-          "hash": "7agNwrp9Sle/LyEd0fFpoA=="
+          "hash": "0KFyp/y1IXvE9966/IESSQ=="
         }
       },
       "is_incremental": false,
@@ -5794,7 +5794,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlRange-1.RangeTypeConverter.html",
-          "hash": "wE80DY39sZ2Wf6uf1eBLdg=="
+          "hash": "+83qP8/VUfURatrxnQ8QSA=="
         }
       },
       "is_incremental": false,
@@ -5806,7 +5806,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlRange-1.html",
-          "hash": "OiJbU96oOM5dfODBOpN7WA=="
+          "hash": "QuTswNhEW1JfHzdSfveh4w=="
         }
       },
       "is_incremental": false,
@@ -5818,7 +5818,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTid.html",
-          "hash": "ianaYk3BQG0m3HxXeMbZXg=="
+          "hash": "MNqetgLxF1qHLrSUee7uhg=="
         }
       },
       "is_incremental": false,
@@ -5830,7 +5830,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTimeSpan.html",
-          "hash": "Tgr/bMQWb24LlinhHt1kyA=="
+          "hash": "YBiNwXTsvNPQGYpP45gNTQ=="
         }
       },
       "is_incremental": false,
@@ -5842,7 +5842,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQuery.NodeKind.html",
-          "hash": "QdzV3oofMJVWioI+LHwQlg=="
+          "hash": "N7XZBtW+ScoiX+M2no9caw=="
         }
       },
       "is_incremental": false,
@@ -5854,7 +5854,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQuery.html",
-          "hash": "OEA8lx8g8p07ECfDwAdTuQ=="
+          "hash": "kFiro39DYTWUg1PAHdLlCg=="
         }
       },
       "is_incremental": false,
@@ -5866,7 +5866,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryAnd.html",
-          "hash": "N3BnqQS5EIdhS2zrAeUM6w=="
+          "hash": "G4LHodROMe7Htk6Dx+L+Zg=="
         }
       },
       "is_incremental": false,
@@ -5878,7 +5878,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryBinOp.html",
-          "hash": "DXMO6ERBwUPfM+2mz5IaHw=="
+          "hash": "ebCaVNWsAJpJiuutIuLXfw=="
         }
       },
       "is_incremental": false,
@@ -5890,7 +5890,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryEmpty.html",
-          "hash": "Yt5LHy4l8jc9QF3dLakXvQ=="
+          "hash": "aVR7HjpAbc4UXRmvDGOftw=="
         }
       },
       "is_incremental": false,
@@ -5902,7 +5902,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryFollowedBy.html",
-          "hash": "tocICyKzJtQJf/sslBT+eA=="
+          "hash": "YHODSONP36PYeCdpmikbAA=="
         }
       },
       "is_incremental": false,
@@ -5914,7 +5914,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryLexeme.Weight.html",
-          "hash": "x09uwwbIfMlDbXrde8hPyA=="
+          "hash": "Q2rfgrXc8PAJc2PtRNJMGw=="
         }
       },
       "is_incremental": false,
@@ -5926,7 +5926,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryLexeme.html",
-          "hash": "vvG2gYlDo+OWTBM4N7ohdQ=="
+          "hash": "WcrpfN/A7/uYTG+dZehttA=="
         }
       },
       "is_incremental": false,
@@ -5938,7 +5938,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryNot.html",
-          "hash": "OO18huSymzuQ8gogiqYb/w=="
+          "hash": "or3DJx6evWgD3OjsWv9RnA=="
         }
       },
       "is_incremental": false,
@@ -5950,7 +5950,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsQueryOr.html",
-          "hash": "tNDOqyeU5OUoIuPEek+sSg=="
+          "hash": "8jnwBmyNACW1tHMAwY+VGQ=="
         }
       },
       "is_incremental": false,
@@ -5962,7 +5962,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsVector.Lexeme.Weight.html",
-          "hash": "1kb+B/sN4+GAcjNosvwhgA=="
+          "hash": "GrZZO3VKoSMQv3/+emxzJQ=="
         }
       },
       "is_incremental": false,
@@ -5974,7 +5974,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.html",
-          "hash": "cHAu885ThRYu4z98jkTnBw=="
+          "hash": "iqJepakH23isms6xxRzyDQ=="
         }
       },
       "is_incremental": false,
@@ -5986,7 +5986,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsVector.Lexeme.html",
-          "hash": "pYFbIW7y/Yj9REfDYBoKsw=="
+          "hash": "UhMqln7CBe6GJ8GipULggQ=="
         }
       },
       "is_incremental": false,
@@ -5998,7 +5998,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.NpgsqlTsVector.html",
-          "hash": "QgCtIm9HvioROXfSJG01Hw=="
+          "hash": "uB94XoXx8ooIPBnBIcyTVQ=="
         }
       },
       "is_incremental": false,
@@ -6010,7 +6010,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/NpgsqlTypes.PgNameAttribute.html",
-          "hash": "uJRnoc1+Xitcyp6msU09+Q=="
+          "hash": "8cubmiUIovfJFcPaylbCxA=="
         }
       },
       "is_incremental": false,
@@ -6064,10 +6064,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 431,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -6076,16 +6077,15 @@
           "total_file_count": 58,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 431,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
